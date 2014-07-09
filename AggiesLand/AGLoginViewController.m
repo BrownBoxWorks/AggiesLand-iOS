@@ -31,19 +31,24 @@
 {
     [super viewDidLoad];
 
-  [self.logInView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"login_screen-568h@2x.png"]]];
+  [self.logInView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"login_background.png"]]];
   [self.logInView setLogo:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LoginLogo.png"]]];
+    
+  //[self.logInView.passwordForgottenButton setBackgroundImage:[UIImage imageNamed:@"forgotpassword"] forState:UIControlStateNormal];
+  //[self.logInView.passwordForgottenButton setBackgroundImage:[UIImage imageNamed:@"forgotpassword"] forState:UIControlStateHighlighted];
+    
+    
     
     
 
     
-  [self.logInView.signUpButton setBackgroundImage:[UIImage imageNamed:@"signup_button.png"] forState:UIControlStateNormal];
-  [self.logInView.signUpButton setBackgroundImage:[UIImage imageNamed:@"signup_button_pressed.png"] forState:UIControlStateHighlighted];
+  [self.logInView.signUpButton setBackgroundImage:[UIImage imageNamed:@"signup.png"] forState:UIControlStateNormal];
+  [self.logInView.signUpButton setBackgroundImage:[UIImage imageNamed:@"signup.png"] forState:UIControlStateHighlighted];
   [self.logInView.signUpButton setTitle:@"" forState:UIControlStateNormal];
   [self.logInView.signUpButton setTitle:@"" forState:UIControlStateHighlighted];
  
-    [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login_button.png"] forState:UIControlStateNormal];
-    [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login_button_pressed.png"] forState:UIControlStateHighlighted];
+    [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login.png"] forState:UIControlStateNormal];
+    [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login.png"] forState:UIControlStateHighlighted];
     [self.logInView.logInButton setTitle:@" " forState:UIControlStateNormal];
     [self.logInView.logInButton setTitle:@" " forState:UIControlStateHighlighted];
 
@@ -71,9 +76,9 @@
     [self.logInView.logo setFrame:CGRectMake(35.0f, 20.0f, 250.0, 58.5f)];
     [self.logInView.usernameField setFrame:CGRectMake(35.0f, 145.0f, 250.0f, 50.0f)];
     [self.logInView.passwordField setFrame:CGRectMake(35.0f, 195.0f, 250.0f, 50.0f)];
-    [self.logInView.passwordForgottenButton setFrame:CGRectMake(15.0f, 170.0f, 23.0f, 50.0f)];
     [self.fieldsBackground setFrame:CGRectMake(35.0f, 145.0f, 250.0f, 100.0f)];
     //[self.logInView.logInButton setFrame:CGRectMake(30.0f, 20.0f, 250.0f, 100.0f)];
+   // [self.logInView.passwordForgottenButton setFrame:CGRectMake(0.0f, 295.0f, 320.0, 50.0f)];
     
     
 

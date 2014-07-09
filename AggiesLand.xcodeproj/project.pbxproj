@@ -14,18 +14,12 @@
 		D112D7B2187863350023D0FC /* SettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D112D7B1187863350023D0FC /* SettingsStoryboard.storyboard */; };
 		D1192EDD18B16F4400E7DEAC /* text field.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EDC18B16F4400E7DEAC /* text field.png */; };
 		D1192EDF18B1707200E7DEAC /* LoginLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EDE18B1707200E7DEAC /* LoginLogo.png */; };
-		D1192EE118B1784200E7DEAC /* signup_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EE018B1784200E7DEAC /* signup_button_pressed.png */; };
 		D1192EE518B17DB000E7DEAC /* text field_sign up.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EE418B17DAF00E7DEAC /* text field_sign up.png */; };
 		D1192EE918B183B900E7DEAC /* sign up_no lines.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EE818B183B900E7DEAC /* sign up_no lines.png */; };
-		D1192EF018B192EC00E7DEAC /* login_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EEE18B192EC00E7DEAC /* login_button_pressed.png */; };
-		D1192EF118B192EC00E7DEAC /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EEF18B192EC00E7DEAC /* login_button.png */; };
 		D11BCA4B17F1326B00466CA5 /* AnnonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D11BCA4A17F1326B00466CA5 /* AnnonViewController.m */; };
 		D11BD0BA18CFE7C400C827B1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11BD0B918CFE7C400C827B1 /* Accounts.framework */; };
 		D11DFB0D18C2BD140097C8AE /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D11DFB0C18C2BD140097C8AE /* settings.png */; };
 		D11DFB0F18C2BD1F0097C8AE /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D11DFB0E18C2BD1F0097C8AE /* settings@2x.png */; };
-		D11FEFFC18B166FD007BA1FF /* signup_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D11FEFFB18B166FD007BA1FF /* signup_button.png */; };
-		D11FEFFE18B16712007BA1FF /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = D11FEFFD18B16712007BA1FF /* back button.png */; };
-		D12115051851345100E8459E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12115041851345100E8459E /* SWRevealViewController.m */; };
 		D12692221801D14F008916D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12692211801D14F008916D0 /* Images.xcassets */; };
 		D12D96BD17EA9C0E00E94429 /* 1379576483_facebook-48-black.png in Resources */ = {isa = PBXBuildFile; fileRef = D12D96B917EA9C0E00E94429 /* 1379576483_facebook-48-black.png */; };
 		D12D96BE17EA9C0E00E94429 /* 1379576463_instagram-48-black.png in Resources */ = {isa = PBXBuildFile; fileRef = D12D96BA17EA9C0E00E94429 /* 1379576463_instagram-48-black.png */; };
@@ -54,9 +48,12 @@
 		D131EABC1813CC4300012682 /* HomecomingCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EABB1813CC4300012682 /* HomecomingCustomCell.m */; };
 		D131EABF1813CD9000012682 /* HomecomingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EABE1813CD9000012682 /* HomecomingViewController.m */; };
 		D131EAC21813CE9800012682 /* HomecomingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EAC11813CE9800012682 /* HomecomingDetailViewController.m */; };
+		D13BD7CC195D11B7006BF845 /* forgotpassword.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7C8195D11B7006BF845 /* forgotpassword.png */; };
+		D13BD7CD195D11B7006BF845 /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7C9195D11B7006BF845 /* login_background.png */; };
+		D13BD7CE195D11B7006BF845 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CA195D11B7006BF845 /* login.png */; };
+		D13BD7CF195D11B7006BF845 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CB195D11B7006BF845 /* signup.png */; };
+		D13BD7D1195D1292006BF845 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7D0195D1292006BF845 /* back button.png */; };
 		D16C72E518D0BC8A0031627A /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16C72E418D0BC8A0031627A /* ReportViewController.m */; };
-		D185890F18D646A700A5923C /* login_screen-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D185890D18D646A700A5923C /* login_screen-568h@2x.png */; };
-		D185891018D646A700A5923C /* login_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = D185890E18D646A700A5923C /* login_screen.png */; };
 		D19A15C017DD384B00C9EBB2 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */; };
 		D19A15C917DD3DE200C9EBB2 /* HEAT71ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15C817DD3DE200C9EBB2 /* HEAT71ViewController.m */; };
 		D19A15CF17DD3E9400C9EBB2 /* 71.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D19A15CA17DD3E9400C9EBB2 /* 71.pdf */; };
@@ -99,6 +96,7 @@
 		D1A7982B18359E7C00EF880A /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7982A18359E7C00EF880A /* SocialViewController.m */; };
 		D1A83BCE1835A9CE00F9B5FC /* CampusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A83BCD1835A9CE00F9B5FC /* CampusViewController.m */; };
 		D1A9665A183065C800118D55 /* Title Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A96658183065C800118D55 /* Title Bar.png */; };
+		D1ABE4C419666EEE002A212C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ABE4C319666EED002A212C /* SWRevealViewController.m */; };
 		D1ABF9B218D0B59600DFABDA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF9B118D0B59600DFABDA /* SettingsViewController.m */; };
 		D1B0A66A18D8841E00EFE0CD /* Icon_Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B0A66918D8841E00EFE0CD /* Icon_Retina.png */; };
 		D1B0A66C18D8847900EFE0CD /* TitleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B0A66B18D8847900EFE0CD /* TitleLogo.png */; };
@@ -106,9 +104,12 @@
 		D1B24D6D18A0BAF900076182 /* ME_ImageMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B24D6A18A0BAF900076182 /* ME_ImageMenu.jpg */; };
 		D1B24D6E18A0BAF900076182 /* Soph_ImageMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B24D6B18A0BAF900076182 /* Soph_ImageMenu.jpg */; };
 		D1B7032617F5D8F5006617B8 /* PartyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B7032517F5D8F5006617B8 /* PartyCustomCell.m */; };
-		D1B8E326191ED5D3008A14CA /* DropdownMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E323191ED5D3008A14CA /* DropdownMenuController.m */; };
-		D1B8E327191ED5D3008A14CA /* DropdownMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E325191ED5D3008A14CA /* DropdownMenuSegue.m */; };
-		D1B8E32A191ED632008A14CA /* MenuDropdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E329191ED632008A14CA /* MenuDropdownViewController.m */; };
+		D1B8E70919672A4900DC2B3F /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70019672A4900DC2B3F /* RECommonFunctions.m */; };
+		D1B8E70A19672A4900DC2B3F /* REMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70219672A4900DC2B3F /* REMenu.m */; };
+		D1B8E70B19672A4900DC2B3F /* REMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70419672A4900DC2B3F /* REMenuContainerView.m */; };
+		D1B8E70C19672A4900DC2B3F /* REMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70619672A4900DC2B3F /* REMenuItem.m */; };
+		D1B8E70D19672A4900DC2B3F /* REMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70819672A4900DC2B3F /* REMenuItemView.m */; };
+		D1BA208D196CC23F00A8A0CD /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA208C196CC23F00A8A0CD /* SidebarViewController.m */; };
 		D1BB6FD318D63D6F0057E959 /* bussinesses_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BB6FC918D63D6E0057E959 /* bussinesses_2-1.png */; };
 		D1BB6FD418D63D6F0057E959 /* campus map_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BB6FCA18D63D6F0057E959 /* campus map_2-1.png */; };
 		D1BB6FD518D63D6F0057E959 /* event post_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BB6FCB18D63D6F0057E959 /* event post_2-1.png */; };
@@ -172,22 +173,15 @@
 		D112D7B1187863350023D0FC /* SettingsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SettingsStoryboard.storyboard; path = ../SettingsStoryboard.storyboard; sourceTree = "<group>"; };
 		D1192EDC18B16F4400E7DEAC /* text field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text field.png"; path = "../../../AggieLandResources/text field.png"; sourceTree = "<group>"; };
 		D1192EDE18B1707200E7DEAC /* LoginLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginLogo.png; path = ../../../AggieLandResources/LoginLogo.png; sourceTree = "<group>"; };
-		D1192EE018B1784200E7DEAC /* signup_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signup_button_pressed.png; path = ../../../AggieLandResources/signup_button_pressed.png; sourceTree = "<group>"; };
 		D1192EE418B17DAF00E7DEAC /* text field_sign up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text field_sign up.png"; path = "../../../AggieLandResources/text field_sign up.png"; sourceTree = "<group>"; };
 		D1192EE818B183B900E7DEAC /* sign up_no lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sign up_no lines.png"; path = "../../../AggieLandResources/sign up_no lines.png"; sourceTree = "<group>"; };
 		D1192EEC18B1865F00E7DEAC /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../AggieLandResources/placeholder.png; sourceTree = "<group>"; };
-		D1192EEE18B192EC00E7DEAC /* login_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_button_pressed.png; path = ../../../AggieLandResources/login_button_pressed.png; sourceTree = "<group>"; };
-		D1192EEF18B192EC00E7DEAC /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_button.png; path = ../../../AggieLandResources/login_button.png; sourceTree = "<group>"; };
 		D11BCA4917F1326B00466CA5 /* AnnonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnonViewController.h; sourceTree = "<group>"; };
 		D11BCA4A17F1326B00466CA5 /* AnnonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnonViewController.m; sourceTree = "<group>"; };
 		D11BD0B918CFE7C400C827B1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		D11DFB0818C2BAF70097C8AE /* LoginLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginLogo.png; path = ../../../AggieLandResources/LoginLogo.png; sourceTree = "<group>"; };
 		D11DFB0C18C2BD140097C8AE /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../../../AggieLandResources/settings_filled/settings.png; sourceTree = "<group>"; };
 		D11DFB0E18C2BD1F0097C8AE /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@2x.png"; path = "../../../AggieLandResources/settings_filled/settings@2x.png"; sourceTree = "<group>"; };
-		D11FEFFB18B166FD007BA1FF /* signup_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signup_button.png; path = ../../../AggieLandResources/signup_button.png; sourceTree = "<group>"; };
-		D11FEFFD18B16712007BA1FF /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "../../../AggieLandResources/back button.png"; sourceTree = "<group>"; };
-		D12115031851345100E8459E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
-		D12115041851345100E8459E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		D12692211801D14F008916D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AggiesLand/Images.xcassets; sourceTree = "<group>"; };
 		D12D96B917EA9C0E00E94429 /* 1379576483_facebook-48-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1379576483_facebook-48-black.png"; path = "../../../AggieLandResources/IconMenu/1379576483_facebook-48-black.png"; sourceTree = "<group>"; };
 		D12D96BA17EA9C0E00E94429 /* 1379576463_instagram-48-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1379576463_instagram-48-black.png"; path = "../../../AggieLandResources/IconMenu/1379576463_instagram-48-black.png"; sourceTree = "<group>"; };
@@ -236,10 +230,13 @@
 		D131EABE1813CD9000012682 /* HomecomingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomecomingViewController.m; sourceTree = "<group>"; };
 		D131EAC01813CE9800012682 /* HomecomingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomecomingDetailViewController.h; sourceTree = "<group>"; };
 		D131EAC11813CE9800012682 /* HomecomingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomecomingDetailViewController.m; sourceTree = "<group>"; };
+		D13BD7C8195D11B7006BF845 /* forgotpassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forgotpassword.png; path = ../../../AggieLandResources/forgotpassword.png; sourceTree = "<group>"; };
+		D13BD7C9195D11B7006BF845 /* login_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_background.png; path = ../../../AggieLandResources/login_background.png; sourceTree = "<group>"; };
+		D13BD7CA195D11B7006BF845 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = ../../../AggieLandResources/login.png; sourceTree = "<group>"; };
+		D13BD7CB195D11B7006BF845 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signup.png; path = ../../../AggieLandResources/signup.png; sourceTree = "<group>"; };
+		D13BD7D0195D1292006BF845 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "../../../AggieLandResources/back button.png"; sourceTree = "<group>"; };
 		D16C72E318D0BC8A0031627A /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
 		D16C72E418D0BC8A0031627A /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
-		D185890D18D646A700A5923C /* login_screen-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "login_screen-568h@2x.png"; path = "../../../AggieLandResources/MenuIcons Revised/login_screen-568h@2x.png"; sourceTree = "<group>"; };
-		D185890E18D646A700A5923C /* login_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_screen.png; path = "../../../AggieLandResources/MenuIcons Revised/login_screen.png"; sourceTree = "<group>"; };
 		D19A15BE17DD384B00C9EBB2 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
 		D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		D19A15C717DD3DE200C9EBB2 /* HEAT71ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEAT71ViewController.h; sourceTree = "<group>"; };
@@ -308,6 +305,8 @@
 		D1A83BCC1835A9CE00F9B5FC /* CampusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusViewController.h; sourceTree = "<group>"; };
 		D1A83BCD1835A9CE00F9B5FC /* CampusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusViewController.m; sourceTree = "<group>"; };
 		D1A96658183065C800118D55 /* Title Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Title Bar.png"; path = "../../../AggieLandResources/Title Bar.png"; sourceTree = "<group>"; };
+		D1ABE4C219666EED002A212C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D1ABE4C319666EED002A212C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		D1ABF9B018D0B59600DFABDA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		D1ABF9B118D0B59600DFABDA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		D1B0A66918D8841E00EFE0CD /* Icon_Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Retina.png; sourceTree = "<group>"; };
@@ -317,12 +316,18 @@
 		D1B24D6B18A0BAF900076182 /* Soph_ImageMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Soph_ImageMenu.jpg; path = "../../../AggieLandResources/Business Pics/Soph_ImageMenu.jpg"; sourceTree = "<group>"; };
 		D1B7032417F5D8F5006617B8 /* PartyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyCustomCell.h; sourceTree = "<group>"; };
 		D1B7032517F5D8F5006617B8 /* PartyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyCustomCell.m; sourceTree = "<group>"; };
-		D1B8E322191ED5D3008A14CA /* DropdownMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownMenuController.h; sourceTree = "<group>"; };
-		D1B8E323191ED5D3008A14CA /* DropdownMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenuController.m; sourceTree = "<group>"; };
-		D1B8E324191ED5D3008A14CA /* DropdownMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownMenuSegue.h; sourceTree = "<group>"; };
-		D1B8E325191ED5D3008A14CA /* DropdownMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenuSegue.m; sourceTree = "<group>"; };
-		D1B8E328191ED632008A14CA /* MenuDropdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuDropdownViewController.h; path = AggiesLand/MenuDropdownViewController.h; sourceTree = "<group>"; };
-		D1B8E329191ED632008A14CA /* MenuDropdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuDropdownViewController.m; path = AggiesLand/MenuDropdownViewController.m; sourceTree = "<group>"; };
+		D1B8E6FF19672A4900DC2B3F /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		D1B8E70019672A4900DC2B3F /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		D1B8E70119672A4900DC2B3F /* REMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenu.h; sourceTree = "<group>"; };
+		D1B8E70219672A4900DC2B3F /* REMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenu.m; sourceTree = "<group>"; };
+		D1B8E70319672A4900DC2B3F /* REMenuContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuContainerView.h; sourceTree = "<group>"; };
+		D1B8E70419672A4900DC2B3F /* REMenuContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuContainerView.m; sourceTree = "<group>"; };
+		D1B8E70519672A4900DC2B3F /* REMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItem.h; sourceTree = "<group>"; };
+		D1B8E70619672A4900DC2B3F /* REMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItem.m; sourceTree = "<group>"; };
+		D1B8E70719672A4900DC2B3F /* REMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItemView.h; sourceTree = "<group>"; };
+		D1B8E70819672A4900DC2B3F /* REMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItemView.m; sourceTree = "<group>"; };
+		D1BA208B196CC23F00A8A0CD /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		D1BA208C196CC23F00A8A0CD /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		D1BB6FC918D63D6E0057E959 /* bussinesses_2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bussinesses_2-1.png"; path = "../../../AggieLandResources/MenuIcons Revised/bussinesses_2-1.png"; sourceTree = "<group>"; };
 		D1BB6FCA18D63D6F0057E959 /* campus map_2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "campus map_2-1.png"; path = "../../../AggieLandResources/MenuIcons Revised/campus map_2-1.png"; sourceTree = "<group>"; };
 		D1BB6FCB18D63D6F0057E959 /* event post_2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "event post_2-1.png"; path = "../../../AggieLandResources/MenuIcons Revised/event post_2-1.png"; sourceTree = "<group>"; };
@@ -477,10 +482,12 @@
 		D112D7A4187860C80023D0FC /* Framework & API Use */ = {
 			isa = PBXGroup;
 			children = (
-				D1B8E321191ED5D3008A14CA /* DropdownMenu */,
+				D1ABE4C119666EED002A212C /* SWRevealViewController */,
+				D1B8E6FE19672A4900DC2B3F /* REMenu */,
 				D1FE714F18CE8D82005F3D01 /* AMScrollingNavbar */,
-				D1FE714718CE1F93005F3D01 /* SWRevealViewController */,
 				D1FE714618CE1F87005F3D01 /* iRate */,
+				D1BA208B196CC23F00A8A0CD /* SidebarViewController.h */,
+				D1BA208C196CC23F00A8A0CD /* SidebarViewController.m */,
 			);
 			name = "Framework & API Use";
 			sourceTree = "<group>";
@@ -642,22 +649,36 @@
 			name = "Login ";
 			sourceTree = "<group>";
 		};
-		D1B8E321191ED5D3008A14CA /* DropdownMenu */ = {
+		D1ABE4C119666EED002A212C /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D1B8E322191ED5D3008A14CA /* DropdownMenuController.h */,
-				D1B8E323191ED5D3008A14CA /* DropdownMenuController.m */,
-				D1B8E324191ED5D3008A14CA /* DropdownMenuSegue.h */,
-				D1B8E325191ED5D3008A14CA /* DropdownMenuSegue.m */,
+				D1ABE4C219666EED002A212C /* SWRevealViewController.h */,
+				D1ABE4C319666EED002A212C /* SWRevealViewController.m */,
 			);
-			path = DropdownMenu;
+			name = SWRevealViewController;
+			path = ../SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		D1B8E6FE19672A4900DC2B3F /* REMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D1B8E6FF19672A4900DC2B3F /* RECommonFunctions.h */,
+				D1B8E70019672A4900DC2B3F /* RECommonFunctions.m */,
+				D1B8E70119672A4900DC2B3F /* REMenu.h */,
+				D1B8E70219672A4900DC2B3F /* REMenu.m */,
+				D1B8E70319672A4900DC2B3F /* REMenuContainerView.h */,
+				D1B8E70419672A4900DC2B3F /* REMenuContainerView.m */,
+				D1B8E70519672A4900DC2B3F /* REMenuItem.h */,
+				D1B8E70619672A4900DC2B3F /* REMenuItem.m */,
+				D1B8E70719672A4900DC2B3F /* REMenuItemView.h */,
+				D1B8E70819672A4900DC2B3F /* REMenuItemView.m */,
+			);
+			path = REMenu;
 			sourceTree = SOURCE_ROOT;
 		};
 		D1BD177D17DCB493000A174A = {
 			isa = PBXGroup;
 			children = (
-				D1B8E328191ED632008A14CA /* MenuDropdownViewController.h */,
-				D1B8E329191ED632008A14CA /* MenuDropdownViewController.m */,
 				D1D9538C188051E6006F15FA /* Default-568h@2x.png */,
 				D1D9538D188051E6006F15FA /* Default@2x.png */,
 				D1BD178F17DCB493000A174A /* AggiesLand */,
@@ -724,6 +745,11 @@
 		D1BD179017DCB493000A174A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D13BD7D0195D1292006BF845 /* back button.png */,
+				D13BD7C8195D11B7006BF845 /* forgotpassword.png */,
+				D13BD7C9195D11B7006BF845 /* login_background.png */,
+				D13BD7CA195D11B7006BF845 /* login.png */,
+				D13BD7CB195D11B7006BF845 /* signup.png */,
 				D1B0A66B18D8847900EFE0CD /* TitleLogo.png */,
 				D1B0A66918D8841E00EFE0CD /* Icon_Retina.png */,
 				D1BB6FC918D63D6E0057E959 /* bussinesses_2-1.png */,
@@ -738,21 +764,14 @@
 				D1BB6FD218D63D6F0057E959 /* social networks_2-1.png */,
 				D1FE712E18CE1728005F3D01 /* Aggie athletics page.png */,
 				D1FE712F18CE1728005F3D01 /* Aggie Game Tournaments image.png */,
-				D185890D18D646A700A5923C /* login_screen-568h@2x.png */,
-				D185890E18D646A700A5923C /* login_screen.png */,
 				D1FE713018CE1728005F3D01 /* Regular campus events image.png */,
 				D11DFB0E18C2BD1F0097C8AE /* settings@2x.png */,
 				D11DFB0C18C2BD140097C8AE /* settings.png */,
 				D11DFB0818C2BAF70097C8AE /* LoginLogo.png */,
-				D1192EEE18B192EC00E7DEAC /* login_button_pressed.png */,
-				D1192EEF18B192EC00E7DEAC /* login_button.png */,
 				D1192EE818B183B900E7DEAC /* sign up_no lines.png */,
 				D1192EEC18B1865F00E7DEAC /* placeholder.png */,
 				D1192EE418B17DAF00E7DEAC /* text field_sign up.png */,
-				D1192EE018B1784200E7DEAC /* signup_button_pressed.png */,
 				D1192EDC18B16F4400E7DEAC /* text field.png */,
-				D11FEFFD18B16712007BA1FF /* back button.png */,
-				D11FEFFB18B166FD007BA1FF /* signup_button.png */,
 				D1192EDE18B1707200E7DEAC /* LoginLogo.png */,
 				D1B24D6918A0BAF900076182 /* Fresher_ImageMenu.png.jpeg */,
 				D1B24D6A18A0BAF900076182 /* ME_ImageMenu.jpg */,
@@ -817,15 +836,6 @@
 				D1CDBA431880FC16001CDE00 /* iRate.m */,
 			);
 			name = iRate;
-			sourceTree = "<group>";
-		};
-		D1FE714718CE1F93005F3D01 /* SWRevealViewController */ = {
-			isa = PBXGroup;
-			children = (
-				D12115031851345100E8459E /* SWRevealViewController.h */,
-				D12115041851345100E8459E /* SWRevealViewController.m */,
-			);
-			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 		D1FE714F18CE8D82005F3D01 /* AMScrollingNavbar */ = {
@@ -917,20 +927,19 @@
 				D1C8F5A41880964100F5C6A9 /* bus routes.png in Resources */,
 				D1C81BF318981D8A0087DDC9 /* CampusEvents_Image.jpg in Resources */,
 				D1B0A66C18D8847900EFE0CD /* TitleLogo.png in Resources */,
-				D11FEFFE18B16712007BA1FF /* back button.png in Resources */,
 				D1BB6FD618D63D6F0057E959 /* news_2-1.png in Resources */,
-				D1192EF018B192EC00E7DEAC /* login_button_pressed.png in Resources */,
 				D1C81BF518981F7E0087DDC9 /* Athletics_Image.jpg in Resources */,
-				D185891018D646A700A5923C /* login_screen.png in Resources */,
 				D1BD17A317DCB493000A174A /* MainStoryboard.storyboard in Resources */,
 				D1192EE918B183B900E7DEAC /* sign up_no lines.png in Resources */,
 				D1C8F5AA1880964100F5C6A9 /* parties.png in Resources */,
 				D1BB6FDB18D63D6F0057E959 /* parties_2-1.png in Resources */,
+				D13BD7CE195D11B7006BF845 /* login.png in Resources */,
 				D1C8F5A71880964100F5C6A9 /* campus map.png in Resources */,
 				D1192EDD18B16F4400E7DEAC /* text field.png in Resources */,
 				D1D9538E188051E6006F15FA /* Default-568h@2x.png in Resources */,
 				D12D96BF17EA9C0E00E94429 /* 1379576442_03-twitter.png in Resources */,
 				D1192EE518B17DB000E7DEAC /* text field_sign up.png in Resources */,
+				D13BD7CF195D11B7006BF845 /* signup.png in Resources */,
 				D12D96C017EA9C0E00E94429 /* 1379576383_Youtube.png in Resources */,
 				D1A9665A183065C800118D55 /* Title Bar.png in Resources */,
 				D12692221801D14F008916D0 /* Images.xcassets in Resources */,
@@ -944,12 +953,12 @@
 				D1192EDF18B1707200E7DEAC /* LoginLogo.png in Resources */,
 				D1B24D6E18A0BAF900076182 /* Soph_ImageMenu.jpg in Resources */,
 				D1D9538A18804FA3006F15FA /* email us button.png in Resources */,
+				D13BD7D1195D1292006BF845 /* back button.png in Resources */,
 				D1C8F5A51880964100F5C6A9 /* bussinesses.png in Resources */,
+				D13BD7CC195D11B7006BF845 /* forgotpassword.png in Resources */,
 				D1FE713118CE1728005F3D01 /* Aggie athletics page.png in Resources */,
 				D1D120AC18779C2A009E328D /* Slide Bar.png in Resources */,
 				D11DFB0F18C2BD1F0097C8AE /* settings@2x.png in Resources */,
-				D1192EE118B1784200E7DEAC /* signup_button_pressed.png in Resources */,
-				D11FEFFC18B166FD007BA1FF /* signup_button.png in Resources */,
 				D1CDBA441880FC16001CDE00 /* iRate.bundle in Resources */,
 				D1D9538B18804FA3006F15FA /* tweet button.png in Resources */,
 				D1A3E50417DD23C1005E4911 /* TwitterIcon.png in Resources */,
@@ -963,12 +972,11 @@
 				D19A15D117DD3E9400C9EBB2 /* 72.pdf in Resources */,
 				D1BB6FDC18D63D6F0057E959 /* social networks_2-1.png in Resources */,
 				D1C8F5A61880964100F5C6A9 /* campus events.png in Resources */,
-				D1192EF118B192EC00E7DEAC /* login_button.png in Resources */,
+				D13BD7CD195D11B7006BF845 /* login_background.png in Resources */,
 				D1B24D6D18A0BAF900076182 /* ME_ImageMenu.jpg in Resources */,
 				D1BB6FD518D63D6F0057E959 /* event post_2-1.png in Resources */,
 				D19A15D217DD3E9400C9EBB2 /* 73.pdf in Resources */,
 				D1B24D6C18A0BAF900076182 /* Fresher_ImageMenu.png.jpeg in Resources */,
-				D185890F18D646A700A5923C /* login_screen-568h@2x.png in Resources */,
 				D12D96BD17EA9C0E00E94429 /* 1379576483_facebook-48-black.png in Resources */,
 				D19A15D317DD3E9400C9EBB2 /* 75.pdf in Resources */,
 				D1B0A66A18D8841E00EFE0CD /* Icon_Retina.png in Resources */,
@@ -990,7 +998,6 @@
 				D1BD179617DCB493000A174A /* main.m in Sources */,
 				D1A83BCE1835A9CE00F9B5FC /* CampusViewController.m in Sources */,
 				D1A201DC17F20E1F00CB8CC3 /* PartyViewController.m in Sources */,
-				D1B8E32A191ED632008A14CA /* MenuDropdownViewController.m in Sources */,
 				D19C39D018141EEE00E74FD4 /* AnnonDetailViewController.m in Sources */,
 				D1BD179A17DCB493000A174A /* AppDelegate.m in Sources */,
 				D131EAB91813C6AB00012682 /* Homecoming.m in Sources */,
@@ -1002,6 +1009,7 @@
 				D1ABF9B218D0B59600DFABDA /* SettingsViewController.m in Sources */,
 				D10F225B17F8B41800097250 /* GameCustomCell.m in Sources */,
 				D16C72E518D0BC8A0031627A /* ReportViewController.m in Sources */,
+				D1ABE4C419666EEE002A212C /* SWRevealViewController.m in Sources */,
 				D12D96EB17EABC7100E94429 /* PostEventViewController.m in Sources */,
 				D1A7982818359E0900EF880A /* BusinessViewController.m in Sources */,
 				D12D96D517EAAE2C00E94429 /* BowlingViewController.m in Sources */,
@@ -1010,28 +1018,29 @@
 				D19C391017F7FD780023A79B /* CampusCustomCell.m in Sources */,
 				D12D96CC17EAAAE700E94429 /* MensBBViewController.m in Sources */,
 				D12D96DE17EAAF6100E94429 /* VolleyballViewController.m in Sources */,
-				D12115051851345100E8459E /* SWRevealViewController.m in Sources */,
 				D1A7982518359D4100EF880A /* BusRoutesViewController.m in Sources */,
 				D1D9539C188059CB006F15FA /* ClubCustomCell.m in Sources */,
 				D19A15C917DD3DE200C9EBB2 /* HEAT71ViewController.m in Sources */,
 				D19A15D617DD44CD00C9EBB2 /* HEAT71WeekendViewController.m in Sources */,
 				D1A3520B18A71673001237A5 /* AGSignupViewController.m in Sources */,
 				D12D96D817EAAEA200E94429 /* SwimmingViewController.m in Sources */,
-				D1B8E327191ED5D3008A14CA /* DropdownMenuSegue.m in Sources */,
 				D19C39CD1814152D00E74FD4 /* AnnonCustomCell.m in Sources */,
 				D19A15D917DD456300C9EBB2 /* HEAT73ViewController.m in Sources */,
 				D19A15DC17DD460400C9EBB2 /* HEAT72ViewController.m in Sources */,
 				D19A15DF17DD469200C9EBB2 /* HEAT75ViewController.m in Sources */,
 				D11BCA4B17F1326B00466CA5 /* AnnonViewController.m in Sources */,
 				D12D96C917EAA42900E94429 /* BaseballViewController.m in Sources */,
+				D1B8E70C19672A4900DC2B3F /* REMenuItem.m in Sources */,
 				D1B7032617F5D8F5006617B8 /* PartyCustomCell.m in Sources */,
 				D1A2A2F61880F6300005F6D8 /* ClubDetailsViewController.m in Sources */,
 				D12D96D217EAADCB00E94429 /* WomenBBViewController.m in Sources */,
+				D1B8E70D19672A4900DC2B3F /* REMenuItemView.m in Sources */,
 				D131EAB61813C47800012682 /* CampusDetailsViewController.m in Sources */,
 				D131EAAD1813BC5600012682 /* PartyDetailViewController.m in Sources */,
 				D19A15E517DD4A4100C9EBB2 /* FresherViewController.m in Sources */,
-				D1B8E326191ED5D3008A14CA /* DropdownMenuController.m in Sources */,
+				D1B8E70A19672A4900DC2B3F /* REMenu.m in Sources */,
 				D131EAC21813CE9800012682 /* HomecomingDetailViewController.m in Sources */,
+				D1BA208D196CC23F00A8A0CD /* SidebarViewController.m in Sources */,
 				D131EAB31813C3D300012682 /* CampusEvents.m in Sources */,
 				D19A15E817DD4C1500C9EBB2 /* GeniusViewController.m in Sources */,
 				D12D96C317EAA1D200E94429 /* CrossCountryViewController.m in Sources */,
@@ -1046,9 +1055,11 @@
 				D1D953921880583A006F15FA /* ClubsViewController.m in Sources */,
 				D1FE715618CE8D82005F3D01 /* AMScrollingNavbarTableViewController.m in Sources */,
 				D12D96C617EAA2F800E94429 /* TrackViewController.m in Sources */,
+				D1B8E70919672A4900DC2B3F /* RECommonFunctions.m in Sources */,
 				D131EAB01813BCC000012682 /* Party.m in Sources */,
 				D19A15F917DD58CB00C9EBB2 /* InstagramViewController.m in Sources */,
 				D19A15FC17DD596700C9EBB2 /* YouTubeViewController.m in Sources */,
+				D1B8E70B19672A4900DC2B3F /* REMenuContainerView.m in Sources */,
 				D10F245317F8D2D100097250 /* Comms.m in Sources */,
 				D131EABF1813CD9000012682 /* HomecomingViewController.m in Sources */,
 				D1A7982B18359E7C00EF880A /* SocialViewController.m in Sources */,
