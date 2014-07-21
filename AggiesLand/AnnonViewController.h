@@ -15,7 +15,7 @@
 
 -(IBAction)goToSettings;
 
--(IBAction)logout:(id)sender;
+
 
 
 

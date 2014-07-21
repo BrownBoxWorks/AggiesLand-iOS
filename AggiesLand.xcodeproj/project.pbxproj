@@ -44,10 +44,6 @@
 		D131EAB01813BCC000012682 /* Party.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EAAF1813BCC000012682 /* Party.m */; };
 		D131EAB31813C3D300012682 /* CampusEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EAB21813C3D300012682 /* CampusEvents.m */; };
 		D131EAB61813C47800012682 /* CampusDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EAB51813C47800012682 /* CampusDetailsViewController.m */; };
-		D131EAB91813C6AB00012682 /* Homecoming.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EAB81813C6AB00012682 /* Homecoming.m */; };
-		D131EABC1813CC4300012682 /* HomecomingCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EABB1813CC4300012682 /* HomecomingCustomCell.m */; };
-		D131EABF1813CD9000012682 /* HomecomingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EABE1813CD9000012682 /* HomecomingViewController.m */; };
-		D131EAC21813CE9800012682 /* HomecomingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EAC11813CE9800012682 /* HomecomingDetailViewController.m */; };
 		D13BD7CC195D11B7006BF845 /* forgotpassword.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7C8195D11B7006BF845 /* forgotpassword.png */; };
 		D13BD7CD195D11B7006BF845 /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7C9195D11B7006BF845 /* login_background.png */; };
 		D13BD7CE195D11B7006BF845 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CA195D11B7006BF845 /* login.png */; };
@@ -104,11 +100,6 @@
 		D1B24D6D18A0BAF900076182 /* ME_ImageMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B24D6A18A0BAF900076182 /* ME_ImageMenu.jpg */; };
 		D1B24D6E18A0BAF900076182 /* Soph_ImageMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B24D6B18A0BAF900076182 /* Soph_ImageMenu.jpg */; };
 		D1B7032617F5D8F5006617B8 /* PartyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B7032517F5D8F5006617B8 /* PartyCustomCell.m */; };
-		D1B8E70919672A4900DC2B3F /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70019672A4900DC2B3F /* RECommonFunctions.m */; };
-		D1B8E70A19672A4900DC2B3F /* REMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70219672A4900DC2B3F /* REMenu.m */; };
-		D1B8E70B19672A4900DC2B3F /* REMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70419672A4900DC2B3F /* REMenuContainerView.m */; };
-		D1B8E70C19672A4900DC2B3F /* REMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70619672A4900DC2B3F /* REMenuItem.m */; };
-		D1B8E70D19672A4900DC2B3F /* REMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B8E70819672A4900DC2B3F /* REMenuItemView.m */; };
 		D1BA208D196CC23F00A8A0CD /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA208C196CC23F00A8A0CD /* SidebarViewController.m */; };
 		D1BB6FD318D63D6F0057E959 /* bussinesses_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BB6FC918D63D6E0057E959 /* bussinesses_2-1.png */; };
 		D1BB6FD418D63D6F0057E959 /* campus map_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BB6FCA18D63D6F0057E959 /* campus map_2-1.png */; };
@@ -222,14 +213,6 @@
 		D131EAB21813C3D300012682 /* CampusEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusEvents.m; sourceTree = "<group>"; };
 		D131EAB41813C47800012682 /* CampusDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusDetailsViewController.h; sourceTree = "<group>"; };
 		D131EAB51813C47800012682 /* CampusDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusDetailsViewController.m; sourceTree = "<group>"; };
-		D131EAB71813C6AB00012682 /* Homecoming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homecoming.h; sourceTree = "<group>"; };
-		D131EAB81813C6AB00012682 /* Homecoming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Homecoming.m; sourceTree = "<group>"; };
-		D131EABA1813CC4300012682 /* HomecomingCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomecomingCustomCell.h; sourceTree = "<group>"; };
-		D131EABB1813CC4300012682 /* HomecomingCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomecomingCustomCell.m; sourceTree = "<group>"; };
-		D131EABD1813CD9000012682 /* HomecomingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomecomingViewController.h; sourceTree = "<group>"; };
-		D131EABE1813CD9000012682 /* HomecomingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomecomingViewController.m; sourceTree = "<group>"; };
-		D131EAC01813CE9800012682 /* HomecomingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomecomingDetailViewController.h; sourceTree = "<group>"; };
-		D131EAC11813CE9800012682 /* HomecomingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomecomingDetailViewController.m; sourceTree = "<group>"; };
 		D13BD7C8195D11B7006BF845 /* forgotpassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forgotpassword.png; path = ../../../AggieLandResources/forgotpassword.png; sourceTree = "<group>"; };
 		D13BD7C9195D11B7006BF845 /* login_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_background.png; path = ../../../AggieLandResources/login_background.png; sourceTree = "<group>"; };
 		D13BD7CA195D11B7006BF845 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = ../../../AggieLandResources/login.png; sourceTree = "<group>"; };
@@ -316,16 +299,6 @@
 		D1B24D6B18A0BAF900076182 /* Soph_ImageMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Soph_ImageMenu.jpg; path = "../../../AggieLandResources/Business Pics/Soph_ImageMenu.jpg"; sourceTree = "<group>"; };
 		D1B7032417F5D8F5006617B8 /* PartyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyCustomCell.h; sourceTree = "<group>"; };
 		D1B7032517F5D8F5006617B8 /* PartyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyCustomCell.m; sourceTree = "<group>"; };
-		D1B8E6FF19672A4900DC2B3F /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
-		D1B8E70019672A4900DC2B3F /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
-		D1B8E70119672A4900DC2B3F /* REMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenu.h; sourceTree = "<group>"; };
-		D1B8E70219672A4900DC2B3F /* REMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenu.m; sourceTree = "<group>"; };
-		D1B8E70319672A4900DC2B3F /* REMenuContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuContainerView.h; sourceTree = "<group>"; };
-		D1B8E70419672A4900DC2B3F /* REMenuContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuContainerView.m; sourceTree = "<group>"; };
-		D1B8E70519672A4900DC2B3F /* REMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItem.h; sourceTree = "<group>"; };
-		D1B8E70619672A4900DC2B3F /* REMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItem.m; sourceTree = "<group>"; };
-		D1B8E70719672A4900DC2B3F /* REMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItemView.h; sourceTree = "<group>"; };
-		D1B8E70819672A4900DC2B3F /* REMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItemView.m; sourceTree = "<group>"; };
 		D1BA208B196CC23F00A8A0CD /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
 		D1BA208C196CC23F00A8A0CD /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		D1BB6FC918D63D6E0057E959 /* bussinesses_2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bussinesses_2-1.png"; path = "../../../AggieLandResources/MenuIcons Revised/bussinesses_2-1.png"; sourceTree = "<group>"; };
@@ -483,7 +456,6 @@
 			isa = PBXGroup;
 			children = (
 				D1ABE4C119666EED002A212C /* SWRevealViewController */,
-				D1B8E6FE19672A4900DC2B3F /* REMenu */,
 				D1FE714F18CE8D82005F3D01 /* AMScrollingNavbar */,
 				D1FE714618CE1F87005F3D01 /* iRate */,
 				D1BA208B196CC23F00A8A0CD /* SidebarViewController.h */,
@@ -539,7 +511,6 @@
 				D1D9539318805867006F15FA /* Clubs */,
 				D112D7AD187862690023D0FC /* Parties */,
 				D112D7AC1878623D0023D0FC /* Game Touraments */,
-				D112D7AB187862230023D0FC /* Homecomming */,
 				D112D7AA1878620D0023D0FC /* Annoucnements */,
 				D112D7A9187861F70023D0FC /* Campus Events */,
 			);
@@ -574,21 +545,6 @@
 				D19C39CF18141EED00E74FD4 /* AnnonDetailViewController.m */,
 			);
 			name = Annoucnements;
-			sourceTree = "<group>";
-		};
-		D112D7AB187862230023D0FC /* Homecomming */ = {
-			isa = PBXGroup;
-			children = (
-				D131EAB71813C6AB00012682 /* Homecoming.h */,
-				D131EAB81813C6AB00012682 /* Homecoming.m */,
-				D131EABA1813CC4300012682 /* HomecomingCustomCell.h */,
-				D131EABB1813CC4300012682 /* HomecomingCustomCell.m */,
-				D131EABD1813CD9000012682 /* HomecomingViewController.h */,
-				D131EABE1813CD9000012682 /* HomecomingViewController.m */,
-				D131EAC01813CE9800012682 /* HomecomingDetailViewController.h */,
-				D131EAC11813CE9800012682 /* HomecomingDetailViewController.m */,
-			);
-			name = Homecomming;
 			sourceTree = "<group>";
 		};
 		D112D7AC1878623D0023D0FC /* Game Touraments */ = {
@@ -658,23 +614,6 @@
 			name = SWRevealViewController;
 			path = ../SWRevealViewController;
 			sourceTree = "<group>";
-		};
-		D1B8E6FE19672A4900DC2B3F /* REMenu */ = {
-			isa = PBXGroup;
-			children = (
-				D1B8E6FF19672A4900DC2B3F /* RECommonFunctions.h */,
-				D1B8E70019672A4900DC2B3F /* RECommonFunctions.m */,
-				D1B8E70119672A4900DC2B3F /* REMenu.h */,
-				D1B8E70219672A4900DC2B3F /* REMenu.m */,
-				D1B8E70319672A4900DC2B3F /* REMenuContainerView.h */,
-				D1B8E70419672A4900DC2B3F /* REMenuContainerView.m */,
-				D1B8E70519672A4900DC2B3F /* REMenuItem.h */,
-				D1B8E70619672A4900DC2B3F /* REMenuItem.m */,
-				D1B8E70719672A4900DC2B3F /* REMenuItemView.h */,
-				D1B8E70819672A4900DC2B3F /* REMenuItemView.m */,
-			);
-			path = REMenu;
-			sourceTree = SOURCE_ROOT;
 		};
 		D1BD177D17DCB493000A174A = {
 			isa = PBXGroup;
@@ -1000,7 +939,6 @@
 				D1A201DC17F20E1F00CB8CC3 /* PartyViewController.m in Sources */,
 				D19C39D018141EEE00E74FD4 /* AnnonDetailViewController.m in Sources */,
 				D1BD179A17DCB493000A174A /* AppDelegate.m in Sources */,
-				D131EAB91813C6AB00012682 /* Homecoming.m in Sources */,
 				D19C39D318141F2600E74FD4 /* Annon.m in Sources */,
 				D1CDBA451880FC16001CDE00 /* iRate.m in Sources */,
 				D12D96E117EAAFD400E94429 /* TennisViewController.m in Sources */,
@@ -1030,16 +968,12 @@
 				D19A15DF17DD469200C9EBB2 /* HEAT75ViewController.m in Sources */,
 				D11BCA4B17F1326B00466CA5 /* AnnonViewController.m in Sources */,
 				D12D96C917EAA42900E94429 /* BaseballViewController.m in Sources */,
-				D1B8E70C19672A4900DC2B3F /* REMenuItem.m in Sources */,
 				D1B7032617F5D8F5006617B8 /* PartyCustomCell.m in Sources */,
 				D1A2A2F61880F6300005F6D8 /* ClubDetailsViewController.m in Sources */,
 				D12D96D217EAADCB00E94429 /* WomenBBViewController.m in Sources */,
-				D1B8E70D19672A4900DC2B3F /* REMenuItemView.m in Sources */,
 				D131EAB61813C47800012682 /* CampusDetailsViewController.m in Sources */,
 				D131EAAD1813BC5600012682 /* PartyDetailViewController.m in Sources */,
 				D19A15E517DD4A4100C9EBB2 /* FresherViewController.m in Sources */,
-				D1B8E70A19672A4900DC2B3F /* REMenu.m in Sources */,
-				D131EAC21813CE9800012682 /* HomecomingDetailViewController.m in Sources */,
 				D1BA208D196CC23F00A8A0CD /* SidebarViewController.m in Sources */,
 				D131EAB31813C3D300012682 /* CampusEvents.m in Sources */,
 				D19A15E817DD4C1500C9EBB2 /* GeniusViewController.m in Sources */,
@@ -1055,15 +989,11 @@
 				D1D953921880583A006F15FA /* ClubsViewController.m in Sources */,
 				D1FE715618CE8D82005F3D01 /* AMScrollingNavbarTableViewController.m in Sources */,
 				D12D96C617EAA2F800E94429 /* TrackViewController.m in Sources */,
-				D1B8E70919672A4900DC2B3F /* RECommonFunctions.m in Sources */,
 				D131EAB01813BCC000012682 /* Party.m in Sources */,
 				D19A15F917DD58CB00C9EBB2 /* InstagramViewController.m in Sources */,
 				D19A15FC17DD596700C9EBB2 /* YouTubeViewController.m in Sources */,
-				D1B8E70B19672A4900DC2B3F /* REMenuContainerView.m in Sources */,
 				D10F245317F8D2D100097250 /* Comms.m in Sources */,
-				D131EABF1813CD9000012682 /* HomecomingViewController.m in Sources */,
 				D1A7982B18359E7C00EF880A /* SocialViewController.m in Sources */,
-				D131EABC1813CC4300012682 /* HomecomingCustomCell.m in Sources */,
 				D12D96CF17EAAB3300E94429 /* FootballViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
