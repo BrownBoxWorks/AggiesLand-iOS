@@ -38,7 +38,6 @@
 		D12D96E117EAAFD400E94429 /* TennisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D96E017EAAFD400E94429 /* TennisViewController.m */; };
 		D12D96E317EAB4B100E94429 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12D96E217EAB4B100E94429 /* MapKit.framework */; };
 		D12D96E517EAB4C600E94429 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12D96E417EAB4C600E94429 /* Social.framework */; };
-		D12D96EB17EABC7100E94429 /* PostEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D12D96EA17EABC7100E94429 /* PostEventViewController.m */; };
 		D12D96F017EAC93500E94429 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12D96EF17EAC93500E94429 /* Twitter.framework */; };
 		D131EAAD1813BC5600012682 /* PartyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EAAC1813BC5600012682 /* PartyDetailViewController.m */; };
 		D131EAB01813BCC000012682 /* Party.m in Sources */ = {isa = PBXBuildFile; fileRef = D131EAAF1813BCC000012682 /* Party.m */; };
@@ -202,8 +201,6 @@
 		D12D96E017EAAFD400E94429 /* TennisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TennisViewController.m; sourceTree = "<group>"; };
 		D12D96E217EAB4B100E94429 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D12D96E417EAB4C600E94429 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		D12D96E917EABC7100E94429 /* PostEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostEventViewController.h; sourceTree = "<group>"; };
-		D12D96EA17EABC7100E94429 /* PostEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostEventViewController.m; sourceTree = "<group>"; };
 		D12D96EF17EAC93500E94429 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		D131EAAB1813BC5600012682 /* PartyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyDetailViewController.h; sourceTree = "<group>"; };
 		D131EAAC1813BC5600012682 /* PartyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyDetailViewController.m; sourceTree = "<group>"; };
@@ -585,15 +582,6 @@
 			name = Settings;
 			sourceTree = "<group>";
 		};
-		D112D7AF187862BB0023D0FC /* Event Poster */ = {
-			isa = PBXGroup;
-			children = (
-				D12D96E917EABC7100E94429 /* PostEventViewController.h */,
-				D12D96EA17EABC7100E94429 /* PostEventViewController.m */,
-			);
-			name = "Event Poster";
-			sourceTree = "<group>";
-		};
 		D112D7B0187862CE0023D0FC /* Login  */ = {
 			isa = PBXGroup;
 			children = (
@@ -663,7 +651,6 @@
 			isa = PBXGroup;
 			children = (
 				D112D7B0187862CE0023D0FC /* Login  */,
-				D112D7AF187862BB0023D0FC /* Event Poster */,
 				D112D7AE187862920023D0FC /* Settings */,
 				D112D7A8187861D40023D0FC /* Data  */,
 				D112D7A7187861470023D0FC /* Menu Slider Holder */,
@@ -948,7 +935,6 @@
 				D10F225B17F8B41800097250 /* GameCustomCell.m in Sources */,
 				D16C72E518D0BC8A0031627A /* ReportViewController.m in Sources */,
 				D1ABE4C419666EEE002A212C /* SWRevealViewController.m in Sources */,
-				D12D96EB17EABC7100E94429 /* PostEventViewController.m in Sources */,
 				D1A7982818359E0900EF880A /* BusinessViewController.m in Sources */,
 				D12D96D517EAAE2C00E94429 /* BowlingViewController.m in Sources */,
 				D19A15C017DD384B00C9EBB2 /* TwitterViewController.m in Sources */,

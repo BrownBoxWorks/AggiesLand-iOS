@@ -48,6 +48,87 @@
 }
 
 
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    
+    NSString *title = [actionSheet buttonTitleAtIndex:buttonIndex];
+    
+    if([title isEqualToString:@"Settings"])
+    {
+        //do your stuff in here
+        
+        UIStoryboard *settingsStoryboard = [UIStoryboard storyboardWithName:@"SettingsStoryboard" bundle:nil];
+        UIViewController *initialSettingsVC = [settingsStoryboard instantiateInitialViewController];
+        //initialSettingsVC.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+        [self presentModalViewController:initialSettingsVC animated:YES];
+        
+    }
+    
+    else if ([title isEqualToString:@"Add Event Via E-Mail"]){
+        // Email Subject
+        NSString*emailTitle=@"Event Post Request";
+        // Email Content
+        NSString*messageBody=@"Event Type: Event Name: Location: Date: Time: Price?: Special Instructions:";
+        // To address
+        NSArray*toRecipents=[NSArray arrayWithObject:@"aggiesland@gmail.com"];
+        
+        MFMailComposeViewController*mc=[[MFMailComposeViewController alloc] init];
+        mc.mailComposeDelegate=self;
+        [mc setSubject:emailTitle];
+        [mc setMessageBody:messageBody isHTML:NO];
+        [mc setToRecipients:toRecipents];
+        
+        // Present mail view controller on screen
+        [self presentViewController:mc animated:YES completion:NULL];
+   
+    
+    }
+    
+    
+    else if ([title isEqualToString:@"Add Event Via Twitter"]){
+        TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];
+        
+        [twitter setInitialText:@"@AggieLandz Event Post"];
+        [twitter addImage:[UIImage imageNamed:@""]];
+        
+        [self presentViewController:twitter animated:YES completion:Nil];
+        
+        twitter.completionHandler = ^(TWTweetComposeViewControllerResult res){
+            if(res == TWTweetComposeViewControllerResultDone){
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Tweet Sent" message:@"Your tweet is sent and well will review the event be in our timeline! Please give us some time to review your request." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                
+                [alert show];
+            }
+            [self dismissModalViewControllerAnimated:YES];
+        };
+    }
+    
+}
+
+-(void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
+{
+    switch(result)
+    {
+        case MFMailComposeResultCancelled:
+            NSLog(@"Mail cancelled");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"Mail saved");
+            break;
+        case MFMailComposeResultSent:
+            NSLog(@"Mail sent");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail sent failure: %@",[error localizedDescription]);
+            break;
+        default:
+            break;
+    }
+    
+    // Close the Mail Interface
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
+
 
 
 -(PFQuery *)queryForTable{

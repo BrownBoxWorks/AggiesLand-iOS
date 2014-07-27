@@ -8,6 +8,8 @@
 
 #import <Parse/Parse.h>
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+#import <Twitter/Twitter.h>
 
 @interface AnnonViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UIActionSheetDelegate>
 
