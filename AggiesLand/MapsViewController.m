@@ -341,6 +341,7 @@
     [super viewDidLoad];
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.color = [UIColor colorWithRed:0.22 green:0.15 blue:0.70 alpha:0.90];
     hud.mode = MBProgressHUDModeIndeterminate;
     hud.labelText = @"Loading";
     [hud hide:YES afterDelay:3.0];
