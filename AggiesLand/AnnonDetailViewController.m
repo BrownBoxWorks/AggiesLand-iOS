@@ -30,6 +30,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // Initialize the banner at the bottom of the screen.
+    
+    
+    
+    CGPoint origin = CGPointMake(0.0,
+                                 56.0);
+    
+    // Use predefined GADAdSize constants to define the GADBannerView.
+    bannerView_ = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner
+                                                 origin:origin];
+    
+    // Specify the ad unit ID.
+    bannerView_.adUnitID = @"ca-app-pub-2971437863634496/3440097369";
+    
+    // Let the runtime know which UIViewController to restore after taking
+    // the user wherever the ad goes and add it to the view hierarchy.
+    bannerView_.rootViewController = self;
+    [self.view addSubview:bannerView_];
+    
+    // Initiate a generic request to load it with an ad.
+    [bannerView_ loadRequest:[GADRequest request]];
+    
+    
     //Scrool View
     [self.scroller setScrollEnabled:YES];
     [self.scroller setContentSize:(CGSizeMake(320, 800))];

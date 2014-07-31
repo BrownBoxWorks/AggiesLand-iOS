@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "Annon.h"
+#import "GADBannerView.h"
 
 
-@interface AnnonDetailViewController : UIViewController
+@interface AnnonDetailViewController : UIViewController{
+    GADBannerView *bannerView_;
+}
 
 @property(strong,nonatomic)IBOutlet UIScrollView *scroller;
 

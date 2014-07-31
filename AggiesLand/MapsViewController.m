@@ -407,7 +407,7 @@
     location.latitude = CAMPBELL_Latitude;
     location.longitude = CAMPBELL_Longitude;
     myAnn.coordinate =  location;
-    myAnn.title = @"CAmpbell Hall";
+    myAnn.title = @"Campbell Hall";
     myAnn.subtitle =@"Lot 6";
     [locations addObject:myAnn];
     

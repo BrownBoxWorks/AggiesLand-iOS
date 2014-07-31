@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "Clubs.h"
+#import "GADBannerView.h"
 
-@interface ClubDetailsViewController : UIViewController
+@interface ClubDetailsViewController : UIViewController{
+    GADBannerView *bannerView_;
+}
+
+
+
 
 @property(weak,nonatomic)IBOutlet UILabel *nameLabel;
 @property(weak,nonatomic)IBOutlet UILabel *dateLabel;
