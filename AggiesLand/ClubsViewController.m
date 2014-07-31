@@ -44,6 +44,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    self.tableView.emptyDataSetSource = self;
+    self.tableView.emptyDataSetDelegate = self;
+    
+    // A little trick for removing the cell separators
+    self.tableView.tableFooterView = [UIView new];
+    
     
     
     _sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
@@ -123,6 +129,67 @@
         
     }
 }
+
+#pragma mark - DZEmptyView
+
+- (NSAttributedString *)titleForEmptyDataSet:(UIScrollView *)scrollView {
+    
+    NSString *text = @"No Club Events...Yet";
+    
+    NSDictionary *attributes = @{NSFontAttributeName: [UIFont boldSystemFontOfSize:18.0],
+                                 NSForegroundColorAttributeName: [UIColor darkGrayColor]};
+    
+    return [[NSAttributedString alloc] initWithString:text attributes:attributes];
+}
+
+
+- (NSAttributedString *)descriptionForEmptyDataSet:(UIScrollView *)scrollView {
+    
+    NSString *text = @"Come back later. We will notify you when the events are updated... Or check your internet connection.";
+    
+    NSMutableParagraphStyle *paragraph = [NSMutableParagraphStyle new];
+    paragraph.lineBreakMode = NSLineBreakByWordWrapping;
+    paragraph.alignment = NSTextAlignmentCenter;
+    
+    NSDictionary *attributes = @{NSFontAttributeName: [UIFont systemFontOfSize:14.0],
+                                 NSForegroundColorAttributeName: [UIColor lightGrayColor],
+                                 NSParagraphStyleAttributeName: paragraph};
+    
+    return [[NSAttributedString alloc] initWithString:text attributes:attributes];
+}
+
+
+- (UIColor *)backgroundColorForEmptyDataSet:(UIScrollView *)scrollView {
+    
+    return [UIColor whiteColor];
+}
+
+#pragma mark - DZEmptyView Delegate
+
+
+- (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView {
+    
+    return YES;
+}
+
+- (BOOL)emptyDataSetShouldAllowTouch:(UIScrollView *)scrollView {
+    
+    return YES;
+}
+
+- (BOOL)emptyDataSetShouldAllowScroll:(UIScrollView *)scrollView {
+    
+    return YES;
+}
+
+- (void)emptyDataSetDidTapView:(UIScrollView *)scrollView {
+    
+}
+
+- (void)emptyDataSetDidTapButton:(UIScrollView *)scrollView {
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {

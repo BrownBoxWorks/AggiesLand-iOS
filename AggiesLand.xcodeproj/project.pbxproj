@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D10F225817F8B3A600097250 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F225717F8B3A600097250 /* GameViewController.m */; };
-		D10F225B17F8B41800097250 /* GameCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F225A17F8B41800097250 /* GameCustomCell.m */; };
 		D10F245317F8D2D100097250 /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = D10F245217F8D2D100097250 /* Comms.m */; };
 		D112D191181F70BC009E8839 /* AGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D112D190181F70BC009E8839 /* AGLoginViewController.m */; };
 		D112D7B2187863350023D0FC /* SettingsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D112D7B1187863350023D0FC /* SettingsStoryboard.storyboard */; };
@@ -48,7 +46,6 @@
 		D13BD7CE195D11B7006BF845 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CA195D11B7006BF845 /* login.png */; };
 		D13BD7CF195D11B7006BF845 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CB195D11B7006BF845 /* signup.png */; };
 		D13BD7D1195D1292006BF845 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7D0195D1292006BF845 /* back button.png */; };
-		D16C72E518D0BC8A0031627A /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16C72E418D0BC8A0031627A /* ReportViewController.m */; };
 		D19A15C017DD384B00C9EBB2 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */; };
 		D19A15C917DD3DE200C9EBB2 /* HEAT71ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15C817DD3DE200C9EBB2 /* HEAT71ViewController.m */; };
 		D19A15CF17DD3E9400C9EBB2 /* 71.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D19A15CA17DD3E9400C9EBB2 /* 71.pdf */; };
@@ -68,6 +65,7 @@
 		D19A15F617DD579F00C9EBB2 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15F517DD579E00C9EBB2 /* FacebookViewController.m */; };
 		D19A15F917DD58CB00C9EBB2 /* InstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15F817DD58C900C9EBB2 /* InstagramViewController.m */; };
 		D19A15FC17DD596700C9EBB2 /* YouTubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15FB17DD596400C9EBB2 /* YouTubeViewController.m */; };
+		D19AFB0A1989F4FD005C1663 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19AFB091989F4FD005C1663 /* FacebookSDK.framework */; };
 		D19C391017F7FD780023A79B /* CampusCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D19C390F17F7FD780023A79B /* CampusCustomCell.m */; };
 		D19C391317F7FE4E0023A79B /* CampusEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19C391217F7FE4E0023A79B /* CampusEventsViewController.m */; };
 		D19C39CD1814152D00E74FD4 /* AnnonCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D19C39CC1814152D00E74FD4 /* AnnonCustomCell.m */; };
@@ -93,6 +91,15 @@
 		D1A9665A183065C800118D55 /* Title Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A96658183065C800118D55 /* Title Bar.png */; };
 		D1ABE4C419666EEE002A212C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ABE4C319666EED002A212C /* SWRevealViewController.m */; };
 		D1ABF9B218D0B59600DFABDA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ABF9B118D0B59600DFABDA /* SettingsViewController.m */; };
+		D1AFF4431989C42800760AED /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFF4421989C42800760AED /* UIScrollView+EmptyDataSet.m */; };
+		D1AFF4471989D14C00760AED /* no_data.png in Resources */ = {isa = PBXBuildFile; fileRef = D1AFF4461989D14C00760AED /* no_data.png */; };
+		D1AFF44B1989D88B00760AED /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFF44A1989D88B00760AED /* MBProgressHUD.m */; };
+		D1AFF45B1989E03C00760AED /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFF4591989E03C00760AED /* libGoogleAdMobAds.a */; };
+		D1AFF45C1989E03D00760AED /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D1AFF45A1989E03C00760AED /* README.txt */; };
+		D1AFF45E1989E08100760AED /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFF45D1989E08100760AED /* AdSupport.framework */; };
+		D1AFF4601989E09900760AED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFF45F1989E09900760AED /* AVFoundation.framework */; };
+		D1AFF4621989E0A800760AED /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFF4611989E0A800760AED /* CoreTelephony.framework */; };
+		D1AFF4641989E0BB00760AED /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFF4631989E0BB00760AED /* StoreKit.framework */; };
 		D1B0A66A18D8841E00EFE0CD /* Icon_Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B0A66918D8841E00EFE0CD /* Icon_Retina.png */; };
 		D1B0A66C18D8847900EFE0CD /* TitleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B0A66B18D8847900EFE0CD /* TitleLogo.png */; };
 		D1B24D6C18A0BAF900076182 /* Fresher_ImageMenu.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D1B24D6918A0BAF900076182 /* Fresher_ImageMenu.png.jpeg */; };
@@ -152,10 +159,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D10F225617F8B3A600097250 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		D10F225717F8B3A600097250 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		D10F225917F8B41800097250 /* GameCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCustomCell.h; sourceTree = "<group>"; };
-		D10F225A17F8B41800097250 /* GameCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCustomCell.m; sourceTree = "<group>"; };
 		D10F245117F8D2D100097250 /* Comms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comms.h; sourceTree = "<group>"; };
 		D10F245217F8D2D100097250 /* Comms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comms.m; sourceTree = "<group>"; };
 		D112D18F181F70BC009E8839 /* AGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLoginViewController.h; sourceTree = "<group>"; };
@@ -215,8 +218,6 @@
 		D13BD7CA195D11B7006BF845 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = ../../../AggieLandResources/login.png; sourceTree = "<group>"; };
 		D13BD7CB195D11B7006BF845 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signup.png; path = ../../../AggieLandResources/signup.png; sourceTree = "<group>"; };
 		D13BD7D0195D1292006BF845 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "../../../AggieLandResources/back button.png"; sourceTree = "<group>"; };
-		D16C72E318D0BC8A0031627A /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
-		D16C72E418D0BC8A0031627A /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
 		D19A15BE17DD384B00C9EBB2 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
 		D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		D19A15C717DD3DE200C9EBB2 /* HEAT71ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEAT71ViewController.h; sourceTree = "<group>"; };
@@ -250,6 +251,7 @@
 		D19A15F817DD58C900C9EBB2 /* InstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramViewController.m; sourceTree = "<group>"; };
 		D19A15FA17DD596300C9EBB2 /* YouTubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeViewController.h; sourceTree = "<group>"; };
 		D19A15FB17DD596400C9EBB2 /* YouTubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeViewController.m; sourceTree = "<group>"; };
+		D19AFB091989F4FD005C1663 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		D19C390E17F7FD770023A79B /* CampusCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusCustomCell.h; sourceTree = "<group>"; };
 		D19C390F17F7FD780023A79B /* CampusCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusCustomCell.m; sourceTree = "<group>"; };
 		D19C391117F7FE4E0023A79B /* CampusEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusEventsViewController.h; sourceTree = "<group>"; };
@@ -289,6 +291,29 @@
 		D1ABE4C319666EED002A212C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		D1ABF9B018D0B59600DFABDA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		D1ABF9B118D0B59600DFABDA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D1AFF4411989C42800760AED /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		D1AFF4421989C42800760AED /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		D1AFF4461989D14C00760AED /* no_data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no_data.png; path = ../../../AggieLandResources/no_data.png; sourceTree = "<group>"; };
+		D1AFF4491989D88B00760AED /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D1AFF44A1989D88B00760AED /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D1AFF44D1989E03C00760AED /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADAdMobExtras.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF44E1989E03C00760AED /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADAdNetworkExtras.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF44F1989E03C00760AED /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADAdSize.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4501989E03C00760AED /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADBannerView.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4511989E03C00760AED /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADBannerViewDelegate.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4521989E03C00760AED /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchase.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADInAppPurchase.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4531989E03C00760AED /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchaseDelegate.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADInAppPurchaseDelegate.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4541989E03C00760AED /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADInterstitial.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4551989E03C00760AED /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADInterstitialDelegate.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4561989E03C00760AED /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADModules.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADModules.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4571989E03C00760AED /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADRequest.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4581989E03C00760AED /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = "GoogleMobileAdsSdkiOS-6.10.0/GADRequestError.h"; sourceTree = SOURCE_ROOT; };
+		D1AFF4591989E03C00760AED /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = "GoogleMobileAdsSdkiOS-6.10.0/libGoogleAdMobAds.a"; sourceTree = SOURCE_ROOT; };
+		D1AFF45A1989E03C00760AED /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = "GoogleMobileAdsSdkiOS-6.10.0/README.txt"; sourceTree = SOURCE_ROOT; };
+		D1AFF45D1989E08100760AED /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D1AFF45F1989E09900760AED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D1AFF4611989E0A800760AED /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D1AFF4631989E0BB00760AED /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D1B0A66918D8841E00EFE0CD /* Icon_Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Retina.png; sourceTree = "<group>"; };
 		D1B0A66B18D8847900EFE0CD /* TitleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleLogo.png; sourceTree = "<group>"; };
 		D1B24D6918A0BAF900076182 /* Fresher_ImageMenu.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fresher_ImageMenu.png.jpeg; path = "../../../AggieLandResources/Business Pics/Fresher_ImageMenu.png.jpeg"; sourceTree = "<group>"; };
@@ -315,7 +340,7 @@
 		D1BD179117DCB493000A174A /* AggiesLand-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AggiesLand-Info.plist"; sourceTree = "<group>"; };
 		D1BD179317DCB493000A174A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1BD179517DCB493000A174A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1BD179717DCB493000A174A /* AggiesLand-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AggiesLand-Prefix.pch"; sourceTree = "<group>"; };
+		D1BD179717DCB493000A174A /* AggiesLand-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AggiesLand-Prefix.pch"; path = "AggiesLand/AggiesLand-Prefix.pch"; sourceTree = "<group>"; };
 		D1BD179817DCB493000A174A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1BD179917DCB493000A174A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D1BD17A217DCB493000A174A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -365,6 +390,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AFF4641989E0BB00760AED /* StoreKit.framework in Frameworks */,
+				D1AFF4621989E0A800760AED /* CoreTelephony.framework in Frameworks */,
+				D1AFF4601989E09900760AED /* AVFoundation.framework in Frameworks */,
+				D1A341F117EF875200CA13BA /* AudioToolbox.framework in Frameworks */,
+				D1AFF45E1989E08100760AED /* AdSupport.framework in Frameworks */,
 				D11BD0BA18CFE7C400C827B1 /* Accounts.framework in Frameworks */,
 				D1A3420117EF887000CA13BA /* SystemConfiguration.framework in Frameworks */,
 				D1A341FD17EF885700CA13BA /* Security.framework in Frameworks */,
@@ -372,10 +402,11 @@
 				D1A341F917EF884400CA13BA /* MobileCoreServices.framework in Frameworks */,
 				D1A341F717EF882D00CA13BA /* libz.1.1.3.dylib in Frameworks */,
 				D1A341F517EF881C00CA13BA /* CoreLocation.framework in Frameworks */,
+				D19AFB0A1989F4FD005C1663 /* FacebookSDK.framework in Frameworks */,
 				D1DFBE78185784EB002BC585 /* Parse.framework in Frameworks */,
 				D1A341F317EF876500CA13BA /* CFNetwork.framework in Frameworks */,
-				D1A341F117EF875200CA13BA /* AudioToolbox.framework in Frameworks */,
 				D12D96F017EAC93500E94429 /* Twitter.framework in Frameworks */,
+				D1AFF45B1989E03C00760AED /* libGoogleAdMobAds.a in Frameworks */,
 				D12D96E517EAB4C600E94429 /* Social.framework in Frameworks */,
 				D1A3E4F217DD0F59005E4911 /* MessageUI.framework in Frameworks */,
 				D1BD178A17DCB493000A174A /* UIKit.framework in Frameworks */,
@@ -452,6 +483,9 @@
 		D112D7A4187860C80023D0FC /* Framework & API Use */ = {
 			isa = PBXGroup;
 			children = (
+				D1AFF44C1989DFD400760AED /* GoogleAbmobSDK */,
+				D1AFF4481989D88B00760AED /* MBProgressHUD */,
+				D1AFF43F1989C3F500760AED /* DZEmptyDataSet */,
 				D1ABE4C119666EED002A212C /* SWRevealViewController */,
 				D1FE714F18CE8D82005F3D01 /* AMScrollingNavbar */,
 				D1FE714618CE1F87005F3D01 /* iRate */,
@@ -507,7 +541,6 @@
 			children = (
 				D1D9539318805867006F15FA /* Clubs */,
 				D112D7AD187862690023D0FC /* Parties */,
-				D112D7AC1878623D0023D0FC /* Game Touraments */,
 				D112D7AA1878620D0023D0FC /* Annoucnements */,
 				D112D7A9187861F70023D0FC /* Campus Events */,
 			);
@@ -544,17 +577,6 @@
 			name = Annoucnements;
 			sourceTree = "<group>";
 		};
-		D112D7AC1878623D0023D0FC /* Game Touraments */ = {
-			isa = PBXGroup;
-			children = (
-				D10F225717F8B3A600097250 /* GameViewController.m */,
-				D10F225617F8B3A600097250 /* GameViewController.h */,
-				D10F225917F8B41800097250 /* GameCustomCell.h */,
-				D10F225A17F8B41800097250 /* GameCustomCell.m */,
-			);
-			name = "Game Touraments";
-			sourceTree = "<group>";
-		};
 		D112D7AD187862690023D0FC /* Parties */ = {
 			isa = PBXGroup;
 			children = (
@@ -576,8 +598,6 @@
 				D1ABF9B018D0B59600DFABDA /* SettingsViewController.h */,
 				D1ABF9B118D0B59600DFABDA /* SettingsViewController.m */,
 				D112D7B1187863350023D0FC /* SettingsStoryboard.storyboard */,
-				D16C72E318D0BC8A0031627A /* ReportViewController.h */,
-				D16C72E418D0BC8A0031627A /* ReportViewController.m */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -603,12 +623,60 @@
 			path = ../SWRevealViewController;
 			sourceTree = "<group>";
 		};
+		D1AFF43F1989C3F500760AED /* DZEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				D1AFF4401989C42800760AED /* Source */,
+			);
+			name = DZEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		D1AFF4401989C42800760AED /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D1AFF4411989C42800760AED /* UIScrollView+EmptyDataSet.h */,
+				D1AFF4421989C42800760AED /* UIScrollView+EmptyDataSet.m */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1AFF4481989D88B00760AED /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D1AFF4491989D88B00760AED /* MBProgressHUD.h */,
+				D1AFF44A1989D88B00760AED /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1AFF44C1989DFD400760AED /* GoogleAbmobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D1AFF44D1989E03C00760AED /* GADAdMobExtras.h */,
+				D1AFF44E1989E03C00760AED /* GADAdNetworkExtras.h */,
+				D1AFF44F1989E03C00760AED /* GADAdSize.h */,
+				D1AFF4501989E03C00760AED /* GADBannerView.h */,
+				D1AFF4511989E03C00760AED /* GADBannerViewDelegate.h */,
+				D1AFF4521989E03C00760AED /* GADInAppPurchase.h */,
+				D1AFF4531989E03C00760AED /* GADInAppPurchaseDelegate.h */,
+				D1AFF4541989E03C00760AED /* GADInterstitial.h */,
+				D1AFF4551989E03C00760AED /* GADInterstitialDelegate.h */,
+				D1AFF4561989E03C00760AED /* GADModules.h */,
+				D1AFF4571989E03C00760AED /* GADRequest.h */,
+				D1AFF4581989E03C00760AED /* GADRequestError.h */,
+				D1AFF4591989E03C00760AED /* libGoogleAdMobAds.a */,
+				D1AFF45A1989E03C00760AED /* README.txt */,
+			);
+			name = GoogleAbmobSDK;
+			sourceTree = "<group>";
+		};
 		D1BD177D17DCB493000A174A = {
 			isa = PBXGroup;
 			children = (
 				D1D9538C188051E6006F15FA /* Default-568h@2x.png */,
 				D1D9538D188051E6006F15FA /* Default@2x.png */,
 				D1BD178F17DCB493000A174A /* AggiesLand */,
+				D1BD179717DCB493000A174A /* AggiesLand-Prefix.pch */,
 				D1BD178817DCB493000A174A /* Frameworks */,
 				D1BD178717DCB493000A174A /* Products */,
 				D12692211801D14F008916D0 /* Images.xcassets */,
@@ -626,6 +694,11 @@
 		D1BD178817DCB493000A174A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D19AFB091989F4FD005C1663 /* FacebookSDK.framework */,
+				D1AFF4631989E0BB00760AED /* StoreKit.framework */,
+				D1AFF4611989E0A800760AED /* CoreTelephony.framework */,
+				D1AFF45F1989E09900760AED /* AVFoundation.framework */,
+				D1AFF45D1989E08100760AED /* AdSupport.framework */,
 				D11BD0B918CFE7C400C827B1 /* Accounts.framework */,
 				D1DFBE77185784EB002BC585 /* Parse.framework */,
 				D1A3420017EF887000CA13BA /* SystemConfiguration.framework */,
@@ -671,6 +744,7 @@
 		D1BD179017DCB493000A174A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D1AFF4461989D14C00760AED /* no_data.png */,
 				D13BD7D0195D1292006BF845 /* back button.png */,
 				D13BD7C8195D11B7006BF845 /* forgotpassword.png */,
 				D13BD7C9195D11B7006BF845 /* login_background.png */,
@@ -734,7 +808,6 @@
 				D1BD179117DCB493000A174A /* AggiesLand-Info.plist */,
 				D1BD179217DCB493000A174A /* InfoPlist.strings */,
 				D1BD179517DCB493000A174A /* main.m */,
-				D1BD179717DCB493000A174A /* AggiesLand-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -846,9 +919,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AFF4471989D14C00760AED /* no_data.png in Resources */,
 				D1BB6FDA18D63D6F0057E959 /* clubs_2-1.png in Resources */,
 				D1BB6FD818D63D6F0057E959 /* bus routes_2-1.png in Resources */,
 				D1BD179417DCB493000A174A /* InfoPlist.strings in Resources */,
+				D1AFF45C1989E03D00760AED /* README.txt in Resources */,
 				D1DFBE75185774E0002BC585 /* menu.png in Resources */,
 				D1C8F5A41880964100F5C6A9 /* bus routes.png in Resources */,
 				D1C81BF318981D8A0087DDC9 /* CampusEvents_Image.jpg in Resources */,
@@ -928,12 +1003,11 @@
 				D1BD179A17DCB493000A174A /* AppDelegate.m in Sources */,
 				D19C39D318141F2600E74FD4 /* Annon.m in Sources */,
 				D1CDBA451880FC16001CDE00 /* iRate.m in Sources */,
+				D1AFF44B1989D88B00760AED /* MBProgressHUD.m in Sources */,
 				D12D96E117EAAFD400E94429 /* TennisViewController.m in Sources */,
 				D1D953961880588F006F15FA /* Clubs.m in Sources */,
-				D10F225817F8B3A600097250 /* GameViewController.m in Sources */,
+				D1AFF4431989C42800760AED /* UIScrollView+EmptyDataSet.m in Sources */,
 				D1ABF9B218D0B59600DFABDA /* SettingsViewController.m in Sources */,
-				D10F225B17F8B41800097250 /* GameCustomCell.m in Sources */,
-				D16C72E518D0BC8A0031627A /* ReportViewController.m in Sources */,
 				D1ABE4C419666EEE002A212C /* SWRevealViewController.m in Sources */,
 				D1A7982818359E0900EF880A /* BusinessViewController.m in Sources */,
 				D12D96D517EAAE2C00E94429 /* BowlingViewController.m in Sources */,
@@ -1034,6 +1108,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PROVISIONING_PROFILE = "053B7E3E-F1F6-425F-9A7A-50F6B1A82422";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1062,6 +1137,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
 				PROVISIONING_PROFILE = "053B7E3E-F1F6-425F-9A7A-50F6B1A82422";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1077,12 +1153,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/neegbeahreeves/Desktop,
+					/Users/neegbeahreeves/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AggiesLand/AggiesLand-Prefix.pch";
 				INFOPLIST_FILE = "AggiesLand/AggiesLand-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-6.10.0",
+				);
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "741D3F8E-00A4-48C7-9EBD-7EF7FC1D625B";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1099,12 +1182,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/neegbeahreeves/Desktop,
+					/Users/neegbeahreeves/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AggiesLand/AggiesLand-Prefix.pch";
 				INFOPLIST_FILE = "AggiesLand/AggiesLand-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-6.10.0",
+				);
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "741D3F8E-00A4-48C7-9EBD-7EF7FC1D625B";
 				TARGETED_DEVICE_FAMILY = 1;

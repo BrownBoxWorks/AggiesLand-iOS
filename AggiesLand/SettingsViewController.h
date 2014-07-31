@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
+#import <MessageUI/MessageUI.h>
 
-@interface SettingsViewController : UITableViewController
+@interface SettingsViewController : UITableViewController <MFMailComposeViewControllerDelegate>
 
 -(IBAction)backToMain:(id)sender;
 
 -(IBAction)logOut:(id)sender;
+
+-(IBAction)report:(id)sender;
 
 @end

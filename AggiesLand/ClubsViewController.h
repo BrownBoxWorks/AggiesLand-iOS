@@ -8,8 +8,9 @@
 
 #import <Parse/Parse.h>
 #import <UIKit/UIKit.h>
+#import "UIScrollView+EmptyDataSet.h"
 
-@interface ClubsViewController : PFQueryTableViewController
+@interface ClubsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate,DZNEmptyDataSetSource>
 
 @property (weak,nonatomic )IBOutlet UIBarButtonItem *sidebarButton;
 

@@ -51,6 +51,49 @@
     [PFUser logOut];
     [self dismissViewControllerAnimated:NO completion:nil];
 }
+
+-(IBAction)report:(id)sender{
+    // Email Subject
+    NSString*emailTitle=@"AggiesLand User Report";
+    // Email Content
+    //NSString*messageBody=@"Event Type: Event Name: Location: Date: Time: Price?: Special Instructions:";
+    // To address
+    NSArray*toRecipents=[NSArray arrayWithObject:@"aggiesland@gmail.com"];
+    
+    MFMailComposeViewController*mc=[[MFMailComposeViewController alloc] init];
+    mc.mailComposeDelegate=self;
+    [mc setSubject:emailTitle];
+    //[mc setMessageBody:messageBody isHTML:NO];
+    [mc setToRecipients:toRecipents];
+    
+    // Present mail view controller on screen
+    [self presentViewController:mc animated:YES completion:NULL];
+}
+
+-(void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
+{
+    switch(result)
+    {
+        case MFMailComposeResultCancelled:
+            NSLog(@"Mail cancelled");
+            break;
+        case MFMailComposeResultSaved:
+            NSLog(@"Mail saved");
+            break;
+        case MFMailComposeResultSent:
+            NSLog(@"Mail sent");
+            break;
+        case MFMailComposeResultFailed:
+            NSLog(@"Mail sent failure: %@",[error localizedDescription]);
+            break;
+        default:
+            break;
+    }
+    
+    // Close the Mail Interface
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
+
 #pragma mark - Table view data source
 /*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

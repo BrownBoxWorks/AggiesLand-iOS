@@ -7,8 +7,9 @@
 //
 
 #import <Parse/Parse.h>
+#import "UIScrollView+EmptyDataSet.h"
 
-@interface CampusEventsViewController : PFQueryTableViewController
+@interface CampusEventsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate, DZNEmptyDataSetSource>
 
 
 @property (weak,nonatomic)IBOutlet UIBarButtonItem *sidebarButton;
