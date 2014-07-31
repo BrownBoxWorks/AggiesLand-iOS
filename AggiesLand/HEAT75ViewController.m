@@ -29,6 +29,11 @@
     [seventyfive loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"75" ofType:@"pdf"]isDirectory:NO]]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"Loading";
+    [hud hide:YES afterDelay:3.0];
 }
 
 - (void)didReceiveMemoryWarning

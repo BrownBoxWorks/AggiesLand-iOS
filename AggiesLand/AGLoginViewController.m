@@ -34,8 +34,8 @@
   [self.logInView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"login_background.png"]]];
   [self.logInView setLogo:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LoginLogo.png"]]];
     
-  //[self.logInView.passwordForgottenButton setBackgroundImage:[UIImage imageNamed:@"forgotpassword"] forState:UIControlStateNormal];
-  //[self.logInView.passwordForgottenButton setBackgroundImage:[UIImage imageNamed:@"forgotpassword"] forState:UIControlStateHighlighted];
+  [self.logInView.passwordForgottenButton setBackgroundImage:[UIImage imageNamed:@"forgotpassword"] forState:UIControlStateNormal];
+  [self.logInView.passwordForgottenButton setBackgroundImage:[UIImage imageNamed:@"forgotpassword"] forState:UIControlStateHighlighted];
     
     
     
@@ -49,6 +49,7 @@
  
     [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login.png"] forState:UIControlStateNormal];
     [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login.png"] forState:UIControlStateHighlighted];
+    
     [self.logInView.logInButton setTitle:@" " forState:UIControlStateNormal];
     [self.logInView.logInButton setTitle:@" " forState:UIControlStateHighlighted];
 
@@ -73,12 +74,12 @@
 -(void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     
-    [self.logInView.logo setFrame:CGRectMake(35.0f, 20.0f, 250.0, 58.5f)];
+    [self.logInView.logo setFrame:CGRectMake(35.0f, 20.0f, 250.0f, 58.5f)];
     [self.logInView.usernameField setFrame:CGRectMake(35.0f, 145.0f, 250.0f, 50.0f)];
     [self.logInView.passwordField setFrame:CGRectMake(35.0f, 195.0f, 250.0f, 50.0f)];
     [self.fieldsBackground setFrame:CGRectMake(35.0f, 145.0f, 250.0f, 100.0f)];
-    //[self.logInView.logInButton setFrame:CGRectMake(30.0f, 20.0f, 250.0f, 100.0f)];
-   // [self.logInView.passwordForgottenButton setFrame:CGRectMake(0.0f, 295.0f, 320.0, 50.0f)];
+    [self.logInView.logInButton setFrame:CGRectMake(35.0f, 375.0f, 246.0f, 45.0f)];
+    [self.logInView.passwordForgottenButton setFrame:CGRectMake(35.0f, 420.0f, 246.0f,45.0f)];
     
     
 

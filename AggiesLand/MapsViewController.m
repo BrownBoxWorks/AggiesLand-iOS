@@ -340,6 +340,11 @@
     
     [super viewDidLoad];
     
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"Loading";
+    [hud hide:YES afterDelay:3.0];
+    
     
     
     
@@ -873,6 +878,11 @@
     [self.mapView addAnnotations:locations];
 	// Do any additional setup after loading the view.
 }
+
+
+
+
+
 
 
 

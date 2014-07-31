@@ -9,8 +9,14 @@
 #import <Parse/Parse.h>
 #import <UIKit/UIKit.h>
 #import "UIScrollView+EmptyDataSet.h"
+#import "GADBannerView.h"
+#import "MBProgressHUD.h"
 
-@interface ClubsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate,DZNEmptyDataSetSource>
+@interface ClubsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate,DZNEmptyDataSetSource,MBProgressHUDDelegate>{
+    GADBannerView *bannerView_;
+    
+    MBProgressHUD *HUD;
+}
 
 @property (weak,nonatomic )IBOutlet UIBarButtonItem *sidebarButton;
 

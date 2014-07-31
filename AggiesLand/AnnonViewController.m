@@ -132,12 +132,6 @@
 
 
 -(PFQuery *)queryForTable{
-
-	HUD.delegate = self;
-	HUD.labelText = @"Loading";
-    
-	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
-    
     PFQuery*query =[PFQuery queryWithClassName:@"News"];
     query.cachePolicy = kPFCachePolicyCacheThenNetwork; // Save Data from Parse Cloud to Device to avoid reconnection from the internet to retrieve data again
     /*
@@ -157,6 +151,11 @@
 }
 - (void)viewDidLoad
 {
+    
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"Loading";
+    [hud hide:YES afterDelay:3.0];
  
     
     // Create a view of the standard size at the top of the screen.
@@ -267,7 +266,12 @@
 - (void) objectsDidLoad:(NSError *)error
 {
     [super objectsDidLoad:error];
-    
+    /*
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"Loading";
+    [hud hide:YES afterDelay:3.0];
+    */
     NSLog(@"error: %@", [error localizedDescription]);
 }
 

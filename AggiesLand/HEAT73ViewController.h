@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
-@interface HEAT73ViewController : UIViewController{
+@interface HEAT73ViewController : UIViewController <MBProgressHUDDelegate>{
     IBOutlet UIWebView *seventythree;
+    MBProgressHUD*HUD;
 }
 
 @end

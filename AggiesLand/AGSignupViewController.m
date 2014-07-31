@@ -72,7 +72,7 @@
     [self.signUpView.dismissButton setFrame:CGRectMake(10.0f, 20.0f, 67.5f,30.5f)];
     [self.signUpView.logo setFrame:CGRectMake(35.0f, 75.0f, 250.0, 58.5f)];
     [self.signUpView.signUpButton setFrame:CGRectMake(35.0f, 385.0f, 250.0f, 40.0f)];
-    [self.fieldsBackground setFrame:CGRectMake(35.0f, /*fieldFrame.origin.y + yOffset*/177.0f, 250.0f, 174.0f)];
+    [self.fieldsBackground setFrame:CGRectMake(35.0f, /*fieldFrame.origin.y + yOffset*/167.0f, 250.0f, 174.0f)];
     
     /*
     [self.signUpView.usernameField setFrame:CGRectMake(fieldFrame.origin.x + 5.0f,
