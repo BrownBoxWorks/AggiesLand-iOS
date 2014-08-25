@@ -151,6 +151,8 @@
 }
 - (void)viewDidLoad
 {
+    //TTTArtibutedLabel
+    
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.mode = MBProgressHUDModeIndeterminate;
@@ -195,6 +197,8 @@
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
    self.navigationItem.title = @"News Feed";
     self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"TitleLogo.png"]];
+    
+    
     
     [super viewDidLoad];
 

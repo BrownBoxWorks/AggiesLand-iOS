@@ -31,6 +31,13 @@
 {
     [super viewDidLoad];
     
+    //TTTArtributedLabel
+    TTTAttributedLabel *label = [[TTTAttributedLabel alloc] initWithFrame:CGRectZero];
+    label.enabledTextCheckingTypes = NSTextCheckingAllTypes;
+    label.delegate = self;
+    
+    
+    
     // Initialize the banner at the bottom of the screen.
     
     

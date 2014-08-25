@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "Annon.h"
 #import "GADBannerView.h"
+#import "TTTAttributedLabel.h"
 
 
-@interface AnnonDetailViewController : UIViewController{
+@interface AnnonDetailViewController : UIViewController<TTTAttributedLabelDelegate>{
     GADBannerView *bannerView_;
 }
 

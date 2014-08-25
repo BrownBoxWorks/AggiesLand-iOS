@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="G3V-ft-cq8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="G3V-ft-cq8">
     <dependencies>
         <deployment version="1536" defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
     </dependencies>
     <scenes>
-        <!--Campus View Controller - Campus Events Menu-->
+        <!--Campus Events Menu-->
         <scene sceneID="cbn-KY-Fif">
             <objects>
                 <tableViewController title="Campus Events Menu" id="ofn-vn-AFo" customClass="CampusViewController" sceneMemberID="viewController">
@@ -26,7 +26,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regular campus events image.png" id="S6D-bl-dhb">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="163"/>
+                                                    <rect key="frame" x="-1" y="-1" width="320" height="166"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular Campus Events" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tPC-F1-aKQ">
@@ -55,7 +55,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aggie athletics page.png" id="l2m-Qd-3we">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+                                                    <rect key="frame" x="-3" y="0.0" width="320" height="156"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All teams and players who represent NC A&amp;T " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qZW-81-ctR">
@@ -95,9 +95,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nl8-xE-13a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="643" y="-1911"/>
+            <point key="canvasLocation" x="739" y="-1901"/>
         </scene>
-        <!--Campus Events View Controller - Campus Events-->
+        <!--Campus Events-->
         <scene sceneID="GJp-X0-XBz">
             <objects>
                 <tableViewController id="FjB-K0-YoI" customClass="CampusEventsViewController" sceneMemberID="viewController">
@@ -150,9 +150,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAE-DJ-wHi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1164" y="-1911"/>
+            <point key="canvasLocation" x="1164" y="-1901"/>
         </scene>
-        <!--Maps View Controller - Maps-->
+        <!--Maps-->
         <scene sceneID="c4v-dZ-fIM">
             <objects>
                 <viewController title="Maps" id="Nv4-tl-dfd" customClass="MapsViewController" sceneMemberID="viewController">
@@ -180,9 +180,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n0d-hm-GLZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="ReK-nx-JAA" customClass="CLLocationManager"/>
             </objects>
-            <point key="canvasLocation" x="-401" y="-415"/>
+            <point key="canvasLocation" x="423" y="-1223"/>
         </scene>
-        <!--Bus Routes View Controller - H.E.A.T Bus Routes-->
+        <!--H.E.A.T Bus Routes-->
         <scene sceneID="xWm-Zn-iOm">
             <objects>
                 <tableViewController id="tyU-pS-dth" customClass="BusRoutesViewController" sceneMemberID="viewController">
@@ -319,9 +319,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vYC-E5-shH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1257" y="617"/>
+            <point key="canvasLocation" x="-987" y="-435"/>
         </scene>
-        <!--View Controller - Heat 71-->
+        <!--Heat 71-->
         <scene sceneID="4d0-zC-hYK">
             <objects>
                 <viewController title="Heat 71" id="RWz-Mw-xks" customClass="HEAT71ViewController" sceneMemberID="viewController">
@@ -343,9 +343,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kVx-ja-RjQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1712" y="617"/>
+            <point key="canvasLocation" x="-532" y="-435"/>
         </scene>
-        <!--Weekend View Controller - Heat 71 Weekend-->
+        <!--Heat 71 Weekend-->
         <scene sceneID="41C-tZ-l5h">
             <objects>
                 <viewController title="Heat 71 Weekend" id="XLo-mp-Ioo" customClass="HEAT71WeekendViewController" sceneMemberID="viewController">
@@ -367,9 +367,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0X-I6-v8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2132" y="617"/>
+            <point key="canvasLocation" x="-112" y="-435"/>
         </scene>
-        <!--View Controller - Heat 72 -->
+        <!--Heat 72 -->
         <scene sceneID="nvO-yF-bk4">
             <objects>
                 <viewController title="Heat 72 " id="g0Q-Vg-m9p" customClass="HEAT72ViewController" sceneMemberID="viewController">
@@ -391,9 +391,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gw4-f0-shb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2542" y="617"/>
+            <point key="canvasLocation" x="298" y="-435"/>
         </scene>
-        <!--View Controller - Heat 73-->
+        <!--Heat 73-->
         <scene sceneID="EVJ-YT-154">
             <objects>
                 <viewController title="Heat 73" id="cdL-iR-cnW" customClass="HEAT73ViewController" sceneMemberID="viewController">
@@ -415,9 +415,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WUO-5M-QLN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2946" y="621"/>
+            <point key="canvasLocation" x="702" y="-431"/>
         </scene>
-        <!--View Controller - Heat 75-->
+        <!--Heat 75-->
         <scene sceneID="9pv-ao-jCK">
             <objects>
                 <viewController title="Heat 75" id="0NO-j6-kqB" customClass="HEAT75ViewController" sceneMemberID="viewController">
@@ -439,9 +439,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Db-Q1-KDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3338" y="617"/>
+            <point key="canvasLocation" x="1094" y="-435"/>
         </scene>
-        <!--Campus Details View Controller - Event Details-->
+        <!--Event Details-->
         <scene sceneID="ZaN-ck-Y5u">
             <objects>
                 <viewController id="1gn-jj-Pc5" customClass="CampusDetailsViewController" sceneMemberID="viewController">
@@ -506,7 +506,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aHJ-PP-6Hw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1574" y="-1911"/>
+            <point key="canvasLocation" x="1582" y="-1901"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="2HO-Qc-Hhf">
@@ -525,7 +525,7 @@
             </objects>
             <point key="canvasLocation" x="-1592" y="-1567"/>
         </scene>
-        <!--Annon View Controller - Title-->
+        <!--Title-->
         <scene sceneID="88V-Pz-Weg">
             <objects>
                 <tableViewController wantsFullScreenLayout="YES" id="cWX-iZ-5fs" customClass="AnnonViewController" sceneMemberID="viewController">
@@ -597,7 +597,7 @@
             </objects>
             <point key="canvasLocation" x="-395" y="-1901"/>
         </scene>
-        <!--Party View Controller - Parties-->
+        <!--Parties-->
         <scene sceneID="yqY-x5-Mv7">
             <objects>
                 <tableViewController id="1kU-fL-bVh" customClass="PartyViewController" sceneMemberID="viewController">
@@ -678,7 +678,7 @@
             </objects>
             <point key="canvasLocation" x="-1289" y="-3222"/>
         </scene>
-        <!--Table View Controller - Athletics-->
+        <!--Athletics-->
         <scene sceneID="eS0-kV-EUs">
             <objects>
                 <tableViewController id="4So-mr-rcK" sceneMemberID="viewController">
@@ -931,7 +931,7 @@
             </objects>
             <point key="canvasLocation" x="1164" y="-1134"/>
         </scene>
-        <!--Cross Country View Controller - XC -->
+        <!--XC -->
         <scene sceneID="40W-sn-fUU">
             <objects>
                 <viewController title="XC " id="Aaj-Kd-2LD" customClass="CrossCountryViewController" sceneMemberID="viewController">
@@ -956,7 +956,7 @@
             </objects>
             <point key="canvasLocation" x="1546" y="-1132"/>
         </scene>
-        <!--WomenBB View Controller - Women BB-->
+        <!--Women BB-->
         <scene sceneID="LqV-TT-eUG">
             <objects>
                 <viewController title="Women BB" id="CRi-fg-LQE" customClass="WomenBBViewController" sceneMemberID="viewController">
@@ -981,7 +981,7 @@
             </objects>
             <point key="canvasLocation" x="1568" y="-484"/>
         </scene>
-        <!--Bowling View Controller - Bowling-->
+        <!--Bowling-->
         <scene sceneID="1Au-sx-hSz">
             <objects>
                 <viewController title="Bowling" id="rgo-28-0KU" customClass="BowlingViewController" sceneMemberID="viewController">
@@ -1006,7 +1006,7 @@
             </objects>
             <point key="canvasLocation" x="1918" y="-486"/>
         </scene>
-        <!--Swimming View Controller - Swimming-->
+        <!--Swimming-->
         <scene sceneID="j7o-35-GFp">
             <objects>
                 <viewController title="Swimming" id="jPB-oD-1FF" customClass="SwimmingViewController" sceneMemberID="viewController">
@@ -1031,7 +1031,7 @@
             </objects>
             <point key="canvasLocation" x="2266" y="-486"/>
         </scene>
-        <!--Softball View Controller - Softball-->
+        <!--Softball-->
         <scene sceneID="hIp-cS-fgM">
             <objects>
                 <viewController title="Softball" id="AbR-m5-NBx" customClass="SoftballViewController" sceneMemberID="viewController">
@@ -1056,7 +1056,7 @@
             </objects>
             <point key="canvasLocation" x="2626" y="-482"/>
         </scene>
-        <!--Tennis View Controller - Tennis-->
+        <!--Tennis-->
         <scene sceneID="bfk-kC-bNA">
             <objects>
                 <viewController title="Tennis" id="okq-qW-Cjx" customClass="TennisViewController" sceneMemberID="viewController">
@@ -1106,7 +1106,7 @@
             </objects>
             <point key="canvasLocation" x="3354" y="-476"/>
         </scene>
-        <!--Track View Controller - Track-->
+        <!--Track-->
         <scene sceneID="nX9-Qx-yVE">
             <objects>
                 <viewController title="Track" id="fru-6L-OOX" customClass="TrackViewController" sceneMemberID="viewController">
@@ -1156,7 +1156,7 @@
             </objects>
             <point key="canvasLocation" x="2240" y="-1138"/>
         </scene>
-        <!--MensBB View Controller - Mens BB-->
+        <!--Mens BB-->
         <scene sceneID="kY2-Tb-A0P">
             <objects>
                 <viewController title="Mens BB" id="5Ia-eR-7Rg" customClass="MensBBViewController" sceneMemberID="viewController">
@@ -1181,7 +1181,7 @@
             </objects>
             <point key="canvasLocation" x="2595" y="-1141"/>
         </scene>
-        <!--Football View Controller - Football-->
+        <!--Football-->
         <scene sceneID="uat-rw-bpz">
             <objects>
                 <viewController title="Football" id="gkk-aX-Bru" customClass="FootballViewController" sceneMemberID="viewController">
@@ -1206,7 +1206,7 @@
             </objects>
             <point key="canvasLocation" x="2979" y="-1138"/>
         </scene>
-        <!--Party Detail View Controller - Party Details-->
+        <!--Party Details-->
         <scene sceneID="g2A-f4-6LE">
             <objects>
                 <viewController id="BH3-U9-seJ" customClass="PartyDetailViewController" sceneMemberID="viewController">
@@ -1281,7 +1281,7 @@
             </objects>
             <point key="canvasLocation" x="-926" y="-3222"/>
         </scene>
-        <!--Clubs View Controller - Clubs-->
+        <!--Clubs-->
         <scene sceneID="Dfc-qa-DSS">
             <objects>
                 <tableViewController id="L4r-36-WGD" customClass="ClubsViewController" sceneMemberID="viewController">
@@ -1356,9 +1356,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnd-Db-lQF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-395" y="-1239"/>
+            <point key="canvasLocation" x="-395" y="-1207"/>
         </scene>
-        <!--Club Details View Controller - Club Details-->
+        <!--Club Details-->
         <scene sceneID="qgC-74-wTY">
             <objects>
                 <viewController id="C6t-SF-Cuc" customClass="ClubDetailsViewController" sceneMemberID="viewController">
@@ -1432,7 +1432,7 @@
             </objects>
             <point key="canvasLocation" x="17" y="-1239"/>
         </scene>
-        <!--Annon Detail View Controller - Feed Details-->
+        <!--Feed Details-->
         <scene sceneID="QAI-yR-JbT">
             <objects>
                 <viewController id="rqb-Jc-zo5" customClass="AnnonDetailViewController" sceneMemberID="viewController">
@@ -1485,7 +1485,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="68b-9s-SrW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="84" y="-1901"/>
+            <point key="canvasLocation" x="78" y="-1901"/>
         </scene>
         <!--Sidebar View Controller-->
         <scene sceneID="AVB-m3-ec5">
@@ -1613,7 +1613,7 @@
             </objects>
             <point key="canvasLocation" x="-961" y="-1901"/>
         </scene>
-        <!--Navigation Controller - Sidebar Menu-->
+        <!--Sidebar Menu-->
         <scene sceneID="dy1-e5-FnA">
             <objects>
                 <navigationController title="Sidebar Menu" automaticallyAdjustsScrollViewInsets="NO" id="rXl-ES-1Dc" sceneMemberID="viewController">
@@ -1642,7 +1642,10 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="ymf-1V-Bin"/>

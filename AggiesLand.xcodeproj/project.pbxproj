@@ -150,6 +150,8 @@
 		D1DFBE76185774E0002BC585 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1DFBE74185774E0002BC585 /* menu@2x.png */; };
 		D1DFBE78185784EB002BC585 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DFBE77185784EB002BC585 /* Parse.framework */; };
 		D1ED30AD18ADFD5900DD66B8 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ED30AC18ADFD5900DD66B8 /* placeholder.png */; };
+		D1F0AB3B19A9A107003DCFAB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F0AB3A19A9A107003DCFAB /* CoreText.framework */; };
+		D1F0AB3F19A9A11F003DCFAB /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0AB3E19A9A11F003DCFAB /* TTTAttributedLabel.m */; };
 		D1FE713118CE1728005F3D01 /* Aggie athletics page.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FE712E18CE1728005F3D01 /* Aggie athletics page.png */; };
 		D1FE713218CE1728005F3D01 /* Aggie Game Tournaments image.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FE712F18CE1728005F3D01 /* Aggie Game Tournaments image.png */; };
 		D1FE713318CE1728005F3D01 /* Regular campus events image.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FE713018CE1728005F3D01 /* Regular campus events image.png */; };
@@ -374,6 +376,9 @@
 		D1DFBE74185774E0002BC585 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "../../../AggieLandResources/Menu Bar/menu@2x.png"; sourceTree = "<group>"; };
 		D1DFBE77185784EB002BC585 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../../Desktop/Parse.framework; sourceTree = "<group>"; };
 		D1ED30AC18ADFD5900DD66B8 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../AggieLandResources/placeholder.png; sourceTree = "<group>"; };
+		D1F0AB3A19A9A107003DCFAB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D1F0AB3D19A9A11F003DCFAB /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		D1F0AB3E19A9A11F003DCFAB /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 		D1FE712E18CE1728005F3D01 /* Aggie athletics page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aggie athletics page.png"; path = "../../../AggieLandResources/Campus Events Menu /Aggie athletics page.png"; sourceTree = "<group>"; };
 		D1FE712F18CE1728005F3D01 /* Aggie Game Tournaments image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aggie Game Tournaments image.png"; path = "../../../AggieLandResources/Campus Events Menu /Aggie Game Tournaments image.png"; sourceTree = "<group>"; };
 		D1FE713018CE1728005F3D01 /* Regular campus events image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Regular campus events image.png"; path = "../../../AggieLandResources/Campus Events Menu /Regular campus events image.png"; sourceTree = "<group>"; };
@@ -390,6 +395,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F0AB3B19A9A107003DCFAB /* CoreText.framework in Frameworks */,
 				D1AFF4641989E0BB00760AED /* StoreKit.framework in Frameworks */,
 				D1AFF4621989E0A800760AED /* CoreTelephony.framework in Frameworks */,
 				D1AFF4601989E09900760AED /* AVFoundation.framework in Frameworks */,
@@ -483,6 +489,7 @@
 		D112D7A4187860C80023D0FC /* Framework & API Use */ = {
 			isa = PBXGroup;
 			children = (
+				D1F0AB3C19A9A11F003DCFAB /* TTTAttributedLabel */,
 				D1AFF44C1989DFD400760AED /* GoogleAbmobSDK */,
 				D1AFF4481989D88B00760AED /* MBProgressHUD */,
 				D1AFF43F1989C3F500760AED /* DZEmptyDataSet */,
@@ -694,6 +701,7 @@
 		D1BD178817DCB493000A174A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1F0AB3A19A9A107003DCFAB /* CoreText.framework */,
 				D19AFB091989F4FD005C1663 /* FacebookSDK.framework */,
 				D1AFF4631989E0BB00760AED /* StoreKit.framework */,
 				D1AFF4611989E0A800760AED /* CoreTelephony.framework */,
@@ -825,6 +833,15 @@
 				D1D9539B188059CB006F15FA /* ClubCustomCell.m */,
 			);
 			name = Clubs;
+			sourceTree = "<group>";
+		};
+		D1F0AB3C19A9A11F003DCFAB /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0AB3D19A9A11F003DCFAB /* TTTAttributedLabel.h */,
+				D1F0AB3E19A9A11F003DCFAB /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
 			sourceTree = "<group>";
 		};
 		D1FE714618CE1F87005F3D01 /* iRate */ = {
@@ -1055,6 +1072,7 @@
 				D10F245317F8D2D100097250 /* Comms.m in Sources */,
 				D1A7982B18359E7C00EF880A /* SocialViewController.m in Sources */,
 				D12D96CF17EAAB3300E94429 /* FootballViewController.m in Sources */,
+				D1F0AB3F19A9A11F003DCFAB /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
