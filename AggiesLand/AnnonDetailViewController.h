@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 #import "Annon.h"
 #import "GADBannerView.h"
 #import "TTTAttributedLabel.h"
@@ -20,7 +21,7 @@
 
 @property(weak,nonatomic)IBOutlet PFImageView *imageFileLabel;
 
-@property(weak,nonatomic)IBOutlet UILabel *titleLabel;
+@property(weak,nonatomic)IBOutlet TTTAttributedLabel *titleLabel;
 @property(weak,nonatomic)IBOutlet UILabel *bodyLabel;
 @property(weak,nonatomic)IBOutlet UILabel *postedByLabel;
 @property(weak,nonatomic)IBOutlet UILabel *dateLabel;

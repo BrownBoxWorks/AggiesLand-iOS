@@ -7,6 +7,7 @@
 //
 
 #import "AnnonDetailViewController.h"
+#import "TTTAttributedLabel.h"
 
 @interface AnnonDetailViewController ()
 
@@ -33,8 +34,12 @@
     
     //TTTArtributedLabel
     TTTAttributedLabel *label = [[TTTAttributedLabel alloc] initWithFrame:CGRectZero];
-    label.enabledTextCheckingTypes = NSTextCheckingAllTypes;
+    label.textColor = [UIColor darkGrayColor];
+    label.enabledTextCheckingTypes = NSTextCheckingTypeAddress;
+    label.userInteractionEnabled = YES;
     label.delegate = self;
+    //label.text = [self.titleLabel valueForKey:@"Body"];
+
     
     
     
@@ -81,6 +86,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+// Enlargethe picruew of the UIImageView
 
 -(IBAction)enlagePicture:(id)sender{
     UIButton *button = (UIButton *)sender;
