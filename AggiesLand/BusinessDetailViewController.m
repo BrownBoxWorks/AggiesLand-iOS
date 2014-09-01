@@ -1,28 +1,35 @@
 //
-//  BusinessViewController.m
+//  BusinessDetailViewController.m
 //  AggiesLand
 //
-//  Created by Neegbeah Reeves on 9/1/14.
+//  Created by Neegbeah Reeves on 8/31/14.
 //  Copyright (c) 2014 Neegbeah Reeves. All rights reserved.
 //
 
-#import "BusinessViewController.h"
+#import "BusinessDetailViewController.h"
 
-@interface BusinessViewController ()
+@interface BusinessDetailViewController ()
 
 @end
 
-@implementation BusinessViewController
+@implementation BusinessDetailViewController
+@synthesize bus,urlLabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //self.urlLabel.text = bus.site;
+    PFObject *object = [[PFObject alloc]init];
+    [urlLabel loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[object objectForKey:@"URL"]]]];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation

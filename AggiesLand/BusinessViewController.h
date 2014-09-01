@@ -2,14 +2,12 @@
 //  BusinessViewController.h
 //  AggiesLand
 //
-//  Created by Neegbeah Reeves on 11/14/13.
-//  Copyright (c) 2013 Neegbeah Reeves. All rights reserved.
+//  Created by Neegbeah Reeves on 9/1/14.
+//  Copyright (c) 2014 Neegbeah Reeves. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
-@interface BusinessViewController : UITableViewController
-
-@property (weak,nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+@interface BusinessViewController : PFQueryTableViewController
 
 @end

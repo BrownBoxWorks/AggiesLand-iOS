@@ -57,10 +57,6 @@
 		D19A15D917DD456300C9EBB2 /* HEAT73ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15D817DD456300C9EBB2 /* HEAT73ViewController.m */; };
 		D19A15DC17DD460400C9EBB2 /* HEAT72ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15DB17DD460400C9EBB2 /* HEAT72ViewController.m */; };
 		D19A15DF17DD469200C9EBB2 /* HEAT75ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15DE17DD469100C9EBB2 /* HEAT75ViewController.m */; };
-		D19A15E517DD4A4100C9EBB2 /* FresherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15E417DD4A4000C9EBB2 /* FresherViewController.m */; };
-		D19A15E817DD4C1500C9EBB2 /* GeniusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15E717DD4C1400C9EBB2 /* GeniusViewController.m */; };
-		D19A15EB17DD4CDF00C9EBB2 /* SawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15EA17DD4CDF00C9EBB2 /* SawViewController.m */; };
-		D19A15EE17DD4EBA00C9EBB2 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15ED17DD4EB700C9EBB2 /* MeViewController.m */; };
 		D19A15F117DD51B400C9EBB2 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15F017DD51B300C9EBB2 /* MapsViewController.m */; };
 		D19A15F617DD579F00C9EBB2 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15F517DD579E00C9EBB2 /* FacebookViewController.m */; };
 		D19A15F917DD58CB00C9EBB2 /* InstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15F817DD58C900C9EBB2 /* InstagramViewController.m */; };
@@ -107,6 +103,9 @@
 		D1B24D6E18A0BAF900076182 /* Soph_ImageMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1B24D6B18A0BAF900076182 /* Soph_ImageMenu.jpg */; };
 		D1B7032617F5D8F5006617B8 /* PartyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B7032517F5D8F5006617B8 /* PartyCustomCell.m */; };
 		D1BA208D196CC23F00A8A0CD /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA208C196CC23F00A8A0CD /* SidebarViewController.m */; };
+		D1BA31E919B3BF40004B8B36 /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA31E819B3BF40004B8B36 /* Business.m */; };
+		D1BA31EC19B3C010004B8B36 /* BusinessCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA31EB19B3C010004B8B36 /* BusinessCustomCell.m */; };
+		D1BA31F519B3DE60004B8B36 /* BusinessDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA31F419B3DE60004B8B36 /* BusinessDetailViewController.m */; };
 		D1BB6FD318D63D6F0057E959 /* bussinesses_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BB6FC918D63D6E0057E959 /* bussinesses_2-1.png */; };
 		D1BB6FD418D63D6F0057E959 /* campus map_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BB6FCA18D63D6F0057E959 /* campus map_2-1.png */; };
 		D1BB6FD518D63D6F0057E959 /* event post_2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D1BB6FCB18D63D6F0057E959 /* event post_2-1.png */; };
@@ -237,14 +236,6 @@
 		D19A15DB17DD460400C9EBB2 /* HEAT72ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEAT72ViewController.m; sourceTree = "<group>"; };
 		D19A15DD17DD469100C9EBB2 /* HEAT75ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEAT75ViewController.h; sourceTree = "<group>"; };
 		D19A15DE17DD469100C9EBB2 /* HEAT75ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEAT75ViewController.m; sourceTree = "<group>"; };
-		D19A15E317DD4A3F00C9EBB2 /* FresherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FresherViewController.h; sourceTree = "<group>"; };
-		D19A15E417DD4A4000C9EBB2 /* FresherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FresherViewController.m; sourceTree = "<group>"; };
-		D19A15E617DD4C1400C9EBB2 /* GeniusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeniusViewController.h; sourceTree = "<group>"; };
-		D19A15E717DD4C1400C9EBB2 /* GeniusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeniusViewController.m; sourceTree = "<group>"; };
-		D19A15E917DD4CDE00C9EBB2 /* SawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SawViewController.h; sourceTree = "<group>"; };
-		D19A15EA17DD4CDF00C9EBB2 /* SawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SawViewController.m; sourceTree = "<group>"; };
-		D19A15EC17DD4EB600C9EBB2 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
-		D19A15ED17DD4EB700C9EBB2 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		D19A15EF17DD51B200C9EBB2 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
 		D19A15F017DD51B300C9EBB2 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
 		D19A15F417DD579D00C9EBB2 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
@@ -325,6 +316,12 @@
 		D1B7032517F5D8F5006617B8 /* PartyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyCustomCell.m; sourceTree = "<group>"; };
 		D1BA208B196CC23F00A8A0CD /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
 		D1BA208C196CC23F00A8A0CD /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		D1BA31E719B3BF40004B8B36 /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		D1BA31E819B3BF40004B8B36 /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
+		D1BA31EA19B3C010004B8B36 /* BusinessCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCustomCell.h; sourceTree = "<group>"; };
+		D1BA31EB19B3C010004B8B36 /* BusinessCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCustomCell.m; sourceTree = "<group>"; };
+		D1BA31F319B3DE60004B8B36 /* BusinessDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessDetailViewController.h; sourceTree = "<group>"; };
+		D1BA31F419B3DE60004B8B36 /* BusinessDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessDetailViewController.m; sourceTree = "<group>"; };
 		D1BB6FC918D63D6E0057E959 /* bussinesses_2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bussinesses_2-1.png"; path = "../../../AggieLandResources/MenuIcons Revised/bussinesses_2-1.png"; sourceTree = "<group>"; };
 		D1BB6FCA18D63D6F0057E959 /* campus map_2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "campus map_2-1.png"; path = "../../../AggieLandResources/MenuIcons Revised/campus map_2-1.png"; sourceTree = "<group>"; };
 		D1BB6FCB18D63D6F0057E959 /* event post_2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "event post_2-1.png"; path = "../../../AggieLandResources/MenuIcons Revised/event post_2-1.png"; sourceTree = "<group>"; };
@@ -513,21 +510,6 @@
 			name = "MapKit Framework";
 			sourceTree = "<group>";
 		};
-		D112D7A6187861290023D0FC /* Business */ = {
-			isa = PBXGroup;
-			children = (
-				D19A15E317DD4A3F00C9EBB2 /* FresherViewController.h */,
-				D19A15E417DD4A4000C9EBB2 /* FresherViewController.m */,
-				D19A15E617DD4C1400C9EBB2 /* GeniusViewController.h */,
-				D19A15E717DD4C1400C9EBB2 /* GeniusViewController.m */,
-				D19A15E917DD4CDE00C9EBB2 /* SawViewController.h */,
-				D19A15EA17DD4CDF00C9EBB2 /* SawViewController.m */,
-				D19A15EC17DD4EB600C9EBB2 /* MeViewController.h */,
-				D19A15ED17DD4EB700C9EBB2 /* MeViewController.m */,
-			);
-			name = Business;
-			sourceTree = "<group>";
-		};
 		D112D7A7187861470023D0FC /* Menu Slider Holder */ = {
 			isa = PBXGroup;
 			children = (
@@ -546,6 +528,7 @@
 		D112D7A8187861D40023D0FC /* Data  */ = {
 			isa = PBXGroup;
 			children = (
+				D1BA31E619B3BEFF004B8B36 /* Business */,
 				D1D9539318805867006F15FA /* Clubs */,
 				D112D7AD187862690023D0FC /* Parties */,
 				D112D7AA1878620D0023D0FC /* Annoucnements */,
@@ -677,6 +660,19 @@
 			name = GoogleAbmobSDK;
 			sourceTree = "<group>";
 		};
+		D1BA31E619B3BEFF004B8B36 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA31E719B3BF40004B8B36 /* Business.h */,
+				D1BA31E819B3BF40004B8B36 /* Business.m */,
+				D1BA31EA19B3C010004B8B36 /* BusinessCustomCell.h */,
+				D1BA31EB19B3C010004B8B36 /* BusinessCustomCell.m */,
+				D1BA31F319B3DE60004B8B36 /* BusinessDetailViewController.h */,
+				D1BA31F419B3DE60004B8B36 /* BusinessDetailViewController.m */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
 		D1BD177D17DCB493000A174A = {
 			isa = PBXGroup;
 			children = (
@@ -735,7 +731,6 @@
 				D112D7AE187862920023D0FC /* Settings */,
 				D112D7A8187861D40023D0FC /* Data  */,
 				D112D7A7187861470023D0FC /* Menu Slider Holder */,
-				D112D7A6187861290023D0FC /* Business */,
 				D112D7A5187861030023D0FC /* MapKit Framework */,
 				D112D7A4187860C80023D0FC /* Framework & API Use */,
 				D112D7A31878607E0023D0FC /* Athletics */,
@@ -1050,25 +1045,24 @@
 				D12D96D217EAADCB00E94429 /* WomenBBViewController.m in Sources */,
 				D131EAB61813C47800012682 /* CampusDetailsViewController.m in Sources */,
 				D131EAAD1813BC5600012682 /* PartyDetailViewController.m in Sources */,
-				D19A15E517DD4A4100C9EBB2 /* FresherViewController.m in Sources */,
 				D1BA208D196CC23F00A8A0CD /* SidebarViewController.m in Sources */,
 				D131EAB31813C3D300012682 /* CampusEvents.m in Sources */,
-				D19A15E817DD4C1500C9EBB2 /* GeniusViewController.m in Sources */,
 				D12D96C317EAA1D200E94429 /* CrossCountryViewController.m in Sources */,
 				D1FE715818CE8D82005F3D01 /* AMSrcollingCollectionViewController.m in Sources */,
 				D19C391317F7FE4E0023A79B /* CampusEventsViewController.m in Sources */,
 				D112D191181F70BC009E8839 /* AGLoginViewController.m in Sources */,
-				D19A15EB17DD4CDF00C9EBB2 /* SawViewController.m in Sources */,
+				D1BA31E919B3BF40004B8B36 /* Business.m in Sources */,
 				D1FE715718CE8D82005F3D01 /* AMScrollingNavbarViewController.m in Sources */,
-				D19A15EE17DD4EBA00C9EBB2 /* MeViewController.m in Sources */,
 				D19A15F117DD51B400C9EBB2 /* MapsViewController.m in Sources */,
 				D19A15F617DD579F00C9EBB2 /* FacebookViewController.m in Sources */,
 				D1D953921880583A006F15FA /* ClubsViewController.m in Sources */,
 				D1FE715618CE8D82005F3D01 /* AMScrollingNavbarTableViewController.m in Sources */,
 				D12D96C617EAA2F800E94429 /* TrackViewController.m in Sources */,
+				D1BA31EC19B3C010004B8B36 /* BusinessCustomCell.m in Sources */,
 				D131EAB01813BCC000012682 /* Party.m in Sources */,
 				D19A15F917DD58CB00C9EBB2 /* InstagramViewController.m in Sources */,
 				D19A15FC17DD596700C9EBB2 /* YouTubeViewController.m in Sources */,
+				D1BA31F519B3DE60004B8B36 /* BusinessDetailViewController.m in Sources */,
 				D10F245317F8D2D100097250 /* Comms.m in Sources */,
 				D1A7982B18359E7C00EF880A /* SocialViewController.m in Sources */,
 				D12D96CF17EAAB3300E94429 /* FootballViewController.m in Sources */,
