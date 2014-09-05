@@ -148,6 +148,7 @@
 		D1DFBE75185774E0002BC585 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D1DFBE73185774E0002BC585 /* menu.png */; };
 		D1DFBE76185774E0002BC585 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1DFBE74185774E0002BC585 /* menu@2x.png */; };
 		D1DFBE78185784EB002BC585 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DFBE77185784EB002BC585 /* Parse.framework */; };
+		D1E47C1619B9366B00BC22DD /* BusinessListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E47C1519B9366B00BC22DD /* BusinessListViewController.m */; };
 		D1ED30AD18ADFD5900DD66B8 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D1ED30AC18ADFD5900DD66B8 /* placeholder.png */; };
 		D1F0AB3B19A9A107003DCFAB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F0AB3A19A9A107003DCFAB /* CoreText.framework */; };
 		D1F0AB3F19A9A11F003DCFAB /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0AB3E19A9A11F003DCFAB /* TTTAttributedLabel.m */; };
@@ -372,6 +373,8 @@
 		D1DFBE73185774E0002BC585 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = "../../../AggieLandResources/Menu Bar/menu.png"; sourceTree = "<group>"; };
 		D1DFBE74185774E0002BC585 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "../../../AggieLandResources/Menu Bar/menu@2x.png"; sourceTree = "<group>"; };
 		D1DFBE77185784EB002BC585 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../../Desktop/Parse.framework; sourceTree = "<group>"; };
+		D1E47C1419B9366B00BC22DD /* BusinessListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessListViewController.h; sourceTree = "<group>"; };
+		D1E47C1519B9366B00BC22DD /* BusinessListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessListViewController.m; sourceTree = "<group>"; };
 		D1ED30AC18ADFD5900DD66B8 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../AggieLandResources/placeholder.png; sourceTree = "<group>"; };
 		D1F0AB3A19A9A107003DCFAB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		D1F0AB3D19A9A11F003DCFAB /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
@@ -669,6 +672,8 @@
 				D1BA31EB19B3C010004B8B36 /* BusinessCustomCell.m */,
 				D1BA31F319B3DE60004B8B36 /* BusinessDetailViewController.h */,
 				D1BA31F419B3DE60004B8B36 /* BusinessDetailViewController.m */,
+				D1E47C1419B9366B00BC22DD /* BusinessListViewController.h */,
+				D1E47C1519B9366B00BC22DD /* BusinessListViewController.m */,
 			);
 			name = Business;
 			sourceTree = "<group>";
@@ -1050,6 +1055,7 @@
 				D12D96C317EAA1D200E94429 /* CrossCountryViewController.m in Sources */,
 				D1FE715818CE8D82005F3D01 /* AMSrcollingCollectionViewController.m in Sources */,
 				D19C391317F7FE4E0023A79B /* CampusEventsViewController.m in Sources */,
+				D1E47C1619B9366B00BC22DD /* BusinessListViewController.m in Sources */,
 				D112D191181F70BC009E8839 /* AGLoginViewController.m in Sources */,
 				D1BA31E919B3BF40004B8B36 /* Business.m in Sources */,
 				D1FE715718CE8D82005F3D01 /* AMScrollingNavbarViewController.m in Sources */,

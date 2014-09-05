@@ -20,8 +20,7 @@
     // Do any additional setup after loading the view.
     
     //self.urlLabel.text = bus.site;
-    PFObject *object = [[PFObject alloc]init];
-    [urlLabel loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[object objectForKey:@"URL"]]]];
+    [urlLabel loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"%@"]]];
 }
 
 - (void)didReceiveMemoryWarning {

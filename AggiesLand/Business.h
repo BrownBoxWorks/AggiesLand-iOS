@@ -11,8 +11,9 @@
 
 @interface Business : NSObject
 
-@property (weak,nonatomic) NSString *name;
-@property (weak,nonatomic) NSString *bio;
-@property (weak,nonatomic) NSString *site;
+@property (strong,nonatomic) NSString *name;
+@property (strong,nonatomic) NSString *bio;
+@property (strong,nonatomic) NSString *site;
+@property (strong,nonatomic) PFFile *file;
 
 @end

@@ -10,6 +10,9 @@
 
 @implementation Business
 
-@synthesize name,bio,site;
+@synthesize name;
+@synthesize bio;
+@synthesize site;
+@synthesize file;
 
 @end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="G3V-ft-cq8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="1kU-fL-bVh">
     <dependencies>
         <deployment version="1536" defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
@@ -26,7 +26,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regular campus events image.png" id="S6D-bl-dhb">
-                                                    <rect key="frame" x="-1" y="-3" width="318" height="168"/>
+                                                    <rect key="frame" x="-4" y="-7" width="320" height="172"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular Campus Events" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tPC-F1-aKQ">
@@ -55,7 +55,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aggie athletics page.png" id="l2m-Qd-3we">
-                                                    <rect key="frame" x="-3" y="-2" width="318" height="158"/>
+                                                    <rect key="frame" x="-8" y="-4" width="320" height="156"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All teams and players who represent NC A&amp;T " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qZW-81-ctR">
@@ -441,6 +441,31 @@
             </objects>
             <point key="canvasLocation" x="1094" y="-435"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="7Un-TH-2ZU">
+            <objects>
+                <viewController id="UwL-fl-FlA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YcQ-do-r3d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xB3-v6-ZhO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RQq-D9-not" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1849" y="-3658"/>
+        </scene>
         <!--Event Details-->
         <scene sceneID="ZaN-ck-Y5u">
             <objects>
@@ -600,7 +625,7 @@
         <!--Parties-->
         <scene sceneID="yqY-x5-Mv7">
             <objects>
-                <tableViewController id="1kU-fL-bVh" sceneMemberID="viewController">
+                <tableViewController id="1kU-fL-bVh" customClass="BusinessListViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="353" sectionHeaderHeight="22" sectionFooterHeight="22" id="ke5-HG-gBr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -608,7 +633,7 @@
                         <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="Cell" rowHeight="353" id="TZr-1V-DvY">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="Cell" rowHeight="353" id="TZr-1V-DvY" customClass="BusinessCustomCell">
                                 <rect key="frame" x="0.0" y="22" width="320" height="234"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TZr-1V-DvY" id="p4k-VG-98Y">
@@ -633,7 +658,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AeD-5c-YlM">
-                                            <rect key="frame" x="8" y="203" width="304" height="141.5"/>
+                                            <rect key="frame" x="8" y="203" width="304" height="114.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -642,7 +667,10 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BH3-U9-seJ" kind="push" identifier="showPartyDetail" id="axE-VR-WID"/>
+                                    <outlet property="bioLabel" destination="AeD-5c-YlM" id="qzb-57-ahl"/>
+                                    <outlet property="imageView" destination="KhW-8j-hYT" id="M6u-Wu-h1R"/>
+                                    <outlet property="nameLabel" destination="To9-Kd-4cQ" id="P8d-rl-hFg"/>
+                                    <segue destination="BH3-U9-seJ" kind="push" identifier="showBusinessDetail" id="axE-VR-WID"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -1188,7 +1216,7 @@
         <!--Party Details-->
         <scene sceneID="g2A-f4-6LE">
             <objects>
-                <viewController id="BH3-U9-seJ" sceneMemberID="viewController">
+                <viewController id="BH3-U9-seJ" customClass="BusinessDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T0Q-7e-xFl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1202,6 +1230,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Party Details" id="hde-MT-UHj"/>
+                    <connections>
+                        <outlet property="urlLabel" destination="HAo-7R-kON" id="rLU-v6-bz1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEl-9j-hwu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

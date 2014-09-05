@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Business.h"
+#import <Parse/Parse.h>
 
 @interface BusinessDetailViewController : UIViewController
 
