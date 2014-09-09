@@ -81,7 +81,6 @@
 		D1A3E4F217DD0F59005E4911 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A3E4F117DD0F59005E4911 /* MessageUI.framework */; };
 		D1A3E50417DD23C1005E4911 /* TwitterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A3E4FB17DD23C1005E4911 /* TwitterIcon.png */; };
 		D1A7982518359D4100EF880A /* BusRoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7982418359D4100EF880A /* BusRoutesViewController.m */; };
-		D1A7982818359E0900EF880A /* BusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7982718359E0900EF880A /* BusinessViewController.m */; };
 		D1A7982B18359E7C00EF880A /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7982A18359E7C00EF880A /* SocialViewController.m */; };
 		D1A83BCE1835A9CE00F9B5FC /* CampusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A83BCD1835A9CE00F9B5FC /* CampusViewController.m */; };
 		D1A9665A183065C800118D55 /* Title Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A96658183065C800118D55 /* Title Bar.png */; };
@@ -145,6 +144,7 @@
 		D1D953921880583A006F15FA /* ClubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D953911880583A006F15FA /* ClubsViewController.m */; };
 		D1D953961880588F006F15FA /* Clubs.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D953951880588F006F15FA /* Clubs.m */; };
 		D1D9539C188059CB006F15FA /* ClubCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D9539B188059CB006F15FA /* ClubCustomCell.m */; };
+		D1DC6FB219BE62B800A3123B /* AthleticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DC6FB119BE62B800A3123B /* AthleticsViewController.m */; };
 		D1DFBE75185774E0002BC585 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D1DFBE73185774E0002BC585 /* menu.png */; };
 		D1DFBE76185774E0002BC585 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1DFBE74185774E0002BC585 /* menu@2x.png */; };
 		D1DFBE78185784EB002BC585 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DFBE77185784EB002BC585 /* Parse.framework */; };
@@ -274,8 +274,6 @@
 		D1A3E4FB17DD23C1005E4911 /* TwitterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TwitterIcon.png; path = ../../../AggieLandResources/IconMenu/TwitterIcon.png; sourceTree = "<group>"; };
 		D1A7982318359D4100EF880A /* BusRoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusRoutesViewController.h; sourceTree = "<group>"; };
 		D1A7982418359D4100EF880A /* BusRoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusRoutesViewController.m; sourceTree = "<group>"; };
-		D1A7982618359E0900EF880A /* BusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessViewController.h; sourceTree = "<group>"; };
-		D1A7982718359E0900EF880A /* BusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessViewController.m; sourceTree = "<group>"; };
 		D1A7982918359E7C00EF880A /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
 		D1A7982A18359E7C00EF880A /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
 		D1A83BCC1835A9CE00F9B5FC /* CampusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusViewController.h; sourceTree = "<group>"; };
@@ -370,6 +368,8 @@
 		D1D953951880588F006F15FA /* Clubs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clubs.m; sourceTree = "<group>"; };
 		D1D9539A188059CB006F15FA /* ClubCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubCustomCell.h; sourceTree = "<group>"; };
 		D1D9539B188059CB006F15FA /* ClubCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubCustomCell.m; sourceTree = "<group>"; };
+		D1DC6FB019BE62B800A3123B /* AthleticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthleticsViewController.h; sourceTree = "<group>"; };
+		D1DC6FB119BE62B800A3123B /* AthleticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthleticsViewController.m; sourceTree = "<group>"; };
 		D1DFBE73185774E0002BC585 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = "../../../AggieLandResources/Menu Bar/menu.png"; sourceTree = "<group>"; };
 		D1DFBE74185774E0002BC585 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "../../../AggieLandResources/Menu Bar/menu@2x.png"; sourceTree = "<group>"; };
 		D1DFBE77185784EB002BC585 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../../Desktop/Parse.framework; sourceTree = "<group>"; };
@@ -518,12 +518,12 @@
 			children = (
 				D1A7982918359E7C00EF880A /* SocialViewController.h */,
 				D1A7982A18359E7C00EF880A /* SocialViewController.m */,
-				D1A7982618359E0900EF880A /* BusinessViewController.h */,
-				D1A7982718359E0900EF880A /* BusinessViewController.m */,
 				D1A7982318359D4100EF880A /* BusRoutesViewController.h */,
 				D1A7982418359D4100EF880A /* BusRoutesViewController.m */,
 				D1A83BCC1835A9CE00F9B5FC /* CampusViewController.h */,
 				D1A83BCD1835A9CE00F9B5FC /* CampusViewController.m */,
+				D1DC6FB019BE62B800A3123B /* AthleticsViewController.h */,
+				D1DC6FB119BE62B800A3123B /* AthleticsViewController.m */,
 			);
 			name = "Menu Slider Holder";
 			sourceTree = "<group>";
@@ -1017,6 +1017,7 @@
 				D1A83BCE1835A9CE00F9B5FC /* CampusViewController.m in Sources */,
 				D1A201DC17F20E1F00CB8CC3 /* PartyViewController.m in Sources */,
 				D19C39D018141EEE00E74FD4 /* AnnonDetailViewController.m in Sources */,
+				D1DC6FB219BE62B800A3123B /* AthleticsViewController.m in Sources */,
 				D1BD179A17DCB493000A174A /* AppDelegate.m in Sources */,
 				D19C39D318141F2600E74FD4 /* Annon.m in Sources */,
 				D1CDBA451880FC16001CDE00 /* iRate.m in Sources */,
@@ -1026,7 +1027,6 @@
 				D1AFF4431989C42800760AED /* UIScrollView+EmptyDataSet.m in Sources */,
 				D1ABF9B218D0B59600DFABDA /* SettingsViewController.m in Sources */,
 				D1ABE4C419666EEE002A212C /* SWRevealViewController.m in Sources */,
-				D1A7982818359E0900EF880A /* BusinessViewController.m in Sources */,
 				D12D96D517EAAE2C00E94429 /* BowlingViewController.m in Sources */,
 				D19A15C017DD384B00C9EBB2 /* TwitterViewController.m in Sources */,
 				D12D96DB17EAAF0300E94429 /* SoftballViewController.m in Sources */,
