@@ -18,7 +18,7 @@
 
 @implementation BusinessListViewController
 
-
+/*
 -(PFQuery *)queryForTable{
     PFQuery*query =[PFQuery queryWithClassName:@"Business"];
     query.cachePolicy = kPFCachePolicyCacheThenNetwork; // Save Data from Parse Cloud to Device to avoid reconnection from the internet to retrieve data again
@@ -27,6 +27,8 @@
     
     return query;
 }
+ 
+ */
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -46,7 +48,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+/*
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath object:(PFObject *)object
 {
     static NSString *CellIdentifier = @"Cell";
@@ -56,13 +58,13 @@
         cell = [[BusinessCustomCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    /*
+ 
     PFFile *file = [object objectForKey:@"Image"];
     PFImageView *imageView = (PFImageView *)[cell viewWithTag:100];
     imageView.image = [UIImage imageNamed:@"Icons_AL.png"];
     imageView.file =file;
     [imageView loadInBackground];
-    */
+ 
     NSString *businessNameLabel =[object objectForKey:@"BusinessName"];
     NSString *businessBioLabel =[object objectForKey:@"Bio"];
 
@@ -76,8 +78,8 @@
     [cell.nameLabel setText:[NSString stringWithFormat:@"%@",businessNameLabel]];
     [cell.bioLabel setText:[NSString stringWithFormat:@"%@", businessBioLabel]];
 
-    
-    
+
+ 
     // UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     

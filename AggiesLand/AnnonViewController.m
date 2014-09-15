@@ -13,12 +13,15 @@
 #import "SWRevealViewController.h"
 #import "AGLoginViewController.h"
 #import "AGSignupViewController.h"
+#import "STTwitter.h"
 
 @interface AnnonViewController ()
 
 @end
 
 @implementation AnnonViewController
+
+@synthesize tableTimer,twitterTableView;
 
 
 
@@ -199,6 +202,35 @@
     self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"TitleLogo.png"]];
     
     
+    // STTwitter API
+    STTwitterAPI *twitter = [STTwitterAPI twitterAPIAppOnlyWithConsumerKey:@"xz9ew8UZ6rz8TW3QBSDYg"
+                                                            consumerSecret:@"rm8grg0aIPCUnTpgC5H1NMt4uWYUVXKPqH8brIqD4o"];
+    
+    [twitter verifyCredentialsWithSuccessBlock:^(NSString *bearerToken) {
+        
+        [twitter getUserTimelineWithScreenName:@"aggielandz"
+                                  successBlock:^(NSArray *statuses) {
+                                      
+                                      self.twitterFeed = [NSMutableArray arrayWithArray:statuses];
+                                      
+                                      [self.tableView reloadData];
+                                      
+                                  } errorBlock:^(NSError *error) {
+                                      
+                                      NSLog(@"%@", error.debugDescription);
+                                      
+                                  }];
+        
+    } errorBlock:^(NSError *error) {
+        
+        NSLog(@"%@", error.debugDescription);
+        
+    }];
+    
+
+
+    
+    
     
     [super viewDidLoad];
 
@@ -301,7 +333,59 @@
         
     }
 }
+/*
 
+#pragma mark UITableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)twitterTableView numberOfRowsInSection:(NSInteger)section {
+    return self.twitterFeed.count;
+}
+
+// Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
+// Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
+
+- (UITableViewCell *)tableView:(UITableView *)twitterTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *cellID = @"CellID";
+    
+    UITableViewCell *cell = [twitterTableView dequeueReusableCellWithIdentifier:cellID];
+    
+    if(cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+    }
+    
+    
+    NSInteger idx = indexPath.row;
+    NSDictionary *t = self.twitterFeed[idx];
+    
+    cell.textLabel.text = t[@"text"];
+    
+    tableTimer = [NSTimer scheduledTimerWithTimeInterval:10 // Integer arranges the speed of the auto-scrolling
+                                                  target:self
+                                                selector:@selector(autoScroll)
+                                                userInfo:nil
+                                                 repeats:NO];
+    
+    
+    [NSTimer scheduledTimerWithTimeInterval:10 // Integer arranges the duration of the scroll
+                                     target:self
+                                   selector:@selector(stopScroll)
+                                   userInfo:nil
+                                    repeats:NO];
+    
+    return cell;
+}
+
+#pragma mark - Auto Scrolling UITableView Delegate
+-(void)autoScroll{
+    [_twitterTableView setContentOffset:CGPointMake(twitterTableView.contentOffset.x, tableView.contentOffset.y + 44) animated:YES];
+    
+}
+
+-(void)stopScroll{
+    [tableTimer invalidate];
+}
+
+*/
 
 #pragma mark - DZEmptyView
 

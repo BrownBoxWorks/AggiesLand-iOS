@@ -27,6 +27,12 @@ DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,MBProgressHUDDelegate>{
 
 @property (weak,nonatomic)IBOutlet UIBarButtonItem *sidebarButton;
 
+
+@property (nonatomic,retain) NSTimer *tableTimer;
+@property (strong,nonatomic) IBOutlet NSMutableArray *twitterFeed;
+
+@property (weak, nonatomic) IBOutlet UITableView *twitterTableView;
+
 -(IBAction)goToSettings;
 
 
