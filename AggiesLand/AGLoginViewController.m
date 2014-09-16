@@ -47,11 +47,11 @@
   [self.logInView.signUpButton setTitle:@"" forState:UIControlStateNormal];
   [self.logInView.signUpButton setTitle:@"" forState:UIControlStateHighlighted];
  
-    [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login.png"] forState:UIControlStateNormal];
-    [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login.png"] forState:UIControlStateHighlighted];
+  //  [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login.png"] forState:UIControlStateNormal];
+   // [self.logInView.logInButton setBackgroundImage:[UIImage imageNamed:@"login.png"] forState:UIControlStateHighlighted];
     
-    [self.logInView.logInButton setTitle:@" " forState:UIControlStateNormal];
-    [self.logInView.logInButton setTitle:@" " forState:UIControlStateHighlighted];
+   // [self.logInView.logInButton setTitle:@" " forState:UIControlStateNormal];
+   // [self.logInView.logInButton setTitle:@" " forState:UIControlStateHighlighted];
 
     
   
