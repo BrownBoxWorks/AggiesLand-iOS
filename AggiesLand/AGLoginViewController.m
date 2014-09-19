@@ -79,7 +79,7 @@
     [self.logInView.passwordField setFrame:CGRectMake(35.0f, 195.0f, 250.0f, 50.0f)];
     [self.fieldsBackground setFrame:CGRectMake(35.0f, 145.0f, 250.0f, 100.0f)];
     [self.logInView.logInButton setFrame:CGRectMake(35.0f, 375.0f, 246.0f, 45.0f)];
-    [self.logInView.passwordForgottenButton setFrame:CGRectMake(35.0f, 420.0f, 246.0f,45.0f)];
+    [self.logInView.passwordForgottenButton setFrame:CGRectMake(35.0f, 250.0f, 246.0f,45.0f)];
     
     
 
