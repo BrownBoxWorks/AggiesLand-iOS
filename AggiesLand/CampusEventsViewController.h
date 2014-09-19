@@ -8,13 +8,11 @@
 
 #import <Parse/Parse.h>
 #import "UIScrollView+EmptyDataSet.h"
-#import "GADBannerView.h"
 #import "MBProgressHUD.h"
 
 @interface CampusEventsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate, DZNEmptyDataSetSource, MBProgressHUDDelegate>{
     MBProgressHUD *HUD;
     
-    GADBannerView *bannerView_;
 }
 
 

@@ -8,12 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "CampusEvents.h"
-#import "GADBannerView.h"
 
-@interface CampusDetailsViewController : UIViewController{
-    GADBannerView *bannerView_;
-    
-}
+
+@interface CampusDetailsViewController : UIViewController
 
 @property(weak,nonatomic)IBOutlet UILabel *nameLabel;
 @property(weak,nonatomic)IBOutlet UILabel *dateLabel;

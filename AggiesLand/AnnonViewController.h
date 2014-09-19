@@ -12,15 +12,15 @@
 #import <Twitter/Twitter.h>
 #import "UIScrollView+EmptyDataSet.h"
 #import "MBProgressHUD.h"
-#import "GADBannerView.h"
+#import "TTTAttributedLabel.h"
 
 
 
 @interface AnnonViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UIActionSheetDelegate,
-DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,MBProgressHUDDelegate>{
+DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,MBProgressHUDDelegate,TTTAttributedLabelDelegate>{
     MBProgressHUD *HUD;
     
-    GADBannerView *bannerView_; // Google Admob Banner View
+
 }
 
 
@@ -28,8 +28,6 @@ DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,MBProgressHUDDelegate>{
 @property (weak,nonatomic)IBOutlet UIBarButtonItem *sidebarButton;
 
 
-@property (nonatomic,retain) NSTimer *tableTimer;
-@property (strong,nonatomic) IBOutlet NSMutableArray *twitterFeed;
 
 @property (weak, nonatomic) IBOutlet UITableView *twitterTableView;
 

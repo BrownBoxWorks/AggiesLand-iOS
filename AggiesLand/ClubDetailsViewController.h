@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "Clubs.h"
-#import "GADBannerView.h"
 
-@interface ClubDetailsViewController : UIViewController{
-    GADBannerView *bannerView_;
-}
+@interface ClubDetailsViewController : UIViewController
 
 
 

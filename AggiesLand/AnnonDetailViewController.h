@@ -9,19 +9,16 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import "Annon.h"
-#import "GADBannerView.h"
 #import "TTTAttributedLabel.h"
 
 
-@interface AnnonDetailViewController : UIViewController<TTTAttributedLabelDelegate>{
-    GADBannerView *bannerView_;
-}
+@interface AnnonDetailViewController : UIViewController<TTTAttributedLabelDelegate>
 
 @property(strong,nonatomic)IBOutlet UIScrollView *scroller;
 
 @property(weak,nonatomic)IBOutlet PFImageView *imageFileLabel;
 
-@property(weak,nonatomic)IBOutlet TTTAttributedLabel *titleLabel;
+@property(nonatomic) TTTAttributedLabel *titleLabel;
 @property(weak,nonatomic)IBOutlet UILabel *bodyLabel;
 @property(weak,nonatomic)IBOutlet UILabel *postedByLabel;
 @property(weak,nonatomic)IBOutlet UILabel *dateLabel;

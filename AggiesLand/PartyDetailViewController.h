@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "Party.h"
-#import "GADBannerView.h"
 
-@interface PartyDetailViewController : UIViewController{
-    GADBannerView *bannerView_;
-}
+@interface PartyDetailViewController : UIViewController
 
 @property(weak,nonatomic)IBOutlet UILabel *nameLabel;
 @property(weak,nonatomic)IBOutlet UILabel *dateLabel;

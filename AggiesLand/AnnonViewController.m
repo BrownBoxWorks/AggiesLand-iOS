@@ -13,7 +13,7 @@
 #import "SWRevealViewController.h"
 #import "AGLoginViewController.h"
 #import "AGSignupViewController.h"
-#import "STTwitter.h"
+//#import "TTTAttributedLabel.h"
 
 @interface AnnonViewController ()
 
@@ -21,7 +21,6 @@
 
 @implementation AnnonViewController
 
-@synthesize tableTimer,twitterTableView;
 
 
 
@@ -154,8 +153,8 @@
 }
 - (void)viewDidLoad
 {
-    //TTTArtibutedLabel
     
+
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.mode = MBProgressHUDModeIndeterminate;
@@ -164,22 +163,7 @@
     hud.labelText = @"Loading";
     [hud hide:YES afterDelay:3.0];
  
-    
-    // Create a view of the standard size at the top of the screen.
-    // Available AdSize constants are explained in GADAdSize.h.
-    bannerView_ = [[GADBannerView alloc] initWithAdSize:kGADAdSizeBanner];
-    
-    // Specify the ad unit ID.
-    bannerView_.adUnitID = @"ca-app-pub-2971437863634496/3793350962";
-    
-    // Let the runtime know which UIViewController to restore after taking
-    // the user wherever the ad goes and add it to the view hierarchy.
-    bannerView_.rootViewController = self;
-    [self.view addSubview:bannerView_];
-    
-    // Initiate a generic request to load it with an ad.
-    [bannerView_ loadRequest:[GADRequest request]];
-    
+
     
     
     //DZEmpty Delegate Alloc
@@ -198,38 +182,13 @@
     _sidebarButton.action = @selector(revealToggle:);
     
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-   self.navigationItem.title = @"News Feed";
-    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"TitleLogo.png"]];
+     self.navigationItem.title = @"News Feed";
+     self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"TitleLogo.png"]];
     
     
-    // STTwitter API
-    STTwitterAPI *twitter = [STTwitterAPI twitterAPIAppOnlyWithConsumerKey:@"xz9ew8UZ6rz8TW3QBSDYg"
-                                                            consumerSecret:@"rm8grg0aIPCUnTpgC5H1NMt4uWYUVXKPqH8brIqD4o"];
-    
-    [twitter verifyCredentialsWithSuccessBlock:^(NSString *bearerToken) {
-        
-        [twitter getUserTimelineWithScreenName:@"aggielandz"
-                                  successBlock:^(NSArray *statuses) {
-                                      
-                                      self.twitterFeed = [NSMutableArray arrayWithArray:statuses];
-                                      
-                                      [self.tableView reloadData];
-                                      
-                                  } errorBlock:^(NSError *error) {
-                                      
-                                      NSLog(@"%@", error.debugDescription);
-                                      
-                                  }];
-        
-    } errorBlock:^(NSError *error) {
-        
-        NSLog(@"%@", error.debugDescription);
-        
-    }];
     
 
 
-    
     
     
     [super viewDidLoad];
@@ -333,6 +292,9 @@
         
     }
 }
+
+
+
 /*
 
 #pragma mark UITableViewDataSource
@@ -510,6 +472,8 @@
     
     return informationComplete;
 }
+
+
 
 
 #pragma mark - PFSignUpView Delegate
