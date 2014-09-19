@@ -122,6 +122,15 @@
 		D1BD17A317DCB493000A174A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BD17A117DCB493000A174A /* MainStoryboard.storyboard */; };
 		D1C4B6C719CBCE50001913A8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C4B6C519CBCE50001913A8 /* Bolts.framework */; };
 		D1C4B6C819CBCE50001913A8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C4B6C619CBCE50001913A8 /* Parse.framework */; };
+		D1C4B6CE19CBD28A001913A8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F7B56319C1F863003C5A9B /* NotificationCenter.framework */; };
+		D1C4B6D419CBD28A001913A8 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C4B6D319CBD28A001913A8 /* TodayViewController.m */; };
+		D1C4B6D619CBD28A001913A8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C4B6D519CBD28A001913A8 /* MainInterface.storyboard */; };
+		D1C4B6D919CBD28A001913A8 /* AggiesLand Event Request.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D1C4B6CD19CBD28A001913A8 /* AggiesLand Event Request.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D1C4B6E019CBD968001913A8 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D12D96EF17EAC93500E94429 /* Twitter.framework */; };
+		D1C4B6E119CBD971001913A8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A3E4F117DD0F59005E4911 /* MessageUI.framework */; };
+		D1C4B6E319CBD97C001913A8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C4B6E219CBD97C001913A8 /* CoreData.framework */; };
+		D1C4B6E419CBD998001913A8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11BD0B918CFE7C400C827B1 /* Accounts.framework */; };
+		D1C4B6E619CBD9E1001913A8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C4B6E519CBD9E1001913A8 /* CoreMedia.framework */; };
 		D1C81BF318981D8A0087DDC9 /* CampusEvents_Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1C81BF218981D8A0087DDC9 /* CampusEvents_Image.jpg */; };
 		D1C81BF518981F7E0087DDC9 /* Athletics_Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1C81BF418981F7E0087DDC9 /* Athletics_Image.jpg */; };
 		D1C81BF7189820620087DDC9 /* GameTouranment_Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1C81BF6189820620087DDC9 /* GameTouranment_Image.jpg */; };
@@ -173,6 +182,23 @@
 		D1FE715818CE8D82005F3D01 /* AMSrcollingCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FE715518CE8D82005F3D01 /* AMSrcollingCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D1C4B6D719CBD28A001913A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1BD177E17DCB493000A174A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C4B6CC19CBD28A001913A8;
+			remoteInfo = "AggiesLand Event Request";
+		};
+		D1C4B6DA19CBD28A001913A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1BD177E17DCB493000A174A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C4B6CC19CBD28A001913A8;
+			remoteInfo = "AggiesLand Event Request";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D1F7B57519C1F864003C5A9B /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -180,6 +206,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				D1C4B6D919CBD28A001913A8 /* AggiesLand Event Request.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +383,15 @@
 		D1BD17A217DCB493000A174A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D1C4B6C519CBCE50001913A8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1.4.0/Bolts.framework"; sourceTree = "<group>"; };
 		D1C4B6C619CBCE50001913A8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1.4.0/Parse.framework"; sourceTree = "<group>"; };
+		D1C4B6CD19CBD28A001913A8 /* AggiesLand Event Request.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AggiesLand Event Request.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C4B6D119CBD28A001913A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C4B6D219CBD28A001913A8 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		D1C4B6D319CBD28A001913A8 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		D1C4B6D519CBD28A001913A8 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		D1C4B6E219CBD97C001913A8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D1C4B6E519CBD9E1001913A8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D1C4B6E919CBDF5B001913A8 /* AggiesLand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AggiesLand.entitlements; sourceTree = "<group>"; };
+		D1C4B6EA19CBDF64001913A8 /* AggiesLand Event Request.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AggiesLand Event Request.entitlements"; sourceTree = "<group>"; };
 		D1C81BF218981D8A0087DDC9 /* CampusEvents_Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CampusEvents_Image.jpg; path = ../../../../../Downloads/CampusEvents_Image.jpg; sourceTree = "<group>"; };
 		D1C81BF418981F7E0087DDC9 /* Athletics_Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Athletics_Image.jpg; path = ../../../../../Downloads/Athletics_Image.jpg; sourceTree = "<group>"; };
 		D1C81BF6189820620087DDC9 /* GameTouranment_Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GameTouranment_Image.jpg; path = ../../../../../Downloads/GameTouranment_Image.jpg; sourceTree = "<group>"; };
@@ -384,8 +420,6 @@
 		D1D9539B188059CB006F15FA /* ClubCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubCustomCell.m; sourceTree = "<group>"; };
 		D1DC6FB019BE62B800A3123B /* AthleticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthleticsViewController.h; sourceTree = "<group>"; };
 		D1DC6FB119BE62B800A3123B /* AthleticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthleticsViewController.m; sourceTree = "<group>"; };
-		D1DDAEE619C90EF70068AC0F /* AggiesLand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AggiesLand.entitlements; sourceTree = "<group>"; };
-		D1DDAEE719C90F020068AC0F /* Aggiesland.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Aggiesland.entitlements; path = Aggiesland/Aggiesland.entitlements; sourceTree = "<group>"; };
 		D1DFBE73185774E0002BC585 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = "../../../AggieLandResources/Menu Bar/menu.png"; sourceTree = "<group>"; };
 		D1DFBE74185774E0002BC585 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "../../../AggieLandResources/Menu Bar/menu@2x.png"; sourceTree = "<group>"; };
 		D1E47C1419B9366B00BC22DD /* BusinessListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessListViewController.h; sourceTree = "<group>"; };
@@ -465,6 +499,19 @@
 				D12D96E317EAB4B100E94429 /* MapKit.framework in Frameworks */,
 				D1BD178C17DCB493000A174A /* Foundation.framework in Frameworks */,
 				D1BD178E17DCB493000A174A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C4B6CA19CBD28A001913A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C4B6E619CBD9E1001913A8 /* CoreMedia.framework in Frameworks */,
+				D1C4B6E419CBD998001913A8 /* Accounts.framework in Frameworks */,
+				D1C4B6E319CBD97C001913A8 /* CoreData.framework in Frameworks */,
+				D1C4B6E119CBD971001913A8 /* MessageUI.framework in Frameworks */,
+				D1C4B6E019CBD968001913A8 /* Twitter.framework in Frameworks */,
+				D1C4B6CE19CBD28A001913A8 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,11 +755,11 @@
 		D1BD177D17DCB493000A174A = {
 			isa = PBXGroup;
 			children = (
-				D1DDAEE719C90F020068AC0F /* Aggiesland.entitlements */,
 				D1D9538C188051E6006F15FA /* Default-568h@2x.png */,
 				D1D9538D188051E6006F15FA /* Default@2x.png */,
 				D1BD178F17DCB493000A174A /* AggiesLand */,
 				D1BD179717DCB493000A174A /* AggiesLand-Prefix.pch */,
+				D1C4B6CF19CBD28A001913A8 /* AggiesLand Event Request */,
 				D1BD178817DCB493000A174A /* Frameworks */,
 				D1BD178717DCB493000A174A /* Products */,
 				D12692211801D14F008916D0 /* Images.xcassets */,
@@ -723,6 +770,7 @@
 			isa = PBXGroup;
 			children = (
 				D1BD178617DCB493000A174A /* AggiesLand.app */,
+				D1C4B6CD19CBD28A001913A8 /* AggiesLand Event Request.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -730,6 +778,8 @@
 		D1BD178817DCB493000A174A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1C4B6E519CBD9E1001913A8 /* CoreMedia.framework */,
+				D1C4B6E219CBD97C001913A8 /* CoreData.framework */,
 				D1C4B6C519CBCE50001913A8 /* Bolts.framework */,
 				D1C4B6C619CBCE50001913A8 /* Parse.framework */,
 				D1F0AB3A19A9A107003DCFAB /* CoreText.framework */,
@@ -762,7 +812,7 @@
 		D1BD178F17DCB493000A174A /* AggiesLand */ = {
 			isa = PBXGroup;
 			children = (
-				D1DDAEE619C90EF70068AC0F /* AggiesLand.entitlements */,
+				D1C4B6E919CBDF5B001913A8 /* AggiesLand.entitlements */,
 				D112D7B0187862CE0023D0FC /* Login  */,
 				D112D7AE187862920023D0FC /* Settings */,
 				D112D7A8187861D40023D0FC /* Data  */,
@@ -847,6 +897,26 @@
 				D1BD179117DCB493000A174A /* AggiesLand-Info.plist */,
 				D1BD179217DCB493000A174A /* InfoPlist.strings */,
 				D1BD179517DCB493000A174A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1C4B6CF19CBD28A001913A8 /* AggiesLand Event Request */ = {
+			isa = PBXGroup;
+			children = (
+				D1C4B6EA19CBDF64001913A8 /* AggiesLand Event Request.entitlements */,
+				D1C4B6D219CBD28A001913A8 /* TodayViewController.h */,
+				D1C4B6D319CBD28A001913A8 /* TodayViewController.m */,
+				D1C4B6D519CBD28A001913A8 /* MainInterface.storyboard */,
+				D1C4B6D019CBD28A001913A8 /* Supporting Files */,
+			);
+			path = "AggiesLand Event Request";
+			sourceTree = "<group>";
+		};
+		D1C4B6D019CBD28A001913A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C4B6D119CBD28A001913A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -957,11 +1027,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				D1C4B6D819CBD28A001913A8 /* PBXTargetDependency */,
+				D1C4B6DB19CBD28A001913A8 /* PBXTargetDependency */,
 			);
 			name = AggiesLand;
 			productName = AggiesLand;
 			productReference = D1BD178617DCB493000A174A /* AggiesLand.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D1C4B6CC19CBD28A001913A8 /* AggiesLand Event Request */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C4B6DC19CBD28A001913A8 /* Build configuration list for PBXNativeTarget "AggiesLand Event Request" */;
+			buildPhases = (
+				D1C4B6C919CBD28A001913A8 /* Sources */,
+				D1C4B6CA19CBD28A001913A8 /* Frameworks */,
+				D1C4B6CB19CBD28A001913A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AggiesLand Event Request";
+			productName = "AggiesLand Event Request";
+			productReference = D1C4B6CD19CBD28A001913A8 /* AggiesLand Event Request.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -989,6 +1078,15 @@
 							};
 						};
 					};
+					D1C4B6CC19CBD28A001913A8 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = L6WD86F9N5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = D1BD178117DCB493000A174A /* Build configuration list for PBXProject "AggiesLand" */;
@@ -1005,6 +1103,7 @@
 			projectRoot = "";
 			targets = (
 				D1BD178517DCB493000A174A /* AggiesLand */,
+				D1C4B6CC19CBD28A001913A8 /* AggiesLand Event Request */,
 			);
 		};
 /* End PBXProject section */
@@ -1080,6 +1179,14 @@
 				D1C8F5A91880964100F5C6A9 /* news.png in Resources */,
 				D1C8F5AC188097AC00F5C6A9 /* social networks.png in Resources */,
 				D1BB6FD918D63D6F0057E959 /* campus events_2-1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C4B6CB19CBD28A001913A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C4B6D619CBD28A001913A8 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1167,7 +1274,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1C4B6C919CBD28A001913A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C4B6D419CBD28A001913A8 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1C4B6D819CBD28A001913A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C4B6CC19CBD28A001913A8 /* AggiesLand Event Request */;
+			targetProxy = D1C4B6D719CBD28A001913A8 /* PBXContainerItemProxy */;
+		};
+		D1C4B6DB19CBD28A001913A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C4B6CC19CBD28A001913A8 /* AggiesLand Event Request */;
+			targetProxy = D1C4B6DA19CBD28A001913A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D1BD179217DCB493000A174A /* InfoPlist.strings */ = {
@@ -1317,6 +1445,65 @@
 			};
 			name = Release;
 		};
+		D1C4B6DD19CBD28A001913A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "AggiesLand Event Request/AggiesLand Event Request.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "AggiesLand Event Request/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1C4B6DE19CBD28A001913A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "AggiesLand Event Request/AggiesLand Event Request.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "AggiesLand Event Request/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1337,6 +1524,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D1C4B6DC19CBD28A001913A8 /* Build configuration list for PBXNativeTarget "AggiesLand Event Request" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C4B6DD19CBD28A001913A8 /* Debug */,
+				D1C4B6DE19CBD28A001913A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
