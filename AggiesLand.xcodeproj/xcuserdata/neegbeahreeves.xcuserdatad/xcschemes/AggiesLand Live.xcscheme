@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1C4B6CC19CBD28A001913A8"
-               BuildableName = "AggiesLand Event Request.appex"
-               BlueprintName = "AggiesLand Event Request"
+               BlueprintIdentifier = "D1192F2419CC6068009D5F2B"
+               BuildableName = "AggiesLand Live.appex"
+               BlueprintName = "AggiesLand Live"
                ReferencedContainer = "container:AggiesLand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D1C4B6CC19CBD28A001913A8"
-            BuildableName = "AggiesLand Event Request.appex"
-            BlueprintName = "AggiesLand Event Request"
+            BlueprintIdentifier = "D1192F2419CC6068009D5F2B"
+            BuildableName = "AggiesLand Live.appex"
+            BlueprintName = "AggiesLand Live"
             ReferencedContainer = "container:AggiesLand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

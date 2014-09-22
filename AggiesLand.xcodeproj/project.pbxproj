@@ -197,6 +197,7 @@
 		D1192EE418B17DAF00E7DEAC /* text field_sign up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text field_sign up.png"; path = "../../../AggieLandResources/text field_sign up.png"; sourceTree = "<group>"; };
 		D1192EE818B183B900E7DEAC /* sign up_no lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sign up_no lines.png"; path = "../../../AggieLandResources/sign up_no lines.png"; sourceTree = "<group>"; };
 		D1192EEC18B1865F00E7DEAC /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../AggieLandResources/placeholder.png; sourceTree = "<group>"; };
+		D1192F6619CCCD50009D5F2B /* AggiesLand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AggiesLand.entitlements; sourceTree = "<group>"; };
 		D11BCA4917F1326B00466CA5 /* AnnonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnonViewController.h; sourceTree = "<group>"; };
 		D11BCA4A17F1326B00466CA5 /* AnnonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnonViewController.m; sourceTree = "<group>"; };
 		D11BD0B918CFE7C400C827B1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -763,6 +764,7 @@
 		D1BD178F17DCB493000A174A /* AggiesLand */ = {
 			isa = PBXGroup;
 			children = (
+				D1192F6619CCCD50009D5F2B /* AggiesLand.entitlements */,
 				D112D7B0187862CE0023D0FC /* Login  */,
 				D112D7AE187862920023D0FC /* Settings */,
 				D112D7A8187861D40023D0FC /* Data  */,

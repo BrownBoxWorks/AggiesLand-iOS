@@ -17,7 +17,7 @@
 
 
 @interface AnnonViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UIActionSheetDelegate,
-DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,MBProgressHUDDelegate,TTTAttributedLabelDelegate>{
+DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,MBProgressHUDDelegate,TTTAttributedLabelDelegate,MFMailComposeViewControllerDelegate>{
     MBProgressHUD *HUD;
     
 

@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AggiesLand Event Request.xcscheme</key>
+		<key>AggiesLand Live.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>AggiesLand.xcscheme</key>
 		<dict>
@@ -17,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D1192ED819CBF5FE009D5F2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1192F2419CC6068009D5F2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D1BD178517DCB493000A174A</key>
 		<dict>
 			<key>primary</key>
