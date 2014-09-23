@@ -32,15 +32,7 @@
 {
     [super viewDidLoad];
 
-    
-    
-    
-    // Initialize the banner at the bottom of the screen.
-    
-    
-    
 
-    
 
     //Scrool View
     [self.scroller setScrollEnabled:YES];

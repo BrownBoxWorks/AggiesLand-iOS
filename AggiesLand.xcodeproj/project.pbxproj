@@ -14,6 +14,7 @@
 		D1192EDF18B1707200E7DEAC /* LoginLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EDE18B1707200E7DEAC /* LoginLogo.png */; };
 		D1192EE518B17DB000E7DEAC /* text field_sign up.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EE418B17DAF00E7DEAC /* text field_sign up.png */; };
 		D1192EE918B183B900E7DEAC /* sign up_no lines.png in Resources */ = {isa = PBXBuildFile; fileRef = D1192EE818B183B900E7DEAC /* sign up_no lines.png */; };
+		D1192F9519D0B5A4009D5F2B /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1192F9419D0B5A4009D5F2B /* Crashlytics.framework */; };
 		D11BCA4B17F1326B00466CA5 /* AnnonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D11BCA4A17F1326B00466CA5 /* AnnonViewController.m */; };
 		D11BD0BA18CFE7C400C827B1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11BD0B918CFE7C400C827B1 /* Accounts.framework */; };
 		D11DFB0D18C2BD140097C8AE /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D11DFB0C18C2BD140097C8AE /* settings.png */; };
@@ -198,6 +199,7 @@
 		D1192EE818B183B900E7DEAC /* sign up_no lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sign up_no lines.png"; path = "../../../AggieLandResources/sign up_no lines.png"; sourceTree = "<group>"; };
 		D1192EEC18B1865F00E7DEAC /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../AggieLandResources/placeholder.png; sourceTree = "<group>"; };
 		D1192F6619CCCD50009D5F2B /* AggiesLand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AggiesLand.entitlements; sourceTree = "<group>"; };
+		D1192F9419D0B5A4009D5F2B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		D11BCA4917F1326B00466CA5 /* AnnonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnonViewController.h; sourceTree = "<group>"; };
 		D11BCA4A17F1326B00466CA5 /* AnnonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnonViewController.m; sourceTree = "<group>"; };
 		D11BD0B918CFE7C400C827B1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -463,6 +465,7 @@
 				D1C4B6C819CBCE50001913A8 /* Parse.framework in Frameworks */,
 				D1A3E4F217DD0F59005E4911 /* MessageUI.framework in Frameworks */,
 				D1BD178A17DCB493000A174A /* UIKit.framework in Frameworks */,
+				D1192F9519D0B5A4009D5F2B /* Crashlytics.framework in Frameworks */,
 				D12D96E317EAB4B100E94429 /* MapKit.framework in Frameworks */,
 				D1BD178C17DCB493000A174A /* Foundation.framework in Frameworks */,
 				D1BD178E17DCB493000A174A /* CoreGraphics.framework in Frameworks */,
@@ -730,6 +733,7 @@
 		D1BD178817DCB493000A174A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1192F9419D0B5A4009D5F2B /* Crashlytics.framework */,
 				D1C4B6E519CBD9E1001913A8 /* CoreMedia.framework */,
 				D1C4B6E219CBD97C001913A8 /* CoreData.framework */,
 				D1C4B6C519CBCE50001913A8 /* Bolts.framework */,
@@ -955,6 +959,7 @@
 				D1BD178317DCB493000A174A /* Frameworks */,
 				D1BD178417DCB493000A174A /* Resources */,
 				D1F7B57519C1F864003C5A9B /* Embed App Extensions */,
+				D1192F9319D0B51F009D5F2B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1086,6 +1091,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1192F9319D0B51F009D5F2B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 8e03bf8519f7903a4e20ae17146a26bdb3d4774a fba0856ddf32bb0d729da59586194444a0b76228015168b2190abef98e9907b1\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1BD178217DCB493000A174A /* Sources */ = {
@@ -1268,6 +1289,7 @@
 					/Users/neegbeahreeves/Documents/FacebookSDK,
 					"/Users/neegbeahreeves/Desktop/parse-library-1.4.0",
 					"$(PROJECT_DIR)/parse-library-1.4.0",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AggiesLand/AggiesLand-Prefix.pch";
@@ -1300,6 +1322,7 @@
 					/Users/neegbeahreeves/Documents/FacebookSDK,
 					"/Users/neegbeahreeves/Desktop/parse-library-1.4.0",
 					"$(PROJECT_DIR)/parse-library-1.4.0",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AggiesLand/AggiesLand-Prefix.pch";

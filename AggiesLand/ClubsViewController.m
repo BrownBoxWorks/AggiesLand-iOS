@@ -41,7 +41,7 @@
 
 - (void)viewDidLoad
 {
-    
+    self.title = @"Parties";
     
     [super viewDidLoad];
     

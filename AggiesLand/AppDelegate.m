@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 #import "iRate.h"
 #import "AMScrollingNavbarViewController.h"
+#import <Crashlytics/Crashlytics.h>
 
 @implementation AppDelegate
 
@@ -37,6 +38,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Crashlytics API Key
+    [Crashlytics startWithAPIKey:@"8e03bf8519f7903a4e20ae17146a26bdb3d4774a"];
+    [[Crashlytics sharedInstance] setDebugMode:YES];
     
   
     
