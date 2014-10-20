@@ -47,6 +47,8 @@
 		D13BD7CE195D11B7006BF845 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CA195D11B7006BF845 /* login.png */; };
 		D13BD7CF195D11B7006BF845 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CB195D11B7006BF845 /* signup.png */; };
 		D13BD7D1195D1292006BF845 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7D0195D1292006BF845 /* back button.png */; };
+		D199669D19F47B53008960BA /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D199669C19F47B53008960BA /* DBViewController.m */; };
+		D19966A019F4967A008960BA /* ChatCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D199669F19F4967A008960BA /* ChatCellTableViewCell.m */; };
 		D19A15C017DD384B00C9EBB2 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */; };
 		D19A15C917DD3DE200C9EBB2 /* HEAT71ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15C817DD3DE200C9EBB2 /* HEAT71ViewController.m */; };
 		D19A15CF17DD3E9400C9EBB2 /* 71.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D19A15CA17DD3E9400C9EBB2 /* 71.pdf */; };
@@ -249,6 +251,10 @@
 		D13BD7CA195D11B7006BF845 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = ../../../AggieLandResources/login.png; sourceTree = "<group>"; };
 		D13BD7CB195D11B7006BF845 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signup.png; path = ../../../AggieLandResources/signup.png; sourceTree = "<group>"; };
 		D13BD7D0195D1292006BF845 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "../../../AggieLandResources/back button.png"; sourceTree = "<group>"; };
+		D199669B19F47B53008960BA /* DBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBViewController.h; sourceTree = "<group>"; };
+		D199669C19F47B53008960BA /* DBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBViewController.m; sourceTree = "<group>"; };
+		D199669E19F4967A008960BA /* ChatCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCellTableViewCell.h; sourceTree = "<group>"; };
+		D199669F19F4967A008960BA /* ChatCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCellTableViewCell.m; sourceTree = "<group>"; };
 		D19A15BE17DD384B00C9EBB2 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
 		D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		D19A15C717DD3DE200C9EBB2 /* HEAT71ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEAT71ViewController.h; sourceTree = "<group>"; };
@@ -656,6 +662,17 @@
 			name = "Login ";
 			sourceTree = "<group>";
 		};
+		D199669A19F47B27008960BA /* Discussion Boards */ = {
+			isa = PBXGroup;
+			children = (
+				D199669B19F47B53008960BA /* DBViewController.h */,
+				D199669C19F47B53008960BA /* DBViewController.m */,
+				D199669E19F4967A008960BA /* ChatCellTableViewCell.h */,
+				D199669F19F4967A008960BA /* ChatCellTableViewCell.m */,
+			);
+			name = "Discussion Boards";
+			sourceTree = "<group>";
+		};
 		D1ABE4C119666EED002A212C /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -768,6 +785,7 @@
 		D1BD178F17DCB493000A174A /* AggiesLand */ = {
 			isa = PBXGroup;
 			children = (
+				D199669A19F47B27008960BA /* Discussion Boards */,
 				D1192F6619CCCD50009D5F2B /* AggiesLand.entitlements */,
 				D112D7B0187862CE0023D0FC /* Login  */,
 				D112D7AE187862920023D0FC /* Settings */,
@@ -1156,6 +1174,7 @@
 				D1B7032617F5D8F5006617B8 /* PartyCustomCell.m in Sources */,
 				D1A2A2F61880F6300005F6D8 /* ClubDetailsViewController.m in Sources */,
 				D1F7B55C19C0F6A1003C5A9B /* JSONSyntaxHighlight.m in Sources */,
+				D199669D19F47B53008960BA /* DBViewController.m in Sources */,
 				D1F7B55219C0F6A1003C5A9B /* NSError+STTwitter.m in Sources */,
 				D12D96D217EAADCB00E94429 /* WomenBBViewController.m in Sources */,
 				D131EAB61813C47800012682 /* CampusDetailsViewController.m in Sources */,
@@ -1165,6 +1184,7 @@
 				D12D96C317EAA1D200E94429 /* CrossCountryViewController.m in Sources */,
 				D1FE715818CE8D82005F3D01 /* AMSrcollingCollectionViewController.m in Sources */,
 				D1F7B55B19C0F6A1003C5A9B /* BAVPlistNode.m in Sources */,
+				D19966A019F4967A008960BA /* ChatCellTableViewCell.m in Sources */,
 				D19C391317F7FE4E0023A79B /* CampusEventsViewController.m in Sources */,
 				D1F7B55D19C0F6A1003C5A9B /* STHTTPRequest.m in Sources */,
 				D1E47C1619B9366B00BC22DD /* BusinessListViewController.m in Sources */,
