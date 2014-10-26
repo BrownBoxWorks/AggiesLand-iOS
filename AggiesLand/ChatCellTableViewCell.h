@@ -12,6 +12,6 @@
 
 @property (nonatomic,retain)IBOutlet UILabel *user;
 @property (nonatomic,retain)IBOutlet UITextView *textView;
-@property (nonatomic,retain)IBOutlet UILabel* message;
+@property (nonatomic,retain)IBOutlet UILabel* time;
 
 @end

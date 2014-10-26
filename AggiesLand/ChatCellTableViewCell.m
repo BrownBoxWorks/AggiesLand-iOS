@@ -10,7 +10,7 @@
 
 @implementation ChatCellTableViewCell
 
-@synthesize user,textLabel,message;
+@synthesize user,textLabel,time;
 
 - (void)awakeFromNib {
     // Initialization code
