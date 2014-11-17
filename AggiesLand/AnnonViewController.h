@@ -7,6 +7,7 @@
 //
 
 #import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
 #import <Twitter/Twitter.h>
@@ -26,13 +27,9 @@ DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,MBProgressHUDDelegate,TTTAttribute
 
 
 @property (weak,nonatomic)IBOutlet UIBarButtonItem *sidebarButton;
-
-
-
-@property (weak, nonatomic) IBOutlet UITableView *twitterTableView;
+@property (weak,nonatomic)IBOutlet UITableView *twitterTableView;
 
 -(IBAction)goToSettings;
-
 
 
 

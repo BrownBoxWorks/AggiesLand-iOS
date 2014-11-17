@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,PFLogInViewControllerDelegate,PFSignUpViewControllerDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,PFSignUpViewControllerDelegate,PFLogInViewControllerDelegate>
 
 
 @property(nonatomic, retain) UIWindow *window;

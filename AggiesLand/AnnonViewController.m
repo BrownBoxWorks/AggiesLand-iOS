@@ -49,6 +49,9 @@
      */
 }
 
+-(void)likeClicked:(id)sender{
+    
+}
 
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
@@ -186,11 +189,6 @@
      self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"TitleLogo.png"]];
     
     
-    
-
-
-    
-    
     [super viewDidLoad];
 
 }
@@ -234,6 +232,10 @@
     
     if(!cell){
         cell = [[AnnonCustomCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    if ([[object objectForKey:@"liked"]boolValue]){
+        
     }
 
    

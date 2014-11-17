@@ -8,6 +8,7 @@
 
 #import "AGSignupViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import <ParseUI/ParseUI.h>
 
 @interface AGSignupViewController ()
 @property (nonatomic, strong) UIImageView *fieldsBackground;

@@ -7,6 +7,7 @@
 //
 
 #import <Parse/Parse.h>
+#import <ParseUI/ParseUI.h>
 #import <UIKit/UIKit.h>
 #import "UIScrollView+EmptyDataSet.h"
 #import "MBProgressHUD.h"

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ParseUI/ParseUI.h>
 #import "Party.h"
 
 @interface PartyDetailViewController : UIViewController

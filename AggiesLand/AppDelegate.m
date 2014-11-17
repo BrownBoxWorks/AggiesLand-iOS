@@ -12,6 +12,12 @@
 #import "AMScrollingNavbarViewController.h"
 #import <Crashlytics/Crashlytics.h>
 
+// Chat Import
+#import "AppConstant.h"
+#import "GroupView.h"
+#import "utilities.h"
+
+
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -160,5 +166,8 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+
 
 @end

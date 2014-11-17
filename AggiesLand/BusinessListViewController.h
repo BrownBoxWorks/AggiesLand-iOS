@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Neegbeah Reeves. All rights reserved.
 //
 
+#import <ParseUI/ParseUI.h>
 #import <Parse/Parse.h>
 #import <UIKit/UIKit.h>
 

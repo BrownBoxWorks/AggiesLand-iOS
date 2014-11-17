@@ -10,6 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "Annon.h"
 #import "TTTAttributedLabel.h"
+#import <ParseUI/ParseUI.h>
 
 
 @interface AnnonDetailViewController : UIViewController<TTTAttributedLabelDelegate>

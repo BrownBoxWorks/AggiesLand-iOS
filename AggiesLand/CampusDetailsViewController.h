@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CampusEvents.h"
+#import <ParseUI/ParseUI.h>
 
 
 @interface CampusDetailsViewController : UIViewController
