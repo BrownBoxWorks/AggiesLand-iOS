@@ -19,6 +19,7 @@
 #import "GroupView.h"
 #import "ChatView.h"
 #import "AGLoginViewController.h"
+#import "SWRevealViewController.h"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 @interface GroupView()
@@ -38,7 +39,7 @@
 	if (self)
 	{
 		[self.tabBarItem setImage:[UIImage imageNamed:@"tab_group"]];
-		self.tabBarItem.title = @"Group";
+		self.tabBarItem.title = @"AggieBoard Discussions";
 	}
 	return self;
 }
@@ -48,14 +49,24 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 {
 	[super viewDidLoad];
-	self.title = @"Group";
+	self.title = @"AggieBoard";
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"New" style:UIBarButtonItemStylePlain target:self
 																			 action:@selector(actionNew)];
+   // self.navigationItem.rightBarButtonItem =
+    //self.navigationItem.rightBarButtonItem = [[UIColor whiteColor]];
 	//---------------------------------------------------------------------------------------------------------------------------------------------
-	self.tableView.separatorInset = UIEdgeInsetsZero;
+	//self.tableView.separatorInset = UIEdgeInsetsZero;
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	chatrooms = [[NSMutableArray alloc] init];
+    
+    
+    //Menu View Controller
+    _sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
+    _sidebarButton.target = self.revealViewController;
+    _sidebarButton.action = @selector(revealToggle:);
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 }
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
@@ -155,6 +166,7 @@
 
 	PFObject *chatroom = chatrooms[indexPath.row];
 	cell.textLabel.text = chatroom[PF_CHATROOMS_NAME];
+    cell.textLabel.numberOfLines = 4;
 
 	return cell;
 }

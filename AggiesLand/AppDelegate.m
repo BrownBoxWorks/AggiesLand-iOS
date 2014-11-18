@@ -101,7 +101,12 @@
     //
     [PFImageView class];
 
+    UIBarButtonItem *barButtonAppearance = [UIBarButtonItem appearance];
+    [barButtonAppearance setTintColor:[UIColor whiteColor]];
     
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+
     
     
     

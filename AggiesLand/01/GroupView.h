@@ -13,4 +13,7 @@
 @interface GroupView : UITableViewController <UIAlertViewDelegate>
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
+@property (weak,nonatomic)IBOutlet UIBarButtonItem *sidebarButton;
+
+
 @end

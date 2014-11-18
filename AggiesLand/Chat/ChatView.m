@@ -26,6 +26,8 @@
 	BOOL isLoading;
 
 	NSString *roomId;
+    
+    NSString *chatroom;
 
 	NSMutableArray *users;
 	NSMutableArray *messages;
@@ -55,9 +57,9 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 {
 	[super viewDidLoad];
-	//self.title = @"Chat";
+	self.title = @"";
 
-    self.title =
+    //self.title =
     
 	users = [[NSMutableArray alloc] init];
 	messages = [[NSMutableArray alloc] init];

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="14B23" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="G3V-ft-cq8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="G3V-ft-cq8">
     <dependencies>
         <deployment version="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
     </dependencies>
     <scenes>
         <!--Campus Events-->
@@ -238,12 +238,12 @@
         <scene sceneID="SVb-dt-TAa">
             <objects>
                 <tableViewController id="ri2-yX-Nc2" customClass="GroupView" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="x09-gq-2Bg">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="x09-gq-2Bg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" id="IWH-DV-ztj">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="IWH-DV-ztj">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IWH-DV-ztj" id="QpX-h1-XiY">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -258,10 +258,16 @@
                             <outlet property="delegate" destination="ri2-yX-Nc2" id="L3Z-O4-rYv"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="ykV-LO-fJT">
+                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="5o6-Oh-CnC"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="sidebarButton" destination="5o6-Oh-CnC" id="uJE-Mn-Aca"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddj-fV-xLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-927" y="227"/>
+            <point key="canvasLocation" x="-384" y="227"/>
         </scene>
         <!--Chat View-->
         <scene sceneID="aYU-cv-b1c">
@@ -281,7 +287,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WGg-KU-FeJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-483" y="227"/>
+            <point key="canvasLocation" x="49" y="227"/>
         </scene>
         <!--Heat 71-->
         <scene sceneID="4d0-zC-hYK">
@@ -1063,7 +1069,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pQI-LD-egi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="562" y="298"/>
+            <point key="canvasLocation" x="1094" y="298"/>
         </scene>
         <!--XC -->
         <scene sceneID="40W-sn-fUU">
@@ -1088,7 +1094,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oNw-gE-eWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="984" y="292"/>
+            <point key="canvasLocation" x="1516" y="292"/>
         </scene>
         <!--Women BB-->
         <scene sceneID="LqV-TT-eUG">
@@ -1113,7 +1119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fui-Kg-c00" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2814" y="283"/>
+            <point key="canvasLocation" x="3346" y="283"/>
         </scene>
         <!--Bowling-->
         <scene sceneID="1Au-sx-hSz">
@@ -1138,7 +1144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3J-Z5-EMP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3168" y="283"/>
+            <point key="canvasLocation" x="3700" y="283"/>
         </scene>
         <!--Swimming-->
         <scene sceneID="j7o-35-GFp">
@@ -1163,7 +1169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kEO-0U-VOr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3512" y="290"/>
+            <point key="canvasLocation" x="4044" y="290"/>
         </scene>
         <!--Softball-->
         <scene sceneID="hIp-cS-fgM">
@@ -1188,7 +1194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hiI-tN-1ft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3884" y="290"/>
+            <point key="canvasLocation" x="4416" y="290"/>
         </scene>
         <!--Tennis-->
         <scene sceneID="bfk-kC-bNA">
@@ -1213,7 +1219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ubb-NV-bwp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4306" y="286"/>
+            <point key="canvasLocation" x="4838" y="286"/>
         </scene>
         <!--Volleyball View Controller-->
         <scene sceneID="Kqs-7p-aNu">
@@ -1238,7 +1244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XCh-7y-DRA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4690" y="292"/>
+            <point key="canvasLocation" x="5222" y="292"/>
         </scene>
         <!--Track-->
         <scene sceneID="nX9-Qx-yVE">
@@ -1263,7 +1269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bx9-2o-r0l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1329" y="290"/>
+            <point key="canvasLocation" x="1861" y="290"/>
         </scene>
         <!--Baseball View Controller-->
         <scene sceneID="yiw-Kb-UPX">
@@ -1288,7 +1294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6iY-MF-Z9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1678" y="286"/>
+            <point key="canvasLocation" x="2210" y="286"/>
         </scene>
         <!--Mens BB-->
         <scene sceneID="kY2-Tb-A0P">
@@ -1313,7 +1319,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H3R-mo-mly" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2033" y="283"/>
+            <point key="canvasLocation" x="2565" y="283"/>
         </scene>
         <!--Football-->
         <scene sceneID="uat-rw-bpz">
@@ -1338,7 +1344,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejr-Lv-IMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2417" y="286"/>
+            <point key="canvasLocation" x="2949" y="286"/>
         </scene>
         <!--Details-->
         <scene sceneID="g2A-f4-6LE">
@@ -1748,7 +1754,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.19499885950000001" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <segue destination="ri2-yX-Nc2" kind="custom" customClass="SWRevealViewControllerSegue" id="5CA-n9-Klq"/>
+                                    <segue destination="ri2-yX-Nc2" kind="custom" customClass="SWRevealViewControllerSegue" id="POU-Ql-LBX"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
