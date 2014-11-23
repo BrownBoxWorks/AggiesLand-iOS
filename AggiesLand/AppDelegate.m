@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 #import "iRate.h"
-#import "AMScrollingNavbarViewController.h"
+//#import "AMScrollingNavbarViewController.h"
 #import <Crashlytics/Crashlytics.h>
 
 // Chat Import

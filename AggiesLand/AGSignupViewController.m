@@ -40,7 +40,7 @@
 
 
     
-   // [self.signUpView.signUpButton setBackgroundImage:[UIImage imageNamed:@"signup.png"] forState:UIControlStateNormal];
+   [self.signUpView.signUpButton setBackgroundImage:[UIImage imageNamed:@"Forgot Password.png"] forState:UIControlStateNormal];
    // [self.signUpView.signUpButton setBackgroundImage:[UIImage imageNamed:@"signup.png"] forState:UIControlStateHighlighted];
    // [self.signUpView.signUpButton setTitle:@"" forState:UIControlStateNormal];
    // [self.signUpView.signUpButton setTitle:@"" forState:UIControlStateHighlighted];

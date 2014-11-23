@@ -37,7 +37,7 @@
     self.tableView.backgroundColor = [UIColor colorWithWhite:0.2f alpha:1.0f];
     self.tableView.separatorColor = [UIColor colorWithWhite:0.15f alpha:0.2f];
     
-    menuItems = @[@"home", @"clubs", @"events", @"map", @"bus",@"business",@"athletics",@"discussion"];
+    menuItems = @[@"home", @"events", @"map", @"bus",@"athletics",@"discussion"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

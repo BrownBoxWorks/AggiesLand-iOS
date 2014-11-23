@@ -47,6 +47,7 @@
 		D13BD7CE195D11B7006BF845 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CA195D11B7006BF845 /* login.png */; };
 		D13BD7CF195D11B7006BF845 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CB195D11B7006BF845 /* signup.png */; };
 		D13BD7D1195D1292006BF845 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7D0195D1292006BF845 /* back button.png */; };
+		D160211A1A2174EC00FB601F /* Sign Up.png in Resources */ = {isa = PBXBuildFile; fileRef = D16021181A2174EC00FB601F /* Sign Up.png */; };
 		D17E742D1A19959100E19C34 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E74291A19959100E19C34 /* Bolts.framework */; };
 		D17E742E1A19959100E19C34 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E742A1A19959100E19C34 /* Parse.framework */; };
 		D17E742F1A19959100E19C34 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E742B1A19959100E19C34 /* ParseFacebookUtils.framework */; };
@@ -239,12 +240,10 @@
 		D1F7B55C19C0F6A1003C5A9B /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7B54E19C0F6A1003C5A9B /* JSONSyntaxHighlight.m */; };
 		D1F7B55D19C0F6A1003C5A9B /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7B55019C0F6A1003C5A9B /* STHTTPRequest.m */; };
 		D1F9585F19C77A4500FD7A5B /* BusinessWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9585E19C77A4500FD7A5B /* BusinessWebViewController.m */; };
+		D1FABA001A2182D50046184B /* Forgot Password.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FAB9FF1A2182D50046184B /* Forgot Password.png */; };
 		D1FE713118CE1728005F3D01 /* Aggie athletics page.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FE712E18CE1728005F3D01 /* Aggie athletics page.png */; };
 		D1FE713218CE1728005F3D01 /* Aggie Game Tournaments image.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FE712F18CE1728005F3D01 /* Aggie Game Tournaments image.png */; };
 		D1FE713318CE1728005F3D01 /* Regular campus events image.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FE713018CE1728005F3D01 /* Regular campus events image.png */; };
-		D1FE715618CE8D82005F3D01 /* AMScrollingNavbarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FE715218CE8D82005F3D01 /* AMScrollingNavbarTableViewController.m */; };
-		D1FE715718CE8D82005F3D01 /* AMScrollingNavbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FE715418CE8D82005F3D01 /* AMScrollingNavbarViewController.m */; };
-		D1FE715818CE8D82005F3D01 /* AMSrcollingCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FE715518CE8D82005F3D01 /* AMSrcollingCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -322,6 +321,7 @@
 		D13BD7CA195D11B7006BF845 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = ../../../AggieLandResources/login.png; sourceTree = "<group>"; };
 		D13BD7CB195D11B7006BF845 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signup.png; path = ../../../AggieLandResources/signup.png; sourceTree = "<group>"; };
 		D13BD7D0195D1292006BF845 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "../../../AggieLandResources/back button.png"; sourceTree = "<group>"; };
+		D16021181A2174EC00FB601F /* Sign Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up.png"; sourceTree = "<group>"; };
 		D17E74291A19959100E19C34 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Desktop/parse-library-1.5.0/Bolts.framework"; sourceTree = "<group>"; };
 		D17E742A1A19959100E19C34 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../Desktop/parse-library-1.5.0/Parse.framework"; sourceTree = "<group>"; };
 		D17E742B1A19959100E19C34 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../../Desktop/parse-library-1.5.0/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
@@ -666,6 +666,7 @@
 		D1F7B56319C1F863003C5A9B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		D1F9585D19C77A4500FD7A5B /* BusinessWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessWebViewController.h; sourceTree = "<group>"; };
 		D1F9585E19C77A4500FD7A5B /* BusinessWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessWebViewController.m; sourceTree = "<group>"; };
+		D1FAB9FF1A2182D50046184B /* Forgot Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forgot Password.png"; sourceTree = "<group>"; };
 		D1FE712E18CE1728005F3D01 /* Aggie athletics page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aggie athletics page.png"; path = "../../../AggieLandResources/Campus Events Menu /Aggie athletics page.png"; sourceTree = "<group>"; };
 		D1FE712F18CE1728005F3D01 /* Aggie Game Tournaments image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aggie Game Tournaments image.png"; path = "../../../AggieLandResources/Campus Events Menu /Aggie Game Tournaments image.png"; sourceTree = "<group>"; };
 		D1FE713018CE1728005F3D01 /* Regular campus events image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Regular campus events image.png"; path = "../../../AggieLandResources/Campus Events Menu /Regular campus events image.png"; sourceTree = "<group>"; };
@@ -1220,6 +1221,8 @@
 		D1BD179017DCB493000A174A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D1FAB9FF1A2182D50046184B /* Forgot Password.png */,
+				D16021181A2174EC00FB601F /* Sign Up.png */,
 				D1C576FD1A185A4E0047174E /* blank_avatar@2x.png */,
 				D1C576FE1A185A4E0047174E /* blank_profile@2x.png */,
 				D1AFF4461989D14C00760AED /* no_data.png */,
@@ -1597,6 +1600,7 @@
 			files = (
 				D1AFF4471989D14C00760AED /* no_data.png in Resources */,
 				D17E749E1A1997D600E19C34 /* JSQMessagesAssets.bundle in Resources */,
+				D160211A1A2174EC00FB601F /* Sign Up.png in Resources */,
 				D1BB6FDA18D63D6F0057E959 /* clubs_2-1.png in Resources */,
 				D1BB6FD818D63D6F0057E959 /* bus routes_2-1.png in Resources */,
 				D1BD179417DCB493000A174A /* InfoPlist.strings in Resources */,
@@ -1645,6 +1649,7 @@
 				D1D120AC18779C2A009E328D /* Slide Bar.png in Resources */,
 				D11DFB0F18C2BD1F0097C8AE /* settings@2x.png in Resources */,
 				D1CDBA441880FC16001CDE00 /* iRate.bundle in Resources */,
+				D1FABA001A2182D50046184B /* Forgot Password.png in Resources */,
 				D17E74C81A1997D600E19C34 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				D1D9538B18804FA3006F15FA /* tweet button.png in Resources */,
 				D1C576FF1A185A4E0047174E /* blank_avatar@2x.png in Resources */,
@@ -1783,7 +1788,6 @@
 				D17E74B81A1997D600E19C34 /* JSQMessagesCellTextView.m in Sources */,
 				D17E74B11A1997D600E19C34 /* JSQLocationMediaItem.m in Sources */,
 				D1C364731A16A8CB0051EB47 /* AFHTTPRequestOperation.m in Sources */,
-				D1FE715818CE8D82005F3D01 /* AMSrcollingCollectionViewController.m in Sources */,
 				D1C576F91A16C0250047174E /* camera.m in Sources */,
 				D17E74BA1A1997D600E19C34 /* JSQMessagesCollectionViewCell.m in Sources */,
 				D17E74B71A1997D600E19C34 /* JSQVideoMediaItem.m in Sources */,
@@ -1798,14 +1802,12 @@
 				D112D191181F70BC009E8839 /* AGLoginViewController.m in Sources */,
 				D1BA31E919B3BF40004B8B36 /* Business.m in Sources */,
 				D1C3647F1A16A8CB0051EB47 /* UIButton+AFNetworking.m in Sources */,
-				D1FE715718CE8D82005F3D01 /* AMScrollingNavbarViewController.m in Sources */,
 				D19A15F117DD51B400C9EBB2 /* MapsViewController.m in Sources */,
 				D1C3647A1A16A8CB0051EB47 /* AFURLResponseSerialization.m in Sources */,
 				D19A15F617DD579F00C9EBB2 /* FacebookViewController.m in Sources */,
 				D1F7B55119C0F6A1003C5A9B /* NSDateFormatter+STTwitter.m in Sources */,
 				D17E74B31A1997D600E19C34 /* JSQMessage.m in Sources */,
 				D1D953921880583A006F15FA /* ClubsViewController.m in Sources */,
-				D1FE715618CE8D82005F3D01 /* AMScrollingNavbarTableViewController.m in Sources */,
 				D12D96C617EAA2F800E94429 /* TrackViewController.m in Sources */,
 				D1BA31EC19B3C010004B8B36 /* BusinessCustomCell.m in Sources */,
 				D1C364B21A16A8CB0051EB47 /* ProgressHUD.m in Sources */,
