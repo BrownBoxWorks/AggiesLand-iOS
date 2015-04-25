@@ -45,7 +45,11 @@
 		D13BD7CE195D11B7006BF845 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CA195D11B7006BF845 /* login.png */; };
 		D13BD7CF195D11B7006BF845 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7CB195D11B7006BF845 /* signup.png */; };
 		D13BD7D1195D1292006BF845 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = D13BD7D0195D1292006BF845 /* back button.png */; };
-		D14243A71AEB52700092A18E /* Tab Bar Icons in Resources */ = {isa = PBXBuildFile; fileRef = D14243A61AEB52700092A18E /* Tab Bar Icons */; };
+		D14243AE1AEB5E900092A18E /* athletcis.png in Resources */ = {isa = PBXBuildFile; fileRef = D14243A91AEB5E8F0092A18E /* athletcis.png */; };
+		D14243AF1AEB5E900092A18E /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = D14243AA1AEB5E8F0092A18E /* bus.png */; };
+		D14243B01AEB5E900092A18E /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = D14243AB1AEB5E8F0092A18E /* events.png */; };
+		D14243B11AEB5E900092A18E /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D14243AC1AEB5E8F0092A18E /* home.png */; };
+		D14243B21AEB5E900092A18E /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = D14243AD1AEB5E900092A18E /* maps.png */; };
 		D160211A1A2174EC00FB601F /* Sign Up.png in Resources */ = {isa = PBXBuildFile; fileRef = D16021181A2174EC00FB601F /* Sign Up.png */; };
 		D17E742D1A19959100E19C34 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E74291A19959100E19C34 /* Bolts.framework */; };
 		D17E742E1A19959100E19C34 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E742A1A19959100E19C34 /* Parse.framework */; };
@@ -212,7 +216,11 @@
 		D13BD7CA195D11B7006BF845 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = ../../../AggieLandResources/login.png; sourceTree = "<group>"; };
 		D13BD7CB195D11B7006BF845 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signup.png; path = ../../../AggieLandResources/signup.png; sourceTree = "<group>"; };
 		D13BD7D0195D1292006BF845 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back button.png"; path = "../../../AggieLandResources/back button.png"; sourceTree = "<group>"; };
-		D14243A61AEB52700092A18E /* Tab Bar Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Tab Bar Icons"; path = "../../../AggieLandResources/Tab Bar Icons"; sourceTree = "<group>"; };
+		D14243A91AEB5E8F0092A18E /* athletcis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = athletcis.png; path = "../../../AggieLandResources/Tab Bar Icons/athletcis.png"; sourceTree = "<group>"; };
+		D14243AA1AEB5E8F0092A18E /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus.png; path = "../../../AggieLandResources/Tab Bar Icons/bus.png"; sourceTree = "<group>"; };
+		D14243AB1AEB5E8F0092A18E /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = events.png; path = "../../../AggieLandResources/Tab Bar Icons/events.png"; sourceTree = "<group>"; };
+		D14243AC1AEB5E8F0092A18E /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = "../../../AggieLandResources/Tab Bar Icons/home.png"; sourceTree = "<group>"; };
+		D14243AD1AEB5E900092A18E /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maps.png; path = "../../../AggieLandResources/Tab Bar Icons/maps.png"; sourceTree = "<group>"; };
 		D16021181A2174EC00FB601F /* Sign Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up.png"; sourceTree = "<group>"; };
 		D17E74291A19959100E19C34 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Desktop/parse-library-1.5.0/Bolts.framework"; sourceTree = "<group>"; };
 		D17E742A1A19959100E19C34 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../Desktop/parse-library-1.5.0/Parse.framework"; sourceTree = "<group>"; };
@@ -583,6 +591,18 @@
 			name = LoginAssets;
 			sourceTree = "<group>";
 		};
+		D14243B31AEB5E950092A18E /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D14243A91AEB5E8F0092A18E /* athletcis.png */,
+				D14243AA1AEB5E8F0092A18E /* bus.png */,
+				D14243AB1AEB5E8F0092A18E /* events.png */,
+				D14243AC1AEB5E8F0092A18E /* home.png */,
+				D14243AD1AEB5E900092A18E /* maps.png */,
+			);
+			name = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
 		D1AFF43F1989C3F500760AED /* DZEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
@@ -698,8 +718,8 @@
 		D1BD179017DCB493000A174A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D14243B31AEB5E950092A18E /* Tab Bar Icons */,
 				D14243A81AEB5A460092A18E /* LoginAssets */,
-				D14243A61AEB52700092A18E /* Tab Bar Icons */,
 				D1FABA011A2186750046184B /* settings.png */,
 				D1FABA021A2186750046184B /* settings@2x.png */,
 				D1FAB9FF1A2182D50046184B /* Forgot Password.png */,
@@ -908,10 +928,12 @@
 			files = (
 				D1AFF4471989D14C00760AED /* no_data.png in Resources */,
 				D160211A1A2174EC00FB601F /* Sign Up.png in Resources */,
+				D14243B11AEB5E900092A18E /* home.png in Resources */,
 				D1BD179417DCB493000A174A /* InfoPlist.strings in Resources */,
 				D1DFBE75185774E0002BC585 /* menu.png in Resources */,
 				D1B0A66C18D8847900EFE0CD /* TitleLogo.png in Resources */,
 				D1BD17A317DCB493000A174A /* MainStoryboard.storyboard in Resources */,
+				D14243B01AEB5E900092A18E /* events.png in Resources */,
 				D1192EE918B183B900E7DEAC /* sign up_no lines.png in Resources */,
 				D13BD7CE195D11B7006BF845 /* login.png in Resources */,
 				D1192EDD18B16F4400E7DEAC /* text field.png in Resources */,
@@ -926,6 +948,7 @@
 				D1DFBE76185774E0002BC585 /* menu@2x.png in Resources */,
 				D1ED30AD18ADFD5900DD66B8 /* placeholder.png in Resources */,
 				D1192EDF18B1707200E7DEAC /* LoginLogo.png in Resources */,
+				D14243AF1AEB5E900092A18E /* bus.png in Resources */,
 				D13BD7D1195D1292006BF845 /* back button.png in Resources */,
 				D1FABA061A21876E0046184B /* login_background@2x.png in Resources */,
 				D13BD7CC195D11B7006BF845 /* forgotpassword.png in Resources */,
@@ -934,12 +957,13 @@
 				D1A3E50417DD23C1005E4911 /* TwitterIcon.png in Resources */,
 				D19A15CF17DD3E9400C9EBB2 /* 71.pdf in Resources */,
 				D1FABA041A2186750046184B /* settings@2x.png in Resources */,
+				D14243B21AEB5E900092A18E /* maps.png in Resources */,
 				D1D9538F188051E6006F15FA /* Default@2x.png in Resources */,
 				D19A15D017DD3E9400C9EBB2 /* 71Weekend.pdf in Resources */,
 				D19A15D117DD3E9400C9EBB2 /* 72.pdf in Resources */,
 				D13BD7CD195D11B7006BF845 /* login_background.png in Resources */,
+				D14243AE1AEB5E900092A18E /* athletcis.png in Resources */,
 				D19A15D217DD3E9400C9EBB2 /* 73.pdf in Resources */,
-				D14243A71AEB52700092A18E /* Tab Bar Icons in Resources */,
 				D12D96BD17EA9C0E00E94429 /* 1379576483_facebook-48-black.png in Resources */,
 				D19A15D317DD3E9400C9EBB2 /* 75.pdf in Resources */,
 				D1B0A66A18D8841E00EFE0CD /* Icon_Retina.png in Resources */,
