@@ -9,12 +9,9 @@
 #import <Parse/Parse.h>
 #import <ParseUI/ParseUI.h>
 #import "UIScrollView+EmptyDataSet.h"
-#import "MBProgressHUD.h"
 
-@interface CampusEventsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate, DZNEmptyDataSetSource, MBProgressHUDDelegate>{
-    MBProgressHUD *HUD;
-    
-}
+@interface CampusEventsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate, DZNEmptyDataSetSource>
+
 
 
 @property (weak,nonatomic)IBOutlet UIBarButtonItem *sidebarButton;

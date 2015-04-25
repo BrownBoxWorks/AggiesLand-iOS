@@ -10,11 +10,9 @@
 #import <ParseUI/ParseUI.h>
 #import <UIKit/UIKit.h>
 #import "UIScrollView+EmptyDataSet.h"
-#import "MBProgressHUD.h"
 
-@interface ClubsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate,DZNEmptyDataSetSource,MBProgressHUDDelegate>{
+@interface ClubsViewController : PFQueryTableViewController <DZNEmptyDataSetDelegate,DZNEmptyDataSetSource>{
     
-    MBProgressHUD *HUD;
 }
 
 @property (weak,nonatomic )IBOutlet UIBarButtonItem *sidebarButton;

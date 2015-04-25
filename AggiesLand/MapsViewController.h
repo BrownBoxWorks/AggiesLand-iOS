@@ -9,12 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
-#import "MBProgressHUD.h"
 
-@interface MapsViewController : UIViewController <CLLocationManagerDelegate,MBProgressHUDDelegate>{
-    MBProgressHUD *HUD;
-}
-    
+@interface MapsViewController : UIViewController <CLLocationManagerDelegate>
     
 @property (weak,nonatomic) IBOutlet MKMapView *mapView;
 @property (weak,nonatomic)IBOutlet UIBarButtonItem *sidebarButton;

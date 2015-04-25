@@ -19,5 +19,8 @@
 
 @property (strong,nonatomic) IBOutlet PFImageView *imageViewFile;
 
+@property (weak,nonatomic)IBOutlet UIView *cardView;
+
+
 
 @end

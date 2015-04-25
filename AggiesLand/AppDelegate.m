@@ -12,10 +12,7 @@
 //#import "AMScrollingNavbarViewController.h"
 #import <Crashlytics/Crashlytics.h>
 
-// Chat Import
-#import "AppConstant.h"
-#import "GroupView.h"
-#import "utilities.h"
+
 
 
 @implementation AppDelegate

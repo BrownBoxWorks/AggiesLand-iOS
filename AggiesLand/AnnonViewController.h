@@ -12,17 +12,12 @@
 #import <MessageUI/MessageUI.h>
 #import <Twitter/Twitter.h>
 #import "UIScrollView+EmptyDataSet.h"
-#import "MBProgressHUD.h"
 #import "TTTAttributedLabel.h"
 
 
 
 @interface AnnonViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UIActionSheetDelegate,
-DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,MBProgressHUDDelegate,TTTAttributedLabelDelegate,MFMailComposeViewControllerDelegate>{
-    MBProgressHUD *HUD;
-    
-
-}
+DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,TTTAttributedLabelDelegate,MFMailComposeViewControllerDelegate>
 
 
 

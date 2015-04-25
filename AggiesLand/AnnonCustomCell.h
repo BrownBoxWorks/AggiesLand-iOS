@@ -18,4 +18,6 @@
 @property (weak,nonatomic)IBOutlet UIImageView *liked;
 @property (strong,nonatomic) IBOutlet PFImageView *imageViewFile;
 
+@property (weak,nonatomic)IBOutlet UIView *cardView;
+
 @end

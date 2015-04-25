@@ -7,7 +7,6 @@
 //
 
 #import "MapsViewController.h"
-#import "SWRevealViewController.h"
 #import "Comms.h"
 //#import <MapKit/MapKit.h>
 
@@ -339,24 +338,7 @@
     [self.mapView setShowsUserLocation:YES];
     
     [super viewDidLoad];
-    
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    hud.color = [UIColor colorWithRed:0.22 green:0.15 blue:0.70 alpha:0.90];
-    hud.mode = MBProgressHUDModeIndeterminate;
-    hud.labelText = @"Loading";
-    [hud hide:YES afterDelay:3.0];
-    
-    
-    
-    
-    //Menu View Controller
-    _sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
-    
-    _sidebarButton.target = self.revealViewController;
-    _sidebarButton.action = @selector(revealToggle:);
-    
-    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-  
+
     
     // Campus Maps
 

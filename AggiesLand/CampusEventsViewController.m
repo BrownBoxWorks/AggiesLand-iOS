@@ -10,7 +10,6 @@
 #import "CampusCustomCell.h"
 #import "CampusDetailsViewController.h"
 #import "CampusEvents.h"
-#import "SWRevealViewController.h"
 
 @interface CampusEventsViewController ()
 
@@ -38,12 +37,7 @@
 - (void)viewDidLoad
 {
     
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    hud.mode = MBProgressHUDModeIndeterminate;
-      hud.color = [UIColor colorWithRed:0.22 green:0.15 blue:0.70 alpha:0.90];
-    hud.labelText = @"Loading";
-    [hud hide:YES afterDelay:3.0];
-    
+
     
 
     [super viewDidLoad];
@@ -60,13 +54,7 @@
     
 
     
-    //Menu View Controller
-    _sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
-    
-    _sidebarButton.target = self.revealViewController;
-    _sidebarButton.action = @selector(revealToggle:);
-    
-    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+
 }
 
 

@@ -10,7 +10,6 @@
 #import "AnnonCustomCell.h"
 #import "Annon.h"
 #import "AnnonDetailViewController.h"
-#import "SWRevealViewController.h"
 #import "AGLoginViewController.h"
 #import "AGSignupViewController.h"
 //#import "TTTAttributedLabel.h"
@@ -20,6 +19,8 @@
 @end
 
 @implementation AnnonViewController
+
+
 
 
 
@@ -157,18 +158,6 @@
 - (void)viewDidLoad
 {
     
-
-    
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    hud.mode = MBProgressHUDModeIndeterminate;
-    
-      hud.color = [UIColor colorWithRed:0.22 green:0.15 blue:0.70 alpha:0.90];
-    hud.labelText = @"Loading";
-    [hud hide:YES afterDelay:3.0];
- 
-
-    
-    
     //DZEmpty Delegate Alloc
     [self.tableView reloadData];
     
@@ -180,18 +169,15 @@
     
     
     //Menu View Controller
-    _sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
-    _sidebarButton.target = self.revealViewController;
-    _sidebarButton.action = @selector(revealToggle:);
-    
-    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+
      self.navigationItem.title = @"News Feed";
-     self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"TitleLogo.png"]];
+    // self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"TitleLogo.png"]];
     
     
     [super viewDidLoad];
 
 }
+
 
 
 
