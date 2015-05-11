@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="7bs-c4-eQz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E11f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="7bs-c4-eQz">
     <dependencies>
         <deployment version="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
@@ -28,17 +28,17 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="jly-dD-5SL" customClass="PFImageView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="169"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="141"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EventName" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C7g-4g-gFo">
-                                                    <rect key="frame" x="0.0" y="164" width="313" height="26"/>
+                                                    <rect key="frame" x="0.0" y="137" width="304" height="42"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vva-EX-VvP">
-                                                    <rect key="frame" x="0.0" y="185" width="219" height="21"/>
+                                                    <rect key="frame" x="0.0" y="180" width="304" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
                                                     <color key="textColor" red="0.053227558690000003" green="0.09905501857" blue="0.81393494899999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -49,7 +49,7 @@
                                         </view>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.92262468434343425" green="0.92262468434343425" blue="0.92262468434343425" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="cardView" destination="iSo-ng-tPy" id="lsE-oq-YZY"/>
                                     <outlet property="date" destination="Vva-EX-VvP" id="yO4-Gz-qk9"/>
@@ -262,7 +262,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddj-fV-xLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2112" y="-1861"/>
+            <point key="canvasLocation" x="-2360" y="-3829"/>
         </scene>
         <!--Chat View-->
         <scene sceneID="aYU-cv-b1c">
@@ -282,7 +282,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WGg-KU-FeJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2545" y="-1861"/>
+            <point key="canvasLocation" x="-1927" y="-3829"/>
         </scene>
         <!--Heat 71-->
         <scene sceneID="4d0-zC-hYK">
@@ -442,9 +442,10 @@
                     <connections>
                         <segue destination="rXl-ES-1Dc" kind="relationship" relationship="viewControllers" id="lkW-de-t0n"/>
                         <segue destination="g4g-2j-R38" kind="relationship" relationship="viewControllers" id="eTb-Pb-33K"/>
-                        <segue destination="ePE-gw-k1y" kind="relationship" relationship="viewControllers" id="VhT-VQ-Ycs"/>
                         <segue destination="M5L-XC-fb5" kind="relationship" relationship="viewControllers" id="Se2-m8-jhX"/>
                         <segue destination="zvQ-kL-2w3" kind="relationship" relationship="viewControllers" id="bjp-gU-HMg"/>
+                        <segue destination="Nex-Sl-XMr" kind="relationship" relationship="viewControllers" id="QqA-Y5-AwG"/>
+                        <segue destination="9FE-0H-HVc" kind="relationship" relationship="viewControllers" id="LrI-6E-phu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ra3-RB-lzG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -470,8 +471,8 @@
                                         <color key="textColor" red="0.053227558690000003" green="0.09905501857" blue="0.81393494899999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EventName" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BSa-Qi-z3C">
-                                        <rect key="frame" x="-2" y="176" width="325" height="21"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EventName" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BSa-Qi-z3C">
+                                        <rect key="frame" x="-2" y="176" width="325" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                                         <nil key="highlightedColor"/>
@@ -498,6 +499,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Yp3-wN-MOh">
+                                        <rect key="frame" x="0.0" y="256" width="320" height="263"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -507,7 +516,7 @@
                     <connections>
                         <outlet property="dateLabel" destination="cbO-fs-cn1" id="Tpb-5H-3kw"/>
                         <outlet property="imageFileLabel" destination="jh0-Tr-ViZ" id="COj-Ih-Xsu"/>
-                        <outlet property="instructionsLabel" destination="gPt-b5-l8r" id="Cg4-cO-2pI"/>
+                        <outlet property="instructionsLabel" destination="Yp3-wN-MOh" id="RBi-yN-jc3"/>
                         <outlet property="locationLabel" destination="zPX-ks-WwP" id="qzC-JC-2RG"/>
                         <outlet property="nameLabel" destination="BSa-Qi-z3C" id="VJC-HE-3p9"/>
                         <outlet property="priceLabel" destination="CaR-3V-o1Q" id="mNa-gn-C9n"/>
@@ -762,22 +771,22 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" id="3so-bp-sVl">
-                                            <rect key="frame" x="8" y="8" width="302" height="209"/>
+                                            <rect key="frame" x="8" y="8" width="304" height="209"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rOp-Dg-BKS" customClass="PFImageView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="302" height="169"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="144"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QQt-H9-Rj7">
-                                                    <rect key="frame" x="0.0" y="166" width="312" height="23"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QQt-H9-Rj7">
+                                                    <rect key="frame" x="10" y="143" width="284" height="38"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5QY-v6-EO3">
-                                                    <rect key="frame" x="0.0" y="177" width="306" height="32"/>
+                                                    <rect key="frame" x="10" y="182" width="284" height="19"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
                                                     <color key="textColor" red="0.053227558690000003" green="0.09905501857" blue="0.81393494899999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -788,7 +797,7 @@
                                         </view>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.95292771464646453" green="0.95292771464646453" blue="0.95292771464646453" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="cardView" destination="3so-bp-sVl" id="reu-db-nLf"/>
                                     <outlet property="date" destination="5QY-v6-EO3" id="UZU-51-okd"/>
@@ -1040,7 +1049,7 @@
                                         <rect key="frame" x="0.0" y="570" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ddM-dx-fL4" id="IBR-fW-hJ6">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Volleyball" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lze-hM-mfg">
@@ -1069,6 +1078,77 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pQI-LD-egi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-270" y="1002"/>
+        </scene>
+        <!--#NCAT Feed-->
+        <scene sceneID="TeJ-3h-cyK">
+            <objects>
+                <tableViewController id="crr-FH-fgJ" customClass="TwitterTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="121" sectionHeaderHeight="22" sectionFooterHeight="22" id="AKz-Py-qGT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellID" rowHeight="121" id="Lpx-HZ-grJ">
+                                <rect key="frame" x="0.0" y="86" width="320" height="121"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lpx-HZ-grJ" id="YxJ-C9-I9k">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="crr-FH-fgJ" id="ksz-gK-orW"/>
+                            <outlet property="delegate" destination="crr-FH-fgJ" id="1Wk-Ne-HtI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="#NCAT Feed" id="9t8-dn-H15"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SCo-HW-Vjt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278" y="1777"/>
+        </scene>
+        <!--A&T Register-->
+        <scene sceneID="PrJ-Ga-wpY">
+            <objects>
+                <navigationController id="9FE-0H-HVc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="A&amp;T Register" id="Bln-wl-GBv"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fHf-lg-TNa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eSW-Zp-Klh" kind="relationship" relationship="rootViewController" id="F0K-1F-NDc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9V-vf-wnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823" y="2485"/>
+        </scene>
+        <!--The NC A&T Register-->
+        <scene sceneID="xe4-05-fBy">
+            <objects>
+                <viewController id="eSW-Zp-Klh" customClass="ATRegisterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lvZ-3W-xry">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="PdG-M4-LyI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="The NC A&amp;T Register" id="ynG-i5-Eh0"/>
+                    <connections>
+                        <outlet property="reg" destination="PdG-M4-LyI" id="8tM-jc-s9V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Go4-Cj-gPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-278" y="2485"/>
         </scene>
         <!--XC -->
         <scene sceneID="40W-sn-fUU">
@@ -1536,24 +1616,27 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontSizeToFit="NO" id="hxz-eH-S3f" customClass="TTTAttributedLabel">
-                                        <rect key="frame" x="14" y="227" width="293" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="BxC-bA-OQc" customClass="PFImageView">
                                         <rect key="frame" x="0.0" y="0.0" width="327" height="168"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ift-lY-ERW">
-                                        <rect key="frame" x="22" y="176" width="285" height="23"/>
+                                        <rect key="frame" x="8" y="176" width="299" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="16"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="xNY-of-Mh4">
+                                        <rect key="frame" x="0.0" y="255" width="320" height="264"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                                    </textView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rgy-me-j6W">
-                                        <rect key="frame" x="98" y="198" width="133" height="21"/>
+                                        <rect key="frame" x="97" y="221" width="133" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="12"/>
                                         <color key="textColor" red="0.053227558690000003" green="0.09905501857" blue="0.81393494899999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -1568,7 +1651,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
-                        <outlet property="bodyLabel" destination="hxz-eH-S3f" id="5xZ-Rq-O6P"/>
+                        <outlet property="bodyLabel" destination="xNY-of-Mh4" id="woc-pt-KW5"/>
                         <outlet property="dateLabel" destination="rgy-me-j6W" id="zVj-Hk-59j"/>
                         <outlet property="imageFileLabel" destination="BxC-bA-OQc" id="8li-ph-1Gr"/>
                         <outlet property="scroller" destination="lhy-u4-Enc" id="Tz8-07-MXV"/>
@@ -1675,11 +1758,11 @@
             </objects>
             <point key="canvasLocation" x="-2395" y="-3143"/>
         </scene>
-        <!--Campu Events-->
+        <!--Events-->
         <scene sceneID="dgd-qO-GzR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g4g-2j-R38" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Campu Events" image="events.png" id="dEt-zq-pk7"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="events.png" id="dEt-zq-pk7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="S8d-uT-qsX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1750,6 +1833,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IP2-qq-tWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-802" y="1002"/>
+        </scene>
+        <!--Twitter-->
+        <scene sceneID="5wx-GI-1zv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nex-Sl-XMr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Twitter" id="4iP-oG-P6U"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yM8-NM-Ss4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="crr-FH-fgJ" kind="relationship" relationship="rootViewController" id="Xgg-Oi-ceT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xo3-Pb-Sad" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-810" y="1777"/>
         </scene>
     </scenes>
     <resources>

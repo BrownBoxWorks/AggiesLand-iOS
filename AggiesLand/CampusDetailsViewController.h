@@ -16,7 +16,7 @@
 @property(weak,nonatomic)IBOutlet UILabel *nameLabel;
 @property(weak,nonatomic)IBOutlet UILabel *dateLabel;
 @property(weak,nonatomic)IBOutlet UILabel *locationLabel;
-@property(weak,nonatomic)IBOutlet UILabel *instructionsLabel;
+@property(weak,nonatomic)IBOutlet UITextView *instructionsLabel;
 @property(weak,nonatomic)IBOutlet UILabel *priceLabel;
 
 @property(weak,nonatomic)IBOutlet PFImageView *imageFileLabel;

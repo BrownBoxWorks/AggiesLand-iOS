@@ -43,8 +43,8 @@
 -(IBAction)backToMain:(id)sender{
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
     UIViewController *initialSettingsVC = [mainStoryboard instantiateInitialViewController];
-    initialSettingsVC.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-    [self presentModalViewController:initialSettingsVC animated:YES];
+    initialSettingsVC.modalTransitionStyle = UIModalPresentationNone;
+    [self presentModalViewController:initialSettingsVC animated:NO];
 }
 
 -(IBAction)logOut:(id)sender{

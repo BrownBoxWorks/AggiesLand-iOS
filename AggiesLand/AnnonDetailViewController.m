@@ -7,7 +7,7 @@
 //
 
 #import "AnnonDetailViewController.h"
-//#import "TTTAttributedLabel.h"
+#import "TTTAttributedLabel.h"
 
 @interface AnnonDetailViewController ()
 
@@ -44,6 +44,8 @@
     self.postedByLabel.text = annon.postedBy;
     self.dateLabel.text = annon.date;
     self.imageFileLabel.file= annon.imageFile;
+    
+    self.bodyLabel.dataDetectorTypes = UIDataDetectorTypeAll;
     
     [bodyLabel sizeToFit];
 	// Do any additional setup after loading the view.

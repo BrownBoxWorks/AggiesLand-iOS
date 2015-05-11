@@ -40,19 +40,9 @@
     
     UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Settings" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Settings",@"Add Event Via E-Mail",@"Add Event Via Twitter", nil];
     [actionSheet showInView:self.view];
-    
-    /*
-    UIStoryboard *settingsStoryboard = [UIStoryboard storyboardWithName:@"SettingsStoryboard" bundle:nil];
-    UIViewController *initialSettingsVC = [settingsStoryboard instantiateInitialViewController];
-    //initialSettingsVC.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-    [self presentModalViewController:initialSettingsVC animated:YES];
-     
-     */
+
 }
 
--(void)likeClicked:(id)sender{
-    
-}
 
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
@@ -65,8 +55,8 @@
         
         UIStoryboard *settingsStoryboard = [UIStoryboard storyboardWithName:@"SettingsStoryboard" bundle:nil];
         UIViewController *initialSettingsVC = [settingsStoryboard instantiateInitialViewController];
-        //initialSettingsVC.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-        [self presentModalViewController:initialSettingsVC animated:YES];
+        initialSettingsVC.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+        [self presentModalViewController:initialSettingsVC animated:NO];
         
     }
     
@@ -283,7 +273,7 @@
 
 
 
-/*
+/*d
 
 #pragma mark UITableViewDataSource
 

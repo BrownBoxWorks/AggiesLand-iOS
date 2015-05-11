@@ -45,6 +45,9 @@
     self.instructionsLabel.text = campus.instructions;
     self.imageFileLabel.file= campus.imageFile;
     
+    self.instructionsLabel.dataDetectorTypes = UIDataDetectorTypeAll;
+
+    
     [instructionsLabel sizeToFit];
 	// Do any additional setup after loading the view.
 }

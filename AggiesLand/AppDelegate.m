@@ -94,6 +94,10 @@
     // Return customApperance Method
     [self customApperance];
     
+    // UITab Color
+    [[UITabBar appearance] setBackgroundColor:[UIColor colorWithRed:(255/256.0) green:(255/256.0) blue:(255/256.0) alpha:1.0]];
+
+    
     
     //
     [PFImageView class];
@@ -101,8 +105,11 @@
     UIBarButtonItem *barButtonAppearance = [UIBarButtonItem appearance];
     [barButtonAppearance setTintColor:[UIColor whiteColor]];
     
-    
+    // Tab Bar Defualt background
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    //Remove Back Button Label
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -50.f) forBarMetrics:UIBarMetricsDefault];
 
     
     
