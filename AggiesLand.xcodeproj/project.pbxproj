@@ -50,8 +50,8 @@
 		D14243B01AEB5E900092A18E /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = D14243AB1AEB5E8F0092A18E /* events.png */; };
 		D14243B11AEB5E900092A18E /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D14243AC1AEB5E8F0092A18E /* home.png */; };
 		D14243B21AEB5E900092A18E /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = D14243AD1AEB5E900092A18E /* maps.png */; };
-		D14243BA1AF05FB70092A18E /* TwitterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14243B91AF05FB70092A18E /* TwitterTableViewController.m */; };
 		D160211A1A2174EC00FB601F /* Sign Up.png in Resources */ = {isa = PBXBuildFile; fileRef = D16021181A2174EC00FB601F /* Sign Up.png */; };
+		D17276451B580198006AF239 /* TwitterFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17276441B580198006AF239 /* TwitterFeedViewController.m */; };
 		D17E742D1A19959100E19C34 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E74291A19959100E19C34 /* Bolts.framework */; };
 		D17E742E1A19959100E19C34 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E742A1A19959100E19C34 /* Parse.framework */; };
 		D17E742F1A19959100E19C34 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17E742B1A19959100E19C34 /* ParseFacebookUtils.framework */; };
@@ -91,6 +91,13 @@
 		D19C39CD1814152D00E74FD4 /* AnnonCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D19C39CC1814152D00E74FD4 /* AnnonCustomCell.m */; };
 		D19C39D018141EEE00E74FD4 /* AnnonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19C39CF18141EED00E74FD4 /* AnnonDetailViewController.m */; };
 		D19C39D318141F2600E74FD4 /* Annon.m in Sources */ = {isa = PBXBuildFile; fileRef = D19C39D218141F2600E74FD4 /* Annon.m */; };
+		D19C5F0B1B56131C00812413 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D19C5F081B56131C00812413 /* libc++.dylib */; };
+		D19C5F0C1B56131C00812413 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D19C5F091B56131C00812413 /* libz.dylib */; };
+		D19C5F0D1B56131C00812413 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19C5F0A1B56131C00812413 /* Fabric.framework */; };
+		D19C5F111B56139900812413 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19C5F0E1B56139900812413 /* TwitterKit.framework */; };
+		D19C5F121B56139900812413 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D19C5F0F1B56139900812413 /* TwitterKitResources.bundle */; };
+		D19C5F131B56139900812413 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19C5F101B56139900812413 /* TwitterCore.framework */; };
+		D19C5F141B56193500812413 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C4B6E219CBD97C001913A8 /* CoreData.framework */; };
 		D1A201DC17F20E1F00CB8CC3 /* PartyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A201DB17F20E1F00CB8CC3 /* PartyViewController.m */; };
 		D1A2A2F61880F6300005F6D8 /* ClubDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A2A2F51880F6300005F6D8 /* ClubDetailsViewController.m */; };
 		D1A341F117EF875200CA13BA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A341F017EF875200CA13BA /* AudioToolbox.framework */; };
@@ -223,9 +230,9 @@
 		D14243AB1AEB5E8F0092A18E /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = events.png; path = "../../../AggieLandResources/Tab Bar Icons/events.png"; sourceTree = "<group>"; };
 		D14243AC1AEB5E8F0092A18E /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = "../../../AggieLandResources/Tab Bar Icons/home.png"; sourceTree = "<group>"; };
 		D14243AD1AEB5E900092A18E /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maps.png; path = "../../../AggieLandResources/Tab Bar Icons/maps.png"; sourceTree = "<group>"; };
-		D14243B81AF05FB70092A18E /* TwitterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTableViewController.h; sourceTree = "<group>"; };
-		D14243B91AF05FB70092A18E /* TwitterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTableViewController.m; sourceTree = "<group>"; };
 		D16021181A2174EC00FB601F /* Sign Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up.png"; sourceTree = "<group>"; };
+		D17276431B580198006AF239 /* TwitterFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterFeedViewController.h; sourceTree = "<group>"; };
+		D17276441B580198006AF239 /* TwitterFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterFeedViewController.m; sourceTree = "<group>"; };
 		D17E74291A19959100E19C34 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Desktop/parse-library-1.5.0/Bolts.framework"; sourceTree = "<group>"; };
 		D17E742A1A19959100E19C34 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../Desktop/parse-library-1.5.0/Parse.framework"; sourceTree = "<group>"; };
 		D17E742B1A19959100E19C34 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../../Desktop/parse-library-1.5.0/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
@@ -296,6 +303,12 @@
 		D19C39CF18141EED00E74FD4 /* AnnonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnonDetailViewController.m; sourceTree = "<group>"; };
 		D19C39D118141F2600E74FD4 /* Annon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annon.h; sourceTree = "<group>"; };
 		D19C39D218141F2600E74FD4 /* Annon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annon.m; sourceTree = "<group>"; };
+		D19C5F081B56131C00812413 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		D19C5F091B56131C00812413 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D19C5F0A1B56131C00812413 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		D19C5F0E1B56139900812413 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		D19C5F0F1B56139900812413 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		D19C5F101B56139900812413 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		D1A201DA17F20E1F00CB8CC3 /* PartyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyViewController.h; sourceTree = "<group>"; };
 		D1A201DB17F20E1F00CB8CC3 /* PartyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyViewController.m; sourceTree = "<group>"; };
 		D1A2A2F41880F6300005F6D8 /* ClubDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubDetailsViewController.h; sourceTree = "<group>"; };
@@ -384,29 +397,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19C5F141B56193500812413 /* CoreData.framework in Frameworks */,
 				D1F0AB3B19A9A107003DCFAB /* CoreText.framework in Frameworks */,
 				D1AFF4641989E0BB00760AED /* StoreKit.framework in Frameworks */,
 				D1AFF4621989E0A800760AED /* CoreTelephony.framework in Frameworks */,
 				D1AFF4601989E09900760AED /* AVFoundation.framework in Frameworks */,
 				D1A341F117EF875200CA13BA /* AudioToolbox.framework in Frameworks */,
 				D1AFF45E1989E08100760AED /* AdSupport.framework in Frameworks */,
+				D19C5F0B1B56131C00812413 /* libc++.dylib in Frameworks */,
 				D11BD0BA18CFE7C400C827B1 /* Accounts.framework in Frameworks */,
 				D1A3420117EF887000CA13BA /* SystemConfiguration.framework in Frameworks */,
 				D1A341FD17EF885700CA13BA /* Security.framework in Frameworks */,
 				D17E74301A19959100E19C34 /* ParseUI.framework in Frameworks */,
+				D19C5F0D1B56131C00812413 /* Fabric.framework in Frameworks */,
 				D1A341FB17EF884F00CA13BA /* QuartzCore.framework in Frameworks */,
+				D19C5F131B56139900812413 /* TwitterCore.framework in Frameworks */,
 				D1A341F917EF884400CA13BA /* MobileCoreServices.framework in Frameworks */,
 				D1A341F717EF882D00CA13BA /* libz.1.1.3.dylib in Frameworks */,
 				D17E742F1A19959100E19C34 /* ParseFacebookUtils.framework in Frameworks */,
 				D1A341F517EF881C00CA13BA /* CoreLocation.framework in Frameworks */,
 				D19AFB0A1989F4FD005C1663 /* FacebookSDK.framework in Frameworks */,
 				D1A341F317EF876500CA13BA /* CFNetwork.framework in Frameworks */,
+				D19C5F0C1B56131C00812413 /* libz.dylib in Frameworks */,
 				D17E742D1A19959100E19C34 /* Bolts.framework in Frameworks */,
 				D12D96F017EAC93500E94429 /* Twitter.framework in Frameworks */,
 				D12D96E517EAB4C600E94429 /* Social.framework in Frameworks */,
 				D1A3E4F217DD0F59005E4911 /* MessageUI.framework in Frameworks */,
 				D17E742E1A19959100E19C34 /* Parse.framework in Frameworks */,
 				D1BD178A17DCB493000A174A /* UIKit.framework in Frameworks */,
+				D19C5F111B56139900812413 /* TwitterKit.framework in Frameworks */,
 				D1192F9519D0B5A4009D5F2B /* Crashlytics.framework in Frameworks */,
 				D12D96E317EAB4B100E94429 /* MapKit.framework in Frameworks */,
 				D1BD178C17DCB493000A174A /* Foundation.framework in Frameworks */,
@@ -612,8 +631,8 @@
 		D14243B41AF05EEB0092A18E /* Twitter Feed */ = {
 			isa = PBXGroup;
 			children = (
-				D14243B81AF05FB70092A18E /* TwitterTableViewController.h */,
-				D14243B91AF05FB70092A18E /* TwitterTableViewController.m */,
+				D17276431B580198006AF239 /* TwitterFeedViewController.h */,
+				D17276441B580198006AF239 /* TwitterFeedViewController.m */,
 			);
 			name = "Twitter Feed";
 			sourceTree = "<group>";
@@ -728,11 +747,17 @@
 		D1BD178817DCB493000A174A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D19C5F0E1B56139900812413 /* TwitterKit.framework */,
+				D19C5F0F1B56139900812413 /* TwitterKitResources.bundle */,
+				D19C5F101B56139900812413 /* TwitterCore.framework */,
 				D17E74291A19959100E19C34 /* Bolts.framework */,
 				D17E742A1A19959100E19C34 /* Parse.framework */,
 				D17E742B1A19959100E19C34 /* ParseFacebookUtils.framework */,
 				D17E742C1A19959100E19C34 /* ParseUI.framework */,
 				D1192F9419D0B5A4009D5F2B /* Crashlytics.framework */,
+				D19C5F081B56131C00812413 /* libc++.dylib */,
+				D19C5F091B56131C00812413 /* libz.dylib */,
+				D19C5F0A1B56131C00812413 /* Fabric.framework */,
 				D1C4B6E519CBD9E1001913A8 /* CoreMedia.framework */,
 				D1C4B6E219CBD97C001913A8 /* CoreData.framework */,
 				D1F0AB3A19A9A107003DCFAB /* CoreText.framework */,
@@ -960,6 +985,7 @@
 				D1B0A66C18D8847900EFE0CD /* TitleLogo.png in Resources */,
 				D1BD17A317DCB493000A174A /* MainStoryboard.storyboard in Resources */,
 				D14243B01AEB5E900092A18E /* events.png in Resources */,
+				D19C5F121B56139900812413 /* TwitterKitResources.bundle in Resources */,
 				D1192EE918B183B900E7DEAC /* sign up_no lines.png in Resources */,
 				D13BD7CE195D11B7006BF845 /* login.png in Resources */,
 				D1192EDD18B16F4400E7DEAC /* text field.png in Resources */,
@@ -1012,7 +1038,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Crashlytics.framework/run 8e03bf8519f7903a4e20ae17146a26bdb3d4774a fba0856ddf32bb0d729da59586194444a0b76228015168b2190abef98e9907b1\n";
+			shellScript = "./Fabric.framework/run 8e03bf8519f7903a4e20ae17146a26bdb3d4774a fba0856ddf32bb0d729da59586194444a0b76228015168b2190abef98e9907b1";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1031,6 +1057,7 @@
 				D12D96E117EAAFD400E94429 /* TennisViewController.m in Sources */,
 				D1D953961880588F006F15FA /* Clubs.m in Sources */,
 				D1AFF4431989C42800760AED /* UIScrollView+EmptyDataSet.m in Sources */,
+				D17276451B580198006AF239 /* TwitterFeedViewController.m in Sources */,
 				D1ABF9B218D0B59600DFABDA /* SettingsViewController.m in Sources */,
 				D1882B1E1AFC5245000B8D6B /* STHTTPRequest+STTwitter.m in Sources */,
 				D1F9585F19C77A4500FD7A5B /* BusinessWebViewController.m in Sources */,
@@ -1044,7 +1071,6 @@
 				D1D9539C188059CB006F15FA /* ClubCustomCell.m in Sources */,
 				D1882B251AFC5245000B8D6B /* BAVPlistNode.m in Sources */,
 				D19A15C917DD3DE200C9EBB2 /* HEAT71ViewController.m in Sources */,
-				D14243BA1AF05FB70092A18E /* TwitterTableViewController.m in Sources */,
 				D19A15D617DD44CD00C9EBB2 /* HEAT71WeekendViewController.m in Sources */,
 				D1882AF81AFC4D6F000B8D6B /* ATRegisterViewController.m in Sources */,
 				D1A3520B18A71673001237A5 /* AGSignupViewController.m in Sources */,
@@ -1180,6 +1206,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AggiesLand/AggiesLand.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1195,6 +1222,7 @@
 				INFOPLIST_FILE = "AggiesLand/AggiesLand-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-6.10.0",
@@ -1203,6 +1231,8 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AggiesLand/AggiesLand-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1212,6 +1242,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AggiesLand/AggiesLand.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1227,6 +1258,7 @@
 				INFOPLIST_FILE = "AggiesLand/AggiesLand-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-6.10.0",
@@ -1235,6 +1267,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AggiesLand/AggiesLand-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

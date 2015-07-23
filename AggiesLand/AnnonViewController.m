@@ -160,7 +160,7 @@
     
     //Menu View Controller
 
-     self.navigationItem.title = @"News Feed";
+     self.navigationItem.title = @"Home";
     // self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"TitleLogo.png"]];
     
     

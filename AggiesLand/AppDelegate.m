@@ -9,7 +9,8 @@
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 #import "iRate.h"
-//#import "AMScrollingNavbarViewController.h"
+#import <Fabric/Fabric.h>
+#import <TwitterKit/TwitterKit.h>
 #import <Crashlytics/Crashlytics.h>
 
 
@@ -41,10 +42,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Crashlytics API Key
-    [Crashlytics startWithAPIKey:@"8e03bf8519f7903a4e20ae17146a26bdb3d4774a"];
-    [[Crashlytics sharedInstance] setDebugMode:YES];
+
+    [[Twitter sharedInstance] startWithConsumerKey:@"IFwzdrBcMHEugm5CfS5AMlJ1k" consumerSecret:@"b33yv2K7GoIi1cGGCtj7OzyIEcGplna08CBxDAVhPAEvIjkrkL"];
+ 
+    [Fabric with:@[[Twitter sharedInstance]]];
     
+    //Fabric Twitter
+    [Fabric with:@[CrashlyticsKit,TwitterKit]];
   
     
 // Parse SDK Credentials
@@ -95,9 +99,12 @@
     [self customApperance];
     
     // UITab Color
-    [[UITabBar appearance] setBackgroundColor:[UIColor colorWithRed:(255/256.0) green:(255/256.0) blue:(255/256.0) alpha:1.0]];
+    //[[UITabBar appearance] setBackgroundColor:[UIColor colorWithRed:(255/256.0) green:(255/256.0) blue:(255/256.0) alpha:1.0]];
 
-    
+    [[UITabBar appearance] setBarTintColor:[UIColor grayColor]];
+    [[UITabBar appearance] setSelectedImageTintColor:[UIColor whiteColor]];
+
+
     
     //
     [PFImageView class];

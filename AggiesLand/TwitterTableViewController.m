@@ -8,7 +8,8 @@
 
 
 #import "TwitterTableViewController.h"
-#import "STTwitter.h"
+#import <TwitterKit/TwitterKit.h>
+
 
 @interface TwitterTableViewController (){
     
@@ -27,37 +28,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
+    TWTRAPIClient *APIClient = [[Twitter sharedInstance] APIClient];
+    TWTRSearchTimelineDataSource *searchTimelineDataSource = [[TWTRSearchTimelineDataSource alloc] initWithSearchQuery:@"#twitterflock" APIClient:APIClient];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    // STTwitter API
-    STTwitterAPI *twitter = [STTwitterAPI twitterAPIAppOnlyWithConsumerKey:@"pLgm0CpvgUmeOOHKkhIabQFFL"
-                                                            consumerSecret:@"6n7T5PRkLPufSAowtdfY3Ja5kH4HVR9YC6Zh7MRTaXXZmm47Az"];
 
-    
-    [twitter verifyCredentialsWithSuccessBlock:^(NSString *bearerToken) {
-        
-        [twitter getUserTimelineWithScreenName:@"AggieLandz"
-                                  successBlock:^(NSArray *statuses) {
-                                      
-                                      self.twitterFeed = [NSMutableArray arrayWithArray:statuses];
-                                      
-                                      [self.tableView reloadData];
-                                      
-                                  } errorBlock:^(NSError *error) {
-                                      
-                                      NSLog(@"%@", error.debugDescription);
-                                      
-                                  }];
-        
-    } errorBlock:^(NSError *error) {
-        
-        NSLog(@"%@", error.debugDescription);
-        
-    }];
     
 
 }
@@ -85,16 +65,6 @@
     if(cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
-    
-    
-    NSInteger idx = indexPath.row;
-    NSDictionary *t = self.twitterFeed[idx];
-    
-    cell.textLabel.text = t[@"text"];
-    cell.textLabel.numberOfLines = 4;
-    
-
-
     
     return cell;
 }

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TwitterKit/TwitterKit.h>
 
-@interface TwitterTableViewController : UITableViewController
+@interface TwitterTableViewController : UIViewController <TWTRTimelineDataSource>
 
 //@property (strong,nonatomic) IBOutlet NSMutableArray *twitterFeed;
 
