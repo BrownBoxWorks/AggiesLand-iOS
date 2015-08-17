@@ -13,6 +13,7 @@
 #import <TwitterKit/TwitterKit.h>
 #import <Crashlytics/Crashlytics.h>
 
+NSString *const BFTaskMultipleExceptionsException = @"BFMultipleExceptionsException";
 
 
 
@@ -72,19 +73,19 @@
     //Tutorial View
     
     
-    [[UINavigationBar appearance]setBarTintColor:[UIColor blueColor]];
-    
+    //[[UINavigationBar appearance]setBarTintColor:[UIColor blueColor]];
+   
     NSShadow *shadow = [[NSShadow alloc] init];
     shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
     shadow.shadowOffset = CGSizeMake(0, 1);
     
 
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
     
     [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                                                           
     
-    [UIColor colorWithRed:245.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0],
+    [UIColor colorWithRed:0.0/255.0 green:0.0/255.0 blue:0.0/255.0 alpha:1.0],
     NSForegroundColorAttributeName, shadow,NSShadowAttributeName,
     [UIFont fontWithName:@"Euphemia UCAS"size:21.0],NSFontAttributeName, nil]];
 
@@ -92,45 +93,44 @@
     // Parse Push Notifications Credentials
     [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
                                                     UIRemoteNotificationTypeAlert|
-     UIRemoteNotificationTypeSound];
+                                                    UIRemoteNotificationTypeSound];
     
     
     // Return customApperance Method
-    [self customApperance];
+    //[self customApperance];
     
     // UITab Color
-    //[[UITabBar appearance] setBackgroundColor:[UIColor colorWithRed:(255/256.0) green:(255/256.0) blue:(255/256.0) alpha:1.0]];
+    [[UITabBar appearance] setBackgroundColor:[UIColor colorWithRed:(255/256.0) green:(255/256.0) blue:(255/256.0) alpha:0.0]];
 
-    [[UITabBar appearance] setBarTintColor:[UIColor grayColor]];
-    [[UITabBar appearance] setSelectedImageTintColor:[UIColor whiteColor]];
+    [[UITabBar appearance] setSelectedImageTintColor:[UIColor blueColor]];
 
 
     
     //
     [PFImageView class];
-
+/*
     UIBarButtonItem *barButtonAppearance = [UIBarButtonItem appearance];
     [barButtonAppearance setTintColor:[UIColor whiteColor]];
-    
+*/
     // Tab Bar Defualt background
-    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    //[[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
     //Remove Back Button Label
     [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -50.f) forBarMetrics:UIBarMetricsDefault];
 
     
-    
-    
+    //[[UIBarButtonItem appearance] setTintColor:[UIColor blueColor]];
     return YES;
 }
 
+/*
 -(void)customApperance{
     
     UIImage *NavBar =[UIImage imageNamed:@"Title Bar.png"];
         [[UINavigationBar appearance] setBackgroundImage:NavBar forBarMetrics:UIBarMetricsDefault];
 }
 
-
+*/
 
 
 

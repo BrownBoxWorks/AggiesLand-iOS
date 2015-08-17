@@ -14,7 +14,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationController.title = @"#NCAT";
+    self.navigationItem.title = @"#NCAT";
     
     [[Twitter sharedInstance] logInGuestWithCompletion:^(TWTRGuestSession *guestSession, NSError *error) {
         if (guestSession) {

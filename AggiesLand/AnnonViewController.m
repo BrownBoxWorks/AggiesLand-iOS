@@ -12,6 +12,7 @@
 #import "AnnonDetailViewController.h"
 #import "AGLoginViewController.h"
 #import "AGSignupViewController.h"
+#import "NZAlertView.h"
 //#import "TTTAttributedLabel.h"
 
 @interface AnnonViewController ()
@@ -76,6 +77,8 @@
         
         // Present mail view controller on screen
         [self presentViewController:mc animated:YES completion:NULL];
+        
+        
    
     
     }
@@ -91,8 +94,7 @@
         
         twitter.completionHandler = ^(TWTweetComposeViewControllerResult res){
             if(res == TWTweetComposeViewControllerResultDone){
-                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Tweet Sent" message:@"Your tweet is sent and well will review the event be in our timeline! Please give us some time to review your request." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-                
+                NZAlertView *alert = [[NZAlertView alloc] initWithStyle:NZAlertStyleSuccess title:@"Tweet Sent" message:@"Your tweet is sent and well will review the event be in our timeline! Please give us some time to review your request." delegate:self];
                 [alert show];
             }
             [self dismissModalViewControllerAnimated:YES];
@@ -110,6 +112,7 @@
             break;
         case MFMailComposeResultSaved:
             NSLog(@"Mail saved");
+            
             break;
         case MFMailComposeResultSent:
             NSLog(@"Mail sent");
@@ -326,6 +329,28 @@
 }
 
 */
+
+#pragma mark - NZAlertViewDelegate
+
+- (void)willPresentNZAlertView:(NZAlertView *)alertView
+{
+    NSLog(@"%s\n\t alert will present", __PRETTY_FUNCTION__);
+}
+
+- (void)didPresentNZAlertView:(NZAlertView *)alertView
+{
+    NSLog(@"%s\n\t alert did present", __PRETTY_FUNCTION__);
+}
+
+- (void)NZAlertViewWillDismiss:(NZAlertView *)alertView
+{
+    NSLog(@"%s\n\t alert will dismiss", __PRETTY_FUNCTION__);
+}
+
+- (void)NZAlertViewDidDismiss:(NZAlertView *)alertView
+{
+    NSLog(@"%s\n\t alert did dismiss", __PRETTY_FUNCTION__);
+}
 
 #pragma mark - DZEmptyView
 

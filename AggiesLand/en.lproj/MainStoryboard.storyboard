@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A216g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="7bs-c4-eQz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A244d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="7bs-c4-eQz">
     <dependencies>
         <deployment version="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -87,7 +87,7 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="Mac-9Z-lha">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </mapView>
                         </subviews>
@@ -324,6 +324,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="FWt-fz-INE">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -350,6 +351,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="g1V-dm-cKM">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -376,6 +378,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="1kx-fy-rou">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -402,6 +405,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="ubk-l7-Lpr">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -428,6 +432,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="1l6-pG-hdi">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -454,7 +459,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xB3-v6-ZhO">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -487,7 +492,6 @@
                         <segue destination="g4g-2j-R38" kind="relationship" relationship="viewControllers" id="eTb-Pb-33K"/>
                         <segue destination="M5L-XC-fb5" kind="relationship" relationship="viewControllers" id="Se2-m8-jhX"/>
                         <segue destination="zvQ-kL-2w3" kind="relationship" relationship="viewControllers" id="bjp-gU-HMg"/>
-                        <segue destination="Nex-Sl-XMr" kind="relationship" relationship="viewControllers" id="QqA-Y5-AwG"/>
                         <segue destination="9FE-0H-HVc" kind="relationship" relationship="viewControllers" id="LrI-6E-phu"/>
                     </connections>
                 </tabBarController>
@@ -505,10 +509,10 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="TCh-3c-ItF">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cbO-fs-cn1">
-                                        <rect key="frame" x="0.0" y="205" width="217" height="21"/>
+                                        <rect key="frame" x="8" y="343" width="217" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
@@ -516,47 +520,41 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EventName" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BSa-Qi-z3C">
-                                        <rect key="frame" x="-2" y="176" width="325" height="31"/>
+                                        <rect key="frame" x="-2" y="314" width="325" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zPX-ks-WwP">
-                                        <rect key="frame" x="0.0" y="226" width="320" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gPt-b5-l8r">
-                                        <rect key="frame" x="0.0" y="256" width="320" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CaR-3V-o1Q">
-                                        <rect key="frame" x="281" y="205" width="42" height="21"/>
+                                        <rect key="frame" x="281" y="343" width="42" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="14"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="jh0-Tr-ViZ" customClass="PFImageView">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="168"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="304"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Yp3-wN-MOh">
-                                        <rect key="frame" x="0.0" y="256" width="320" height="263"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="Yp3-wN-MOh">
+                                        <rect key="frame" x="0.0" y="409" width="320" height="110"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                     </textView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zPX-ks-WwP">
+                                        <rect key="frame" x="8" y="364" width="320" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <animations/>
                             </scrollView>
@@ -604,7 +602,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="InC-LZ-UC7">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -622,7 +620,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="v4a-oc-lI5">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -640,7 +638,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="tpH-Df-cmW">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -658,7 +656,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="wyT-IR-Fig">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -676,7 +674,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="KJM-lo-DKy">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -694,7 +692,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="MZO-01-eE0">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -712,7 +710,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="UIm-mU-nsb">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -730,7 +728,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="cav-g1-sBs">
                                             <rect key="frame" x="0.0" y="0.0" width="155" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -748,7 +746,7 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="bxg-hc-bEx">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                         </imageView>
                                     </subviews>
@@ -779,7 +777,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="141" sectionHeaderHeight="22" sectionFooterHeight="22" id="Vax-iB-oM1">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="520"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -909,9 +907,14 @@
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Title" id="LFt-OO-mOP">
-                        <barButtonItem key="leftBarButtonItem" title="Twitter" id="sGm-ZL-30h"/>
-                        <barButtonItem key="rightBarButtonItem" image="settings.png" id="Dpy-4M-Ojf">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <barButtonItem key="leftBarButtonItem" image="TwitterIcon.png" id="sGm-ZL-30h">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="lCx-Ay-2FS" kind="custom" customClass="NavigationBarSeque" id="I1g-eY-8nK"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Settings.png" id="Dpy-4M-Ojf">
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="goToSettings" destination="cWX-iZ-5fs" id="Usk-86-IIC"/>
                             </connections>
@@ -1209,11 +1212,11 @@
             </objects>
             <point key="canvasLocation" x="-270" y="1002"/>
         </scene>
-        <!--A&T Register-->
+        <!--Register-->
         <scene sceneID="PrJ-Ga-wpY">
             <objects>
                 <navigationController id="9FE-0H-HVc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="A&amp;T Register" id="Bln-wl-GBv"/>
+                    <tabBarItem key="tabBarItem" title="Register" image="News.png" id="Bln-wl-GBv"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fHf-lg-TNa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1237,7 +1240,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="PdG-M4-LyI">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -1264,7 +1267,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="UE4-Ek-Ieh">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1291,7 +1294,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="Yyp-9r-YBi">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1318,7 +1321,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="bJz-IL-gx6">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1345,7 +1348,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="wKc-uh-RQ4">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1372,7 +1375,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="30k-B1-2TR">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1399,7 +1402,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="qku-az-ZZq">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1426,7 +1429,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="Kml-Fi-5VP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1453,7 +1456,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="soA-7B-hNS">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1480,7 +1483,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="8vw-ih-awl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1507,7 +1510,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="DfI-iC-jQh">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1534,7 +1537,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="lHT-SU-6M0">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -1561,7 +1564,7 @@
                         <subviews>
                             <webView contentMode="scaleToFill" id="HAo-7R-kON">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -1676,7 +1679,7 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="gYl-De-Fi4">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oK8-oo-qoc">
                                         <rect key="frame" x="8" y="228" width="170" height="20"/>
@@ -1758,23 +1761,16 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="lhy-u4-Enc">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="560"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="BxC-bA-OQc" customClass="PFImageView">
-                                        <rect key="frame" x="0.0" y="0.0" width="327" height="168"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="304"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ift-lY-ERW">
-                                        <rect key="frame" x="8" y="176" width="299" height="43"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="16"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="xNY-of-Mh4">
-                                        <rect key="frame" x="0.0" y="255" width="320" height="264"/>
+                                        <rect key="frame" x="0.0" y="378" width="320" height="494"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1784,11 +1780,18 @@
                                         <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                     </textView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rgy-me-j6W">
-                                        <rect key="frame" x="97" y="221" width="133" height="21"/>
+                                        <rect key="frame" x="91" y="349" width="133" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="12"/>
                                         <color key="textColor" red="0.053227558690000003" green="0.09905501857" blue="0.81393494899999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ift-lY-ERW">
+                                        <rect key="frame" x="8" y="307" width="299" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="16"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1817,7 +1820,7 @@
         <scene sceneID="dy1-e5-FnA">
             <objects>
                 <navigationController title="Sidebar Menu" automaticallyAdjustsScrollViewInsets="NO" id="rXl-ES-1Dc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="home.png" id="7W6-KA-5jJ"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home.png" id="7W6-KA-5jJ"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="OrY-k1-lIn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IJ7-2p-q7E">
@@ -1918,11 +1921,11 @@
             </objects>
             <point key="canvasLocation" x="-2395" y="-3143"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Events-->
         <scene sceneID="dgd-qO-GzR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g4g-2j-R38" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="events.png" id="dEt-zq-pk7"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="Events.png" id="dEt-zq-pk7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="S8d-uT-qsX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1958,11 +1961,11 @@
             </objects>
             <point key="canvasLocation" x="-810" y="-499"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Routes-->
         <scene sceneID="VY7-3t-vHH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M5L-XC-fb5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bus.png" id="Jlb-lu-FVL"/>
+                    <tabBarItem key="tabBarItem" title="Routes" image="Bus Routes.png" id="Jlb-lu-FVL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TL9-om-LLi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1978,11 +1981,11 @@
             </objects>
             <point key="canvasLocation" x="-810" y="229"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Athletics-->
         <scene sceneID="Zzf-7r-2WN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zvQ-kL-2w3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="athletcis.png" id="KaK-9e-jQn"/>
+                    <tabBarItem key="tabBarItem" title="Athletics" image="Sports.png" id="KaK-9e-jQn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KT5-U8-mA4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1997,26 +2000,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IP2-qq-tWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-802" y="1002"/>
-        </scene>
-        <!--Twitter-->
-        <scene sceneID="5wx-GI-1zv">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nex-Sl-XMr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Twitter" id="4iP-oG-P6U"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yM8-NM-Ss4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="lCx-Ay-2FS" kind="relationship" relationship="rootViewController" id="gDW-fi-ohb"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xo3-Pb-Sad" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-810" y="1801"/>
         </scene>
         <!--#NCAT-->
         <scene sceneID="QV0-um-zLS">
@@ -2036,13 +2019,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="athletcis.png" width="25" height="25"/>
-        <image name="bus.png" width="25" height="25"/>
-        <image name="events.png" width="25" height="25"/>
-        <image name="home.png" width="25" height="25"/>
+        <image name="Bus Routes.png" width="25" height="25"/>
+        <image name="Events.png" width="25" height="25"/>
+        <image name="Home.png" width="25" height="25"/>
+        <image name="News.png" width="25" height="25"/>
+        <image name="Settings.png" width="25" height="25"/>
+        <image name="Sports.png" width="25" height="25"/>
+        <image name="TwitterIcon.png" width="25" height="20"/>
         <image name="maps.png" width="25" height="25"/>
         <image name="menu.png" width="28" height="20"/>
-        <image name="settings.png" width="29" height="29"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

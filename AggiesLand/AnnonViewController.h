@@ -13,16 +13,19 @@
 #import <Twitter/Twitter.h>
 #import "UIScrollView+EmptyDataSet.h"
 #import "TTTAttributedLabel.h"
+#import "NZAlertViewDelegate.h"
 
 
 
 @interface AnnonViewController : PFQueryTableViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UIActionSheetDelegate,
-DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,TTTAttributedLabelDelegate,MFMailComposeViewControllerDelegate>
+DZNEmptyDataSetSource,DZNEmptyDataSetDelegate,TTTAttributedLabelDelegate,MFMailComposeViewControllerDelegate,NZAlertViewDelegate>
 
 
 
 @property (weak,nonatomic)IBOutlet UIBarButtonItem *sidebarButton;
 @property (weak,nonatomic)IBOutlet UITableView *twitterTableView;
+@property (nonatomic) NZAlertStyle alertStyle;
+
 
 -(IBAction)goToSettings;
 

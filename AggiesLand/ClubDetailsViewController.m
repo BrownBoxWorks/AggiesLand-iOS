@@ -37,7 +37,7 @@
     
     //Scrool View
     [self.scroller setScrollEnabled:YES];
-    [self.scroller setContentSize:(CGSizeMake(320, 800))];
+    [self.scroller setContentSize:(CGSizeMake(320, 1000))];
     
     
     self.nameLabel.text = clubs.name;

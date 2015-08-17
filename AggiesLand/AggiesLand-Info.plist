@@ -38,7 +38,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.6</string>
+	<string>2.0</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
@@ -184,7 +184,7 @@ b33yv2K7GoIi1cGGCtj7OzyIEcGplna08CBxDAVhPAEvIjkrkL</string>
 	<key>UIStatusBarHidden</key>
 	<false/>
 	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleBlackOpaque</string>
+	<string>UIStatusBarStyleBlackTranslucent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
