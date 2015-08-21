@@ -62,6 +62,8 @@ NSString *const BFTaskMultipleExceptionsException = @"BFMultipleExceptionsExcept
    
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
+    [Parse offlineMessagesEnabled:NO];
+    
 
 /* ============================================================================================================================
  Custom UI Override

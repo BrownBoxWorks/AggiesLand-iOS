@@ -21,11 +21,6 @@
 
 @implementation AnnonViewController
 
-
-
-
-
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -77,9 +72,6 @@
         
         // Present mail view controller on screen
         [self presentViewController:mc animated:YES completion:NULL];
-        
-        
-   
     
     }
     
@@ -148,6 +140,7 @@
     
     return query;
 }
+
 - (void)viewDidLoad
 {
     
@@ -170,9 +163,6 @@
     [super viewDidLoad];
 
 }
-
-
-
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
@@ -216,11 +206,7 @@
     if ([[object objectForKey:@"liked"]boolValue]){
         
     }
-
-   
-  
-
-    
+ 
     NSString *nameLabel = [object objectForKey:@"Title"];
     NSString *bodyLabel = [object objectForKey:@"Body"];
     NSString *dateLabel = [object objectForKey:@"Date"];
@@ -235,7 +221,6 @@
     [cell.body setText:[NSString stringWithFormat:@"%@",bodyLabel]];
     [cell.postedBy setText:[NSString stringWithFormat:@"%@",createdByLabel]];
     [cell.date setText:[NSString stringWithFormat:@"%@",dateLabel]];
-    
     
     return cell;
 }
@@ -274,61 +259,6 @@
     }
 }
 
-
-
-/*d
-
-#pragma mark UITableViewDataSource
-
-- (NSInteger)tableView:(UITableView *)twitterTableView numberOfRowsInSection:(NSInteger)section {
-    return self.twitterFeed.count;
-}
-
-// Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
-// Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
-
-- (UITableViewCell *)tableView:(UITableView *)twitterTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *cellID = @"CellID";
-    
-    UITableViewCell *cell = [twitterTableView dequeueReusableCellWithIdentifier:cellID];
-    
-    if(cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
-    }
-    
-    
-    NSInteger idx = indexPath.row;
-    NSDictionary *t = self.twitterFeed[idx];
-    
-    cell.textLabel.text = t[@"text"];
-    
-    tableTimer = [NSTimer scheduledTimerWithTimeInterval:10 // Integer arranges the speed of the auto-scrolling
-                                                  target:self
-                                                selector:@selector(autoScroll)
-                                                userInfo:nil
-                                                 repeats:NO];
-    
-    
-    [NSTimer scheduledTimerWithTimeInterval:10 // Integer arranges the duration of the scroll
-                                     target:self
-                                   selector:@selector(stopScroll)
-                                   userInfo:nil
-                                    repeats:NO];
-    
-    return cell;
-}
-
-#pragma mark - Auto Scrolling UITableView Delegate
--(void)autoScroll{
-    [_twitterTableView setContentOffset:CGPointMake(twitterTableView.contentOffset.x, tableView.contentOffset.y + 44) animated:YES];
-    
-}
-
--(void)stopScroll{
-    [tableTimer invalidate];
-}
-
-*/
 
 #pragma mark - NZAlertViewDelegate
 
@@ -446,11 +376,6 @@
     
 }
 
-
-
-
-
-
 // Sent to the delegate to determine whether the sign up request should be submitted to the server.
 - (BOOL)signUpViewController:(PFSignUpViewController *)signUpController shouldBeginSignUp:(NSDictionary *)info {
     BOOL informationComplete = YES;
@@ -475,9 +400,6 @@
     
     return informationComplete;
 }
-
-
-
 
 #pragma mark - PFSignUpView Delegate
 
