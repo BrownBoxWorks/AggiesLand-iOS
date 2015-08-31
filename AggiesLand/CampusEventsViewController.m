@@ -36,16 +36,9 @@
 }
 - (void)viewDidLoad
 {
-    
-
-    
-
     [super viewDidLoad];
     
     [self.tableView reloadData];
-
-    
-    
     self.tableView.emptyDataSetSource = self;
     self.tableView.emptyDataSetDelegate = self;
     

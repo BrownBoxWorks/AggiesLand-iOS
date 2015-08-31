@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A30B5C22F56FC2357A5E2CF1F16D7D019224E067",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6AEEB532FAD99FF7A4E1C456458118CA5116749F" : 0,
+    "A30B5C22F56FC2357A5E2CF1F16D7D019224E067" : 0,
+    "AFC24EBB40D8DEBC05F57691182DABC13B7295DE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D0FFD5C5-624E-424D-A026-E83AB8BE83B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6AEEB532FAD99FF7A4E1C456458118CA5116749F" : "..\/..\/UIImage-Helpers",
+    "A30B5C22F56FC2357A5E2CF1F16D7D019224E067" : "AggiesLand\/",
+    "AFC24EBB40D8DEBC05F57691182DABC13B7295DE" : "..\/..\/NZAlertView"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AggiesLand",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AggiesLand.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NZN\/UIImage-Helpers.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6AEEB532FAD99FF7A4E1C456458118CA5116749F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/reevesnick\/AggiesLand.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A30B5C22F56FC2357A5E2CF1F16D7D019224E067"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NZN\/NZAlertView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AFC24EBB40D8DEBC05F57691182DABC13B7295DE"
+    }
+  ]
+}

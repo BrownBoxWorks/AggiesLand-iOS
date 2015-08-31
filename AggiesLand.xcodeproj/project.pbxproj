@@ -75,6 +75,11 @@
 		D1882B251AFC5245000B8D6B /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D1882B161AFC5245000B8D6B /* BAVPlistNode.m */; };
 		D1882B261AFC5245000B8D6B /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = D1882B181AFC5245000B8D6B /* JSONSyntaxHighlight.m */; };
 		D1882B271AFC5245000B8D6B /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1882B1A1AFC5245000B8D6B /* STHTTPRequest.m */; };
+		D18E079C1B929457006ABF99 /* CampusEventsTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E079B1B929457006ABF99 /* CampusEventsTwoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D18E079F1B93C4CA006ABF99 /* PartiesTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E079E1B93C4CA006ABF99 /* PartiesTwoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D18E07A61B93DF36006ABF99 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A31B93DF36006ABF99 /* CarbonSwipeRefresh.m */; settings = {ASSET_TAGS = (); }; };
+		D18E07A71B93DF36006ABF99 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A51B93DF36006ABF99 /* CarbonTabSwipeNavigation.m */; settings = {ASSET_TAGS = (); }; };
+		D18E07AA1B93DF68006ABF99 /* CampusTapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A91B93DF68006ABF99 /* CampusTapViewController.m */; settings = {ASSET_TAGS = (); }; };
 		D19A15C017DD384B00C9EBB2 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */; };
 		D19A15C917DD3DE200C9EBB2 /* HEAT71ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15C817DD3DE200C9EBB2 /* HEAT71ViewController.m */; };
 		D19A15CF17DD3E9400C9EBB2 /* 71.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D19A15CA17DD3E9400C9EBB2 /* 71.pdf */; };
@@ -146,8 +151,6 @@
 		D1C5EF901B7134140038D486 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C5EF8C1B7134140038D486 /* ParseFacebookUtils.framework */; };
 		D1C5EF911B7134140038D486 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C5EF8D1B7134140038D486 /* ParseUI.framework */; };
 		D1C5EF971B713D150038D486 /* NavigationBarSeque.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C5EF961B713D140038D486 /* NavigationBarSeque.m */; };
-		D1C5EFA01B7141700038D486 /* Google News-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C5EF9E1B7141700038D486 /* Google News-25.png */; };
-		D1C5EFA11B7141700038D486 /* Twitter-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C5EF9F1B7141700038D486 /* Twitter-25.png */; };
 		D1CDBA441880FC16001CDE00 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1CDBA411880FC16001CDE00 /* iRate.bundle */; };
 		D1CDBA451880FC16001CDE00 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CDBA431880FC16001CDE00 /* iRate.m */; };
 		D1D9538E188051E6006F15FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D9538C188051E6006F15FA /* Default-568h@2x.png */; };
@@ -288,6 +291,17 @@
 		D1882B181AFC5245000B8D6B /* JSONSyntaxHighlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSyntaxHighlight.m; sourceTree = "<group>"; };
 		D1882B191AFC5245000B8D6B /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
 		D1882B1A1AFC5245000B8D6B /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
+		D18E079A1B929457006ABF99 /* CampusEventsTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusEventsTwoViewController.h; sourceTree = "<group>"; };
+		D18E079B1B929457006ABF99 /* CampusEventsTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusEventsTwoViewController.m; sourceTree = "<group>"; };
+		D18E079D1B93C4CA006ABF99 /* PartiesTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartiesTwoViewController.h; sourceTree = "<group>"; };
+		D18E079E1B93C4CA006ABF99 /* PartiesTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartiesTwoViewController.m; sourceTree = "<group>"; };
+		D18E07A11B93DF36006ABF99 /* CarbonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonKit.h; sourceTree = "<group>"; };
+		D18E07A21B93DF36006ABF99 /* CarbonSwipeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonSwipeRefresh.h; sourceTree = "<group>"; };
+		D18E07A31B93DF36006ABF99 /* CarbonSwipeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonSwipeRefresh.m; sourceTree = "<group>"; };
+		D18E07A41B93DF36006ABF99 /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		D18E07A51B93DF36006ABF99 /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		D18E07A81B93DF68006ABF99 /* CampusTapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusTapViewController.h; sourceTree = "<group>"; };
+		D18E07A91B93DF68006ABF99 /* CampusTapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusTapViewController.m; sourceTree = "<group>"; };
 		D19A15BE17DD384B00C9EBB2 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
 		D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
 		D19A15C717DD3DE200C9EBB2 /* HEAT71ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEAT71ViewController.h; sourceTree = "<group>"; };
@@ -397,8 +411,6 @@
 		D1C5EF8D1B7134140038D486 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../../Desktop/parse-library-1.5.0/ParseUI.framework"; sourceTree = "<group>"; };
 		D1C5EF951B713D140038D486 /* NavigationBarSeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationBarSeque.h; path = AggiesLand.xcodeproj/../AggiesLand/NavigationBarSeque.h; sourceTree = "<group>"; };
 		D1C5EF961B713D140038D486 /* NavigationBarSeque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationBarSeque.m; path = AggiesLand.xcodeproj/../AggiesLand/NavigationBarSeque.m; sourceTree = "<group>"; };
-		D1C5EF9E1B7141700038D486 /* Google News-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google News-25.png"; sourceTree = "<group>"; };
-		D1C5EF9F1B7141700038D486 /* Twitter-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter-25.png"; sourceTree = "<group>"; };
 		D1CDBA411880FC16001CDE00 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = "../../../../../Downloads/iRate-master/iRate/iRate.bundle"; sourceTree = "<group>"; };
 		D1CDBA421880FC16001CDE00 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = "../../../../../Downloads/iRate-master/iRate/iRate.h"; sourceTree = "<group>"; };
 		D1CDBA431880FC16001CDE00 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = "../../../../../Downloads/iRate-master/iRate/iRate.m"; sourceTree = "<group>"; };
@@ -539,6 +551,7 @@
 		D112D7A4187860C80023D0FC /* Framework & API Use */ = {
 			isa = PBXGroup;
 			children = (
+				D18E07A01B93DF36006ABF99 /* CarbonKit */,
 				D1B438631B6966B200ACF260 /* UIImage-Helpers */,
 				D1B438541B69662100ACF260 /* NZAlertView */,
 				D1882AFD1AFC5245000B8D6B /* STTwitter */,
@@ -739,6 +752,31 @@
 			path = Vendor;
 			sourceTree = "<group>";
 		};
+		D18E07991B929431006ABF99 /* TestCode */ = {
+			isa = PBXGroup;
+			children = (
+				D18E079A1B929457006ABF99 /* CampusEventsTwoViewController.h */,
+				D18E079B1B929457006ABF99 /* CampusEventsTwoViewController.m */,
+				D18E079D1B93C4CA006ABF99 /* PartiesTwoViewController.h */,
+				D18E079E1B93C4CA006ABF99 /* PartiesTwoViewController.m */,
+				D18E07A81B93DF68006ABF99 /* CampusTapViewController.h */,
+				D18E07A91B93DF68006ABF99 /* CampusTapViewController.m */,
+			);
+			name = TestCode;
+			sourceTree = "<group>";
+		};
+		D18E07A01B93DF36006ABF99 /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				D18E07A11B93DF36006ABF99 /* CarbonKit.h */,
+				D18E07A21B93DF36006ABF99 /* CarbonSwipeRefresh.h */,
+				D18E07A31B93DF36006ABF99 /* CarbonSwipeRefresh.m */,
+				D18E07A41B93DF36006ABF99 /* CarbonTabSwipeNavigation.h */,
+				D18E07A51B93DF36006ABF99 /* CarbonTabSwipeNavigation.m */,
+			);
+			path = CarbonKit;
+			sourceTree = SOURCE_ROOT;
+		};
 		D1AFF43F1989C3F500760AED /* DZEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
@@ -894,6 +932,7 @@
 		D1BD178F17DCB493000A174A /* AggiesLand */ = {
 			isa = PBXGroup;
 			children = (
+				D18E07991B929431006ABF99 /* TestCode */,
 				D1882AF51AFC4D43000B8D6B /* A&T Register */,
 				D14243B41AF05EEB0092A18E /* Twitter Feed */,
 				D1192F6619CCCD50009D5F2B /* AggiesLand.entitlements */,
@@ -951,8 +990,6 @@
 		D1C5EF9D1B7141700038D486 /* NavBar Icons */ = {
 			isa = PBXGroup;
 			children = (
-				D1C5EF9E1B7141700038D486 /* Google News-25.png */,
-				D1C5EF9F1B7141700038D486 /* Twitter-25.png */,
 			);
 			name = "NavBar Icons";
 			path = "../../../AggieLandResources/NavBar Icons";
@@ -1117,7 +1154,6 @@
 				D12D96C017EA9C0E00E94429 /* 1379576383_Youtube.png in Resources */,
 				D1A9665A183065C800118D55 /* Title Bar.png in Resources */,
 				D12692221801D14F008916D0 /* Images.xcassets in Resources */,
-				D1C5EFA11B7141700038D486 /* Twitter-25.png in Resources */,
 				D1FABA031A2186750046184B /* settings.png in Resources */,
 				D1DFBE76185774E0002BC585 /* menu@2x.png in Resources */,
 				D18695531B7EC81300539877 /* Home@3x.png in Resources */,
@@ -1145,7 +1181,6 @@
 				D19A15D317DD3E9400C9EBB2 /* 75.pdf in Resources */,
 				D1B0A66A18D8841E00EFE0CD /* Icon_Retina.png in Resources */,
 				D186954F1B7EC81300539877 /* Bus Routes@3x.png in Resources */,
-				D1C5EFA01B7141700038D486 /* Google News-25.png in Resources */,
 				D12D96BE17EA9C0E00E94429 /* 1379576463_instagram-48-black.png in Resources */,
 				D112D7B2187863350023D0FC /* SettingsStoryboard.storyboard in Resources */,
 			);
@@ -1182,6 +1217,7 @@
 				D1BD179A17DCB493000A174A /* AppDelegate.m in Sources */,
 				D19C39D318141F2600E74FD4 /* Annon.m in Sources */,
 				D1CDBA451880FC16001CDE00 /* iRate.m in Sources */,
+				D18E07AA1B93DF68006ABF99 /* CampusTapViewController.m in Sources */,
 				D12D96E117EAAFD400E94429 /* TennisViewController.m in Sources */,
 				D1D953961880588F006F15FA /* Clubs.m in Sources */,
 				D1AFF4431989C42800760AED /* UIScrollView+EmptyDataSet.m in Sources */,
@@ -1200,9 +1236,11 @@
 				D12D96DE17EAAF6100E94429 /* VolleyballViewController.m in Sources */,
 				D1D9539C188059CB006F15FA /* ClubCustomCell.m in Sources */,
 				D1882B251AFC5245000B8D6B /* BAVPlistNode.m in Sources */,
+				D18E07A71B93DF36006ABF99 /* CarbonTabSwipeNavigation.m in Sources */,
 				D19A15C917DD3DE200C9EBB2 /* HEAT71ViewController.m in Sources */,
 				D19A15D617DD44CD00C9EBB2 /* HEAT71WeekendViewController.m in Sources */,
 				D1882AF81AFC4D6F000B8D6B /* ATRegisterViewController.m in Sources */,
+				D18E07A61B93DF36006ABF99 /* CarbonSwipeRefresh.m in Sources */,
 				D1A3520B18A71673001237A5 /* AGSignupViewController.m in Sources */,
 				D1882B1F1AFC5245000B8D6B /* STTwitterAPI.m in Sources */,
 				D12D96D817EAAEA200E94429 /* SwimmingViewController.m in Sources */,
@@ -1234,6 +1272,7 @@
 				D19A15F117DD51B400C9EBB2 /* MapsViewController.m in Sources */,
 				D1882B261AFC5245000B8D6B /* JSONSyntaxHighlight.m in Sources */,
 				D19A15F617DD579F00C9EBB2 /* FacebookViewController.m in Sources */,
+				D18E079C1B929457006ABF99 /* CampusEventsTwoViewController.m in Sources */,
 				D1D953921880583A006F15FA /* ClubsViewController.m in Sources */,
 				D12D96C617EAA2F800E94429 /* TrackViewController.m in Sources */,
 				D1BA31EC19B3C010004B8B36 /* BusinessCustomCell.m in Sources */,
@@ -1242,6 +1281,7 @@
 				D19A15FC17DD596700C9EBB2 /* YouTubeViewController.m in Sources */,
 				D1BA31F519B3DE60004B8B36 /* BusinessDetailViewController.m in Sources */,
 				D10F245317F8D2D100097250 /* Comms.m in Sources */,
+				D18E079F1B93C4CA006ABF99 /* PartiesTwoViewController.m in Sources */,
 				D1B4386C1B6966B200ACF260 /* UIImage+ImageWithColor.m in Sources */,
 				D1882B221AFC5245000B8D6B /* STTwitterOAuth.m in Sources */,
 				D1882B211AFC5245000B8D6B /* STTwitterHTML.m in Sources */,

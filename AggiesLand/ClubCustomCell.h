@@ -18,5 +18,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *instructions;
 @property (weak, nonatomic) IBOutlet UILabel *price;
 
+@property (weak,nonatomic)IBOutlet UIView *cardView;
+
+
 @property (strong,nonatomic) IBOutlet PFImageView *imageViewFile;
 @end
