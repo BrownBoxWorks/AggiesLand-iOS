@@ -11,7 +11,10 @@
 #import "CampusDetailsViewController.h"
 #import "CampusEvents.h"
 
-@interface CampusEventsTwoViewController ()
+
+@interface CampusEventsTwoViewController (){
+    UIRefreshControl *refreshControl;
+}
 
 @end
 
@@ -51,11 +54,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-   // self.tableView.emptyDataSetSource = self;
-   // self.tableView.emptyDataSetDelegate = self;
-    
     // A little trick for removing the cell separators
     self.tableView.tableFooterView = [UIView new];
+    
+    // Configure Refresh Control
+    [refreshControl addTarget:self action:@selector(refresh:) forControlEvents:UIControlEventValueChanged];
+    
     
     [self performSelector:@selector(retrieveFromParse)];
 
@@ -103,27 +107,17 @@
     [cell.date setText:[NSString stringWithFormat:@"%@",dateLabel]];
     [cell.instructions setText:[NSString stringWithFormat:@"%@", inlabel]];
     
-    
-    // UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    
-    // Configure cell
-    
-    // cell.textLabel.text = [object objectForKey:@"EventName"];
-    //  cell.detailTextLabel.text = [object objectForKey:@"Location"];
-    
-    
+  
     return cell;
 }
 
 
-/*
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([segue.identifier isEqualToString:@"showCampusDetail"]){
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         CampusDetailsViewController *destViewController = segue.destinationViewController;
         
-        PFObject *object = [self.objects objectAtIndex:indexPath.row];
+        PFObject *object = [array objectAtIndex:indexPath.row];
         CampusEvents *campus = [[CampusEvents alloc] init];
         campus.name = [object objectForKey:@"EventName"];
         campus.date = [object objectForKey:@"Date"];
