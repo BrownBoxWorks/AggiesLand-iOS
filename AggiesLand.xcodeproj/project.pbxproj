@@ -75,11 +75,11 @@
 		D1882B251AFC5245000B8D6B /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D1882B161AFC5245000B8D6B /* BAVPlistNode.m */; };
 		D1882B261AFC5245000B8D6B /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = D1882B181AFC5245000B8D6B /* JSONSyntaxHighlight.m */; };
 		D1882B271AFC5245000B8D6B /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1882B1A1AFC5245000B8D6B /* STHTTPRequest.m */; };
-		D18E079C1B929457006ABF99 /* CampusEventsTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E079B1B929457006ABF99 /* CampusEventsTwoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D18E079F1B93C4CA006ABF99 /* PartiesTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E079E1B93C4CA006ABF99 /* PartiesTwoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		D18E07A61B93DF36006ABF99 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A31B93DF36006ABF99 /* CarbonSwipeRefresh.m */; settings = {ASSET_TAGS = (); }; };
-		D18E07A71B93DF36006ABF99 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A51B93DF36006ABF99 /* CarbonTabSwipeNavigation.m */; settings = {ASSET_TAGS = (); }; };
-		D18E07AA1B93DF68006ABF99 /* CampusTapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A91B93DF68006ABF99 /* CampusTapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D18E079C1B929457006ABF99 /* CampusEventsTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E079B1B929457006ABF99 /* CampusEventsTwoViewController.m */; };
+		D18E079F1B93C4CA006ABF99 /* PartiesTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E079E1B93C4CA006ABF99 /* PartiesTwoViewController.m */; };
+		D18E07A61B93DF36006ABF99 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A31B93DF36006ABF99 /* CarbonSwipeRefresh.m */; };
+		D18E07A71B93DF36006ABF99 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A51B93DF36006ABF99 /* CarbonTabSwipeNavigation.m */; };
+		D18E07AA1B93DF68006ABF99 /* CampusTapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E07A91B93DF68006ABF99 /* CampusTapViewController.m */; };
 		D19A15C017DD384B00C9EBB2 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15BF17DD384B00C9EBB2 /* TwitterViewController.m */; };
 		D19A15C917DD3DE200C9EBB2 /* HEAT71ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A15C817DD3DE200C9EBB2 /* HEAT71ViewController.m */; };
 		D19A15CF17DD3E9400C9EBB2 /* 71.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D19A15CA17DD3E9400C9EBB2 /* 71.pdf */; };
@@ -1071,7 +1071,7 @@
 		D1BD177E17DCB493000A174A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Neegbeah Reeves";
 				TargetAttributes = {
 					D1BD178517DCB493000A174A = {
@@ -1327,6 +1327,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Everette Scolum (L6WD86F9N5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Everette Scolum (L6WD86F9N5)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1384,6 +1385,7 @@
 				CODE_SIGN_ENTITLEMENTS = AggiesLand/AggiesLand.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/neegbeahreeves/Desktop/parse-library-1.5.0",
@@ -1402,6 +1404,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aggiesland.AggiesLand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "AggiesLand/AggiesLand-Bridging-Header.h";
@@ -1419,6 +1422,7 @@
 				CODE_SIGN_ENTITLEMENTS = AggiesLand/AggiesLand.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/neegbeahreeves/Desktop/parse-library-1.5.0",
@@ -1437,6 +1441,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aggiesland.AggiesLand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "AggiesLand/AggiesLand-Bridging-Header.h";

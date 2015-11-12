@@ -42,6 +42,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.tableView.emptyDataSetDelegate = self;
+    self.tableView.emptyDataSetDelegate =self;
+    
     //self.tableView.emptyDataSetSource = self;
     //self.tableView.emptyDataSetDelegate = self;
     
